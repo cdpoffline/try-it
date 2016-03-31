@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Kommentare zu: Lektion 16 – Ein-Tasten-Piano</title>
+	<atom:link href="../../../starthardware.org/lektion-16-ein-tasten-piano/feed/" rel="self" type="application/rss+xml" />
+	<link>http://starthardware.org/lektion-16-ein-tasten-piano/</link>
+	<description>Lerne Hardware zu programmieren!</description>
+	<lastBuildDate>Sat, 05 Mar 2016 20:10:14 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.4.2</generator>
+	<item>
+		<title>Von: Stefan Hermann</title>
+		<link>http://starthardware.org/lektion-16-ein-tasten-piano/#comment-9027</link>
+		<dc:creator><![CDATA[Stefan Hermann]]></dc:creator>
+		<pubDate>Thu, 21 May 2015 08:13:57 +0000</pubDate>
+		<guid isPermaLink="false">http://starthardware.org/?p=324#comment-9027</guid>
+		<description><![CDATA[Hallo Simon, 
+
+Du hast ein gutes Auge. Die Frage ist gut! Hier die Antwort: Den tone()-Befehl gibt es in zwei Ausführungen:
+
+&lt;ul&gt;&lt;li&gt;tone(Pin, Tonhöhe) &lt;/li&gt;
+&lt;li&gt;tone(Pin, Tonhöhe, Dauer)&lt;/li&gt;
+&lt;/ul&gt;
+
+Wir benutzen hier die obere Variante, da der Ton so lange erklingen soll, wie die Taste gedrückt ist. Ich hoffe, das hilft Dir weiter.
+
+Liebe Grüße
+
+Stefan]]></description>
+		<content:encoded><![CDATA[<p>Hallo Simon, </p>
+<p>Du hast ein gutes Auge. Die Frage ist gut! Hier die Antwort: Den tone()-Befehl gibt es in zwei Ausführungen:</p>
+<ul>
+<li>tone(Pin, Tonhöhe) </li>
+<li>tone(Pin, Tonhöhe, Dauer)</li>
+</ul>
+<p>Wir benutzen hier die obere Variante, da der Ton so lange erklingen soll, wie die Taste gedrückt ist. Ich hoffe, das hilft Dir weiter.</p>
+<p>Liebe Grüße</p>
+<p>Stefan</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Von: Simon</title>
+		<link>http://starthardware.org/lektion-16-ein-tasten-piano/#comment-9014</link>
+		<dc:creator><![CDATA[Simon]]></dc:creator>
+		<pubDate>Wed, 20 May 2015 23:37:19 +0000</pubDate>
+		<guid isPermaLink="false">http://starthardware.org/?p=324#comment-9014</guid>
+		<description><![CDATA[Fehlt da nicht irgendwie die &#039;tonDauer&#039; im letzten Abbild ?
+
+konkret aus:
+void loop() {
+  if ((digitalRead(buttonPin)==HIGH)&#038;&#038;(buttonPressed==false)){
+    buttonPressed=true;
+    tone(speakerPin, frequenzen[ton]);
+    ton=ton+1;
+  } 
+
+ergänzt um ein &#039; delay(tonDauer[ton]); &#039; im if-Teil ergibt:
+
+void loop() {
+  if ((digitalRead(buttonPin)==HIGH)&#038;&#038;(buttonPressed==false)){
+    buttonPressed=true;
+    tone(speakerPin, frequenzen[ton]);
+    delay(tonDauer[ton]);
+    ton=ton+1;
+  }]]></description>
+		<content:encoded><![CDATA[<p>Fehlt da nicht irgendwie die &#8218;tonDauer&#8216; im letzten Abbild ?</p>
+<p>konkret aus:<br />
+void loop() {<br />
+  if ((digitalRead(buttonPin)==HIGH)&amp;&amp;(buttonPressed==false)){<br />
+    buttonPressed=true;<br />
+    tone(speakerPin, frequenzen[ton]);<br />
+    ton=ton+1;<br />
+  } </p>
+<p>ergänzt um ein &#8218; delay(tonDauer[ton]); &#8218; im if-Teil ergibt:</p>
+<p>void loop() {<br />
+  if ((digitalRead(buttonPin)==HIGH)&amp;&amp;(buttonPressed==false)){<br />
+    buttonPressed=true;<br />
+    tone(speakerPin, frequenzen[ton]);<br />
+    delay(tonDauer[ton]);<br />
+    ton=ton+1;<br />
+  }</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Von: Stefan Hermann</title>
+		<link>http://starthardware.org/lektion-16-ein-tasten-piano/#comment-8676</link>
+		<dc:creator><![CDATA[Stefan Hermann]]></dc:creator>
+		<pubDate>Tue, 05 May 2015 07:26:48 +0000</pubDate>
+		<guid isPermaLink="false">http://starthardware.org/?p=324#comment-8676</guid>
+		<description><![CDATA[Hallo Philipp,
+
+vielen Dank für das nette Lob. Du hast recht. Das sollte wirklich speakerPin heißen. Danke für den Hinweis. Ich ändere das sofort :-)
+
+Liebe Grüße
+
+Stefan]]></description>
+		<content:encoded><![CDATA[<p>Hallo Philipp,</p>
+<p>vielen Dank für das nette Lob. Du hast recht. Das sollte wirklich speakerPin heißen. Danke für den Hinweis. Ich ändere das sofort <img src="../../../starthardware.org/wp-includes/images/smilies/simple-smile.png" alt=":-)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Liebe Grüße</p>
+<p>Stefan</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Von: Philipp</title>
+		<link>http://starthardware.org/lektion-16-ein-tasten-piano/#comment-8609</link>
+		<dc:creator><![CDATA[Philipp]]></dc:creator>
+		<pubDate>Sat, 02 May 2015 21:41:22 +0000</pubDate>
+		<guid isPermaLink="false">http://starthardware.org/?p=324#comment-8609</guid>
+		<description><![CDATA[Guten Tag,
+hat sich in dem ersten Abbild des Codes bei der if-Abfrage ein Fehler eingeschlichen?
+Dort steht &quot;tone(9, 440)&quot;
+Dieser Pin wurde ja am Anfang als Variable festgelegt.
+&quot;Müsste&quot; es konsequenter Weise dann nicht &quot;tone(speakerPin, 440)&quot; heißen?
+
+Übrigens eine sehr tolle und anschauliche Tutorial-Website. Großes Lob von meiner Seite.]]></description>
+		<content:encoded><![CDATA[<p>Guten Tag,<br />
+hat sich in dem ersten Abbild des Codes bei der if-Abfrage ein Fehler eingeschlichen?<br />
+Dort steht &#8222;tone(9, 440)&#8220;<br />
+Dieser Pin wurde ja am Anfang als Variable festgelegt.<br />
+&#8222;Müsste&#8220; es konsequenter Weise dann nicht &#8222;tone(speakerPin, 440)&#8220; heißen?</p>
+<p>Übrigens eine sehr tolle und anschauliche Tutorial-Website. Großes Lob von meiner Seite.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Von: Stefan Hermann</title>
+		<link>http://starthardware.org/lektion-16-ein-tasten-piano/#comment-7341</link>
+		<dc:creator><![CDATA[Stefan Hermann]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2015 16:54:46 +0000</pubDate>
+		<guid isPermaLink="false">http://starthardware.org/?p=324#comment-7341</guid>
+		<description><![CDATA[Hallo Recep,
+
+danke für Deinen Hinweis. Die tone() Funktion benötigt keine vorherige Deklaration des Pins als OUTPUT. Das hatte ich bisher noch nicht betont, es nun aber in &lt;a href=&quot;http://starthardware.org/lektion-14-melodie/&quot; rel=&quot;nofollow&quot;&gt;Lektion 14&lt;/a&gt; eingefügt. 
+
+Liebe Grüße
+
+Stefan&quot;]]></description>
+		<content:encoded><![CDATA[<p>Hallo Recep,</p>
+<p>danke für Deinen Hinweis. Die tone() Funktion benötigt keine vorherige Deklaration des Pins als OUTPUT. Das hatte ich bisher noch nicht betont, es nun aber in <a href="../../../starthardware.org/lektion-14-melodie/" rel="nofollow">Lektion 14</a> eingefügt. </p>
+<p>Liebe Grüße</p>
+<p>Stefan&#8220;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Von: Recep S.</title>
+		<link>http://starthardware.org/lektion-16-ein-tasten-piano/#comment-7331</link>
+		<dc:creator><![CDATA[Recep S.]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2015 13:19:17 +0000</pubDate>
+		<guid isPermaLink="false">http://starthardware.org/?p=324#comment-7331</guid>
+		<description><![CDATA[Guten Tag,
+
+Warum wurde den in der setup Funktion per pinMode() nicht mitgeteilt, dass man speakerPin als output verwenden möchte? Hat sich da ein Fehler geschlichen oder wird das durch die tone-funktion erledigt?]]></description>
+		<content:encoded><![CDATA[<p>Guten Tag,</p>
+<p>Warum wurde den in der setup Funktion per pinMode() nicht mitgeteilt, dass man speakerPin als output verwenden möchte? Hat sich da ein Fehler geschlichen oder wird das durch die tone-funktion erledigt?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

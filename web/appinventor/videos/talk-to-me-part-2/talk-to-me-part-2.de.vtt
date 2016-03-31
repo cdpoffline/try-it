@@ -1,0 +1,175 @@
+WEBVTT
+
+NOTE Paragraph
+
+00:00:02.204 --> 00:00:11.810
+♩♫♪♬
+
+00:00:12.390 --> 00:00:15.327
+Hallo und Willkommen zurück zu App Inventors Hour of Code.
+
+00:00:15.338 --> 00:00:17.398
+- Ich bin Emily.
+- Und ich bin Shay.
+
+00:00:17.549 --> 00:00:22.228
+In unserem letzzten Video haben wir dir gezeigt, wie die "Talk To Me"-App zu machen ist: Du drückst einen Knopf und das Smartphone redet zu dir.
+
+00:00:22.751 --> 00:00:25.593
+- So cool.
+- Aber wir mussten irgendwo anfangen!
+
+00:00:25.726 --> 00:00:27.729
+Ich bin bereit, zu was Coolen zu kommen.
+
+00:00:27.749 --> 00:00:33.742
+Okay, jetzt erweitern wir die "Talk To Me"-App, sodass sie reagiert, wenn wir sie schütteln und auch dass der Nutzer eigenen Text eingeben kann.
+
+00:00:36.195 --> 00:00:37.500
+&gt;Hör' auf, mich zu schütteln!&lt;
+
+00:00:37.652 --> 00:00:43.776
+- Cool genug für dich?
+- Ich sehe endlos viele Möglichkeiten. Ich kann joggen und dauerhaft Ermutigung erhalten.
+
+00:00:44.238 --> 00:00:50.717
+Großartig! Also fangen wir an und das Gute ist, das braucht nur wenige Minuten, weil App Inventor es wirklich einfach macht.
+
+00:00:50.863 --> 00:00:56.193
+Redet dein Smartphone mit dir? Gut, bleib dran, es kommt noch besser.
+
+00:00:56.348 --> 00:01:04.930
+Wir endeten mir unserer "Talk To Me"-App im Blockeditor. Nun müssen wir zurück in den Designer gehen, um eine andere Komponente hinzuzufügen.
+
+00:01:05.088 --> 00:01:12.772
+Wir wollen "Talk To Me" erweitern, sodass das Smartphone redet, wenn du es schüttelst. Um das zu erreichen brauchen wir einen Beschleunigungssensor.
+
+00:01:12.973 --> 00:01:23.536
+Klicke auf die Sensorenschublade und ziehe einen Beschleunigungssensor heraus. Das ist wieder eine unsichtbare Komponente, die unter den Bildschirm fällt.
+
+00:01:25.514 --> 00:01:28.553
+Das ist alles, was wir vorerst brauchen! Gehe zurück zum Blockeditor.
+
+00:01:28.677 --> 00:01:34.429
+Während du deine Apps entwickelst, wirst du immer wieder zwischen Blockeditor und Designer wechseln.
+
+00:01:35.724 --> 00:01:41.039
+Jetzt brauchen wir einen Block für wenn das Smartphone geschüttelt wird. Das nennt man auch Event-Handler.
+
+00:01:41.210 --> 00:01:45.806
+Ziehe den "when AcceleromenterSensor1.Shaking"-Block heraus.
+
+00:01:45.991 --> 00:01:49.907
+Also wenn das Event auslöst, dann wird das Smartphone geschüttelt.
+
+00:01:50.106 --> 00:01:54.264
+Was wollen wir, das dann passiert? Wir wollen, dass das Smartphone uns was sagt, stimmts?
+
+00:01:54.367 --> 00:02:00.523
+So, wir kennen schon die Blöcke, die das behandeln - die selben Blöcke, die wir im "Button1.Click"-Event haben.
+
+00:02:01.156 --> 00:02:07.061
+Hier ist eine coole Abkürzung, die dir hilft, noch schneller in App Inventor zu programmieren. Du kannst Blöcke kopieren und einfügen.
+
+00:02:07.260 --> 00:02:14.856
+Klicke of den violetten "TextToSpeech"-Block. Drücke die Tastenkombination für Kopieren auf deinem Computer, so wie du es mit Text machen würdest.
+
+00:02:15.043 --> 00:02:21.641
+Und dann drücke die Tastenkombination für Einfügen. Voilà, hier ist die Kopie der "TextToSpeech"- und Textblöcke.
+
+00:02:21.792 --> 00:02:26.245
+Ziehe diese Blöcke hinein in den Beschleunigungssensor-Schütteln-Event-Block.
+
+00:02:26.396 --> 00:02:33.087
+Solltest du Probleme beim Kopieren und Einfügen der Blöcke haben, ist das okay. Du kannst auch neue Blöcke aus den Schubladen links ziehen.
+
+00:02:33.285 --> 00:02:41.670
+Erinnere dich, wir hatten den "TextToSpeech.Speak"-Block von "TextToSpeech" und den leeren Textblock aus der eingebauten Textschublade.
+
+00:02:42.777 --> 00:02:49.400
+Momentan wird das Smartphone laut reden, wenn du es schüttelst. Aber wäre es nicht viel besser, wenn es was darüber sagt, geschüttelt zu werden?
+
+00:02:49.559 --> 00:02:54.574
+Lass' uns einen lustigen Satz reintun. Ich tippe "Hör' auf, mich zu schütteln!".
+
+00:02:56.467 --> 00:02:59.307
+Okay, probier's aus! Nimm dein Smartphone und schüttel es.
+
+00:02:59.559 --> 00:03:00.915
+&gt;Hör' auf, mich zu schütteln!&lt;
+
+00:03:01.071 --> 00:03:11.356
+So, unsere App ist schon ganz nett, stimmts? Aber warte! Da muss noch einwas hinzu. Stell dir vor, du würdest die App mit deinen Freunden teilen: Denkst du nicht, es wäre viel besser, wenn sie dem Smartphone sagen können, was es sagen soll?
+
+00:03:11.558 --> 00:03:19.268
+Um das zu erreichen gehe zurück in den Designer, gehe zum User-Interface und ziehe eine Textbox heraus.
+
+00:03:21.934 --> 00:03:25.175
+Lass' es uns neu ordnen, den Knopf unter die Textbox.
+
+00:03:26.491 --> 00:03:27.295
+Okay, rate mal...
+
+00:03:27.680 --> 00:03:28.644
+Zurück zu den Blöcken.
+
+00:03:28.781 --> 00:03:36.131
+Klicke auf "TextBox1" und schaue auf die Blöcke, die sie hat. Wir wollen nun ändern, was passiert, wenn der Knopf gedrückt wird.
+
+00:03:36.334 --> 00:03:42.290
+Statt einem festen Satz wollen wir, dass die App sagt, wasauchimmer den Nutzer in die Textbox schreibt.
+
+00:03:42.489 --> 00:03:51.827
+Scrolle ganz nach unten zu den grünen Blöcken, die wir "Getter" und "Setter" nennen, weil mit ihnen die Eigenschaften der Komponenten ausgelesen und gesetzt werden können.
+
+00:03:51.947 --> 00:03:58.716
+Du möchtest den Text aud der Textbox haben. Also brauchst du den "Getter"-Block for "TextBox1.Text".
+
+00:03:58.859 --> 00:04:02.626
+Stecke diesen Block in den "when Button1.Click"-Block.
+
+00:04:02.775 --> 00:04:11.710
+Um das zu tun, muss der alte Textblock weggeworfen werden. Danach stecke den "TextBox1.Text" Block in die freie Buchse.
+
+00:04:11.859 --> 00:04:20.292
+Probier' deine App wieder aus. Wenn du in die freie Textbox auf deinem Smartphone drückst, kommt die Tastatur hoch und du kannst eintippen, wasimmer du magst.
+
+00:04:20.425 --> 00:04:23.665
+Klicke dann "Talk To Me" und schau, was geschieht.
+
+00:04:23.856 --> 00:04:24.981
+&gt;Hallo Welt!&lt;
+
+00:04:25.147 --> 00:04:31.922
+Es gibt einige coole Möglichkeiten, diese App zu erweitern. Schaue in das schriftliche Tutorial für ein paar Verbesserungsideen.
+
+00:04:32.076 --> 00:04:37.077
+Solltest du Probleme mit dem Tutorial haben, kannst du die schriftliche Version auf unserer Webseite ansehen.
+
+00:04:38.727 --> 00:04:41.259
+&gt;Stop! Stop! Stop! Stop!&lt;
+- Oh Mann, wir haben eine echte App gemacht.
+
+00:04:41.405 --> 00:04:44.295
+&gt;Stop! Stop! Stop! Stop!&lt;
+- Das ist irgendwie nerfig.
+
+00:04:44.396 --> 00:04:45.588
+&gt;Stop! Stop! Stop! Stop!&lt;
+- Du hast sie gebaut!
+
+00:04:45.717 --> 00:04:46.955
+Oh. Stimmt.
+
+00:04:47.092 --> 00:04:52.926
+Im nächste Schritt geht es rund, denn wir werden dir zeigen, wie ein Ball über den Bildschirm rollt, wenn du ihn anstupst.
+
+00:04:53.099 --> 00:04:55.662
+&gt;Stop! Stop! Stop! Stop!&lt;
+- Kann's kaum erwarten!
+
+00:04:55.831 --> 00:04:57.795
+&gt;Stop! Stop! Stop! Stop! Stop! Stop! Stop Shaking Me!&lt;
+
+00:04:58.067 --> 00:05:07.133
+♩♫♪♬

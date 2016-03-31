@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Verzweigungen &mdash; Introduction to Programming with Python</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.3.4/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.3.4/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2015.10.02',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <script type="text/javascript" src="_static/spoilers.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="copyright" title="Copyright" href="copyright.html" />
+    <link rel="top" title="Introduction to Programming with Python" href="index.html" />
+    <link rel="next" title="Bedingte Schleifen" href="conditional_loops.html" />
+    <link rel="prev" title="Funktionen mit Parametern" href="functions_parameters.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Python for Beginners</a>
+        <span class="navbar-text navbar-version pull-left"><b>2015.10.02</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Material <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="simple_drawing.html">Einfaches Zeichnen mit turtle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="variables.html">Variablen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loops.html">Schleifen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functions.html">Benutzerdefinierte Funktionen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functions_parameters.html">Funktionen mit Parametern</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Verzweigungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditional_loops.html">Bedingte Schleifen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logical_operators.html">Logische Operatoren</a></li>
+<li class="toctree-l1"><a class="reference internal" href="where_to_go.html">Wie es weiter geht</a></li>
+<li class="toctree-l1"><a class="reference internal" href="copyright.html">Lizenz</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Chapter <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Verzweigungen</a><ul>
+<li><a class="reference internal" href="#introduction">Einführung</a></li>
+<li><a class="reference internal" href="#examples">Beispiele</a></li>
+<li><a class="reference internal" href="#giving-directions">Die Richtung festlegen</a></li>
+<li><a class="reference internal" href="#data-munging">&#8216;&#8217;Datenbastelei&#8217;&#8216;</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li class="navbar-rel">
+    <a href="functions_parameters.html" title="Previous Chapter: Funktionen mit Parametern">
+      <span class="glyphicon glyphicon-step-backward"></span>
+      <span>Previous</span>
+    </a>
+  </li>
+  <li class="navbar-rel">
+    <a href="conditional_loops.html" title="Next Chapter: Bedingte Schleifen">
+        <span class="glyphicon glyphicon-step-forward"></span>
+        <span>Next</span>
+    </a>
+  </li>
+<li class="dropdown">
+  <a role="button"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Languages <b class="caret"></b></a>
+  <ul class="dropdown-menu"
+      role="menu">
+    <li><a href="../en/index.html">English</a></li>
+    <li><a href="../de/index.html">Deutsch (German)</a></li>
+    <li><a href="../es_CL/index.html">Español (Spanish)</a></li>
+    <li><a href="../ru/index.html">русский (Russian)</a></li>
+    <li><a href="../ko/index.html">한국인 (Korean)</a></li>
+    <li><a href="../ro/index.html">Română (Romanian)</a></li>
+  </ul>
+</li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="conditional-statements">
+<h1>Verzweigungen<a class="headerlink" href="#conditional-statements" title="Link zu dieser Überschrift">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Einführung<a class="headerlink" href="#introduction" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Bisher haben wir vordefinierte Aufgaben erledigt, aber einmal ehrlich, die Programme waren kaum komplizierter als eine antike Drehorgel die eine vordefinierte Melodie vom Anfang bis zum Ende abspult. Verzweigugen sind das, was Programmieren sehr viel mächtiger macht. Verzweigungen <em>testen</em> den Inhalt einer Variablen und verhalten sich einmal so falls die Variable einen bestimmten Wert hat, und anders falls nicht. Programmierer nennen Verzweigungen auch <em>if Ausdrücke</em>.</p>
+<p>Um zu wissen ob eine Bedingung <em>True</em> oder <em>False</em> ist, brauchen wir einen neuen Datentyp: Boolean. Booleans erlauben logische Operationen, die entweder als <em>wahr</em> oder <em>falsch</em> ausgewertet werden. Unsere Verzweigung kann also folgendermassen verstanden werden:</p>
+<blockquote>
+<div><dl class="docutils">
+<dt><strong>if</strong> (eine Bedingung die als True ausgewertet wird)*:</dt>
+<dd><p class="first last"><em>dann führe diese Anweisungen nur für &#8216;True&#8217; aus</em></p>
+</dd>
+<dt><strong>else</strong>:</dt>
+<dd><p class="first last"><em>andernfalls führe diese Anweisungen nur für &#8216;False&#8217; aus</em>.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>Eine Bedingung kann alles sein, was zu wahr (<em>True</em>) oder falsch (<em>False</em>) evaluiert werden kann. Vergleiche ergeben immer wahr oder falsch, zum Beispiel <code class="docutils literal"><span class="pre">==</span></code> (ist gleich), <code class="docutils literal"><span class="pre">&gt;</span></code> (größer als), <code class="docutils literal"><span class="pre">&lt;</span></code> (kleiner als).</p>
+<p>Der <strong>else</strong> Block ist optional. Falls Du ihn auslässt und die Bedingung als &#8216;False&#8217; ausgewertet wird, passiert nichts weiter.</p>
+</div>
+<div class="section" id="examples">
+<h2>Beispiele<a class="headerlink" href="#examples" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Hier sind einige Beispiele. Du kannst sie Zeile für Zeile lesen und nachdenken was sie tun, oder gleich ausführen um auf Nummer sicher zu gehen.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">condition</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="k">if</span> <span class="n">condition</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;condition met&quot;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="ow">not</span> <span class="n">condition</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;condition not met&quot;</span><span class="p">)</span>
+
+<span class="n">direction</span> <span class="o">=</span> <span class="o">-</span><span class="mi">30</span>
+<span class="k">if</span> <span class="n">direction</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="p">:</span>
+    <span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="n">direction</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">180</span><span class="p">)</span>
+    <span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="o">-</span><span class="n">direction</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="giving-directions">
+<h2>Die Richtung festlegen<a class="headerlink" href="#giving-directions" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Die Schildkröten in Python sind sehr gut darin, Befehle auszuführen. Lass uns die <code class="docutils literal"><span class="pre">input()</span></code> Funktion verwenden, um den Benutzer nach einer Richtung zu fragen, in die die Schildkröte bewegt werden soll. Um es nicht zu kompliziert zu machen, erlauben wir nur zwei Befehle: &#8216;&#8217;links&#8217;&#8217; und &#8216;&#8217;rechts&#8217;&#8216;.</p>
+<div class="admonition note">
+<p class="first admonition-title">Bemerkung</p>
+<p class="last">Python 2 verwenden? Die Funktion <code class="docutils literal"><span class="pre">input()</span></code> heisst auch <code class="docutils literal"><span class="pre">raw_input()</span></code>.</p>
+</div>
+<p>Es ist viel einfacher dies als eine Funktion zu definieren, etwa folgendermassen:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">move</span><span class="p">():</span>
+    <span class="n">direction</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&quot;Go left or right? &quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">direction</span> <span class="o">==</span> <span class="s">&quot;left&quot;</span><span class="p">:</span>
+        <span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+        <span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">direction</span> <span class="o">==</span> <span class="s">&quot;right&quot;</span><span class="p">:</span>
+        <span class="n">turtle</span><span class="o">.</span><span class="n">right</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+        <span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Immer wenn Du nun <code class="docutils literal"><span class="pre">move()</span></code> verwendest, wirst Du gefragt entweder <code class="docutils literal"><span class="pre">links</span></code> oder <code class="docutils literal"><span class="pre">rechts</span></code> auszuwählen.</p>
+</div>
+<div class="section" id="data-munging">
+<h2>&#8216;&#8217;Datenbastelei&#8217;&#8216;<a class="headerlink" href="#data-munging" title="Link zu dieser Überschrift">¶</a></h2>
+<p>In diesem Programm wird die Schildkröte nur auf die Befehle <code class="docutils literal"><span class="pre">links</span></code> und <code class="docutils literal"><span class="pre">rechts</span></code> reagieren, ohne jegliche Abweichungen. Obwohl <code class="docutils literal"><span class="pre">Links</span></code> oder <code class="docutils literal"><span class="pre">LINKS</span></code> für einen Menschen das gleiche bedeutet wie <code class="docutils literal"><span class="pre">links</span></code>, ist das für ein Programm nicht der Fall. Python hat einige Hilfsmethoden die dabei helfen. Ein String hat die Methoden <code class="docutils literal"><span class="pre">.strip()</span></code>, die Leerzeichen und Zeilenumbrüche von den Enden entfernt, und <code class="docutils literal"><span class="pre">.lower()</span></code>, welche den gesamten String in Kleinbuchstaben umwandelt.</p>
+<p>Here sind einige Beispiele, die die Auswirkungen von <code class="docutils literal"><span class="pre">.strip()</span></code> und <code class="docutils literal"><span class="pre">.lower()</span></code> illustrieren:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">my_variable</span> <span class="o">=</span> <span class="s">&quot;       I Am Capitalised&quot;</span>
+<span class="k">print</span><span class="p">(</span><span class="n">my_variable</span><span class="p">)</span>
+<span class="n">my_stripped</span> <span class="o">=</span> <span class="n">my_variable</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">my_stripped</span><span class="p">)</span>
+<span class="n">my_lower</span> <span class="o">=</span> <span class="n">my_variable</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">my_lower</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Versuche de Befehl <code class="docutils literal"><span class="pre">direction</span> <span class="pre">=</span> <span class="pre">direction.strip().lower</span></code> zu der Funktion <code class="docutils literal"><span class="pre">move()</span></code> hinzuzufügen. Beobachte die Auswirkungen. Diese Art von Code wird von uns &#8216;&#8217;data munging&#8217;&#8217; (Datenbastelei) genannt. Sie ist sehr häufig.</p>
+<p>Kannst Du einig zusätzliche Eingabeoptionen hinzufügen, die die Schildkröte andere Dinge zeichnen lassen? Wie wäre es mit einem &#8216;&#8217;Sechseck&#8217;&#8217; (<code class="docutils literal"><span class="pre">hexagon</span></code>)?</p>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+  <ul id="sourcelink" class="list-inline">
+    <li>
+      <a href="https://github.com/opentechschool/python-beginners/edit/master/source/conditionals.rst" title="conditionals.rst">
+        Edit on Github
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/OpenTechSchool/python-beginners/issues/new?title=Problem+with+conditionals">
+        Report a problem
+      </a>
+    </li>
+  </ul>
+      
+    </p>
+    <p>
+        &copy; <a href="copyright.html">Copyright</a> 2012–2014, OpenTechSchool and contributors.<br/>
+      Mit <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1 erstellt.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

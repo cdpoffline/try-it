@@ -1,0 +1,1307 @@
+/*
+
+	Theme Name: Barebones
+	Author: James Young
+	Website: http://www.welcomebrand.co.uk
+	Twitter: @welcomebrand
+	Version: 2.0
+	Description: A stripped down, style free (well, nearly!) minimal WordPress theme for developing on top of.
+	
+	CONTENTS
+	-------------
+	- Global resets
+	- Global typography & layout rules
+	- Page styles
+	- Post styles 
+	- General bits 
+	
+	- Media queries
+	
+*/
+
+/* 01 START : Global reset styles */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;border:0;vertical-align:baseline;background:transparent}ins,mark{background:#333;color:#fff;text-decoration:none}mark{padding:0 .2em;}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}::-moz-selection,::-webkit-selection,::selection {text-shadow:none;background:#333;color:#fff;}.cf:before,.cf:after{content:"";display:table;}.cf:after{clear:both;}.cf{zoom:1;}[type=submit]{cursor:pointer;}
+/* 01 END : Global reset styles */
+
+/* START : Global rules */
+* { 
+	-webkit-box-sizing:  border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing:  border-box; 
+}
+
+html {
+	font-size: 100%; /* Set a 16px base size */
+	/*-webkit-text-size-adjust: none; /* Never autoresize text */
+}
+
+body {
+	padding: 0 !important;
+	margin: 0 auto !important;
+	/*font-size: 16px !important;*/
+	font-size: 14px;
+	font-family: 'Fira Sans', 'Varela Round', 'Helvetica', sans-serif !important;
+        font-style: italic;
+	line-height: 1.5;
+	background-color: white !important; /* Weiß */;
+}
+
+/* Set vertical rhythm */
+h1,h2,h3,h4,h5,h6,hgroup,ul,ol,dd,p,figure,pre,table,fieldset,hr {
+	margin-bottom: 16px;
+	margin-bottom: 1.5rem; /* 24px equivalent/fallback */
+}	
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: normal;
+}	
+
+h6{
+	font-size: 16px;
+	line-height: 24px !important;
+	letter-spacing: 0.05em;
+}
+
+blockquote { }
+
+blockquote cite { }
+
+p { }	
+
+a {
+	color: #F79826; /* BabybreiLink */
+}	
+
+a:hover {
+	color: #F9BF73; /* Babybrei */
+}	
+
+img, 
+a img {
+	max-width: 100%;
+	}
+
+figure { }
+
+figcaption { }
+	
+article{
+	margin: none !important;
+	padding: none !important;	
+	
+}
+	
+strong{
+	font-weight: bold !important;
+}
+
+.alignleft,
+.alignright {
+	/* left and right float triggered on bigger screens */
+	float: none;
+}
+
+.container{
+	max-width: 1000px;
+}
+
+/* END : Global rules */
+
+
+
+/* START : Page styles */
+
+/* END : Page styles */
+
+
+
+/* START : Post styles ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- */
+
+/*.btn-primary{
+	background-color: #e41448 !important;
+	color: #eddd0b !important;
+	border-color: #a0193f !important;
+}
+
+.btn-primary:hover{
+	background-color: #a0193f !important;
+	border-color: #e41448 !important;
+}*/
+
+
+
+/* --- --- --- --- --- NAVIGATION --- --- --- --- --- */
+
+.navbar{
+	position: relative !important;
+	min-height: 48px !important;
+	border: none !important;
+	margin-bottom: 0px !important;
+}
+
+.navbar-brand{
+	padding: 0 !important;
+	margin: 0 !important;
+	height: 48px !important;
+}
+
+.navbar-brand img{
+	margin-top: 5px;
+	margin-left: 0px;
+	margin-right: 30px;
+	height: 38px !important;
+}
+
+.navbar-header{
+	min-height: 48px !important;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	padding-left: 0px !important;
+}
+
+.navbar-collapse{
+	min-height: 48px !important;
+}
+
+ul#menu-primary.nav.navbar-nav{
+	margin-left: 0px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+	background: none !important;
+}
+
+ul#menu-primary a{
+	padding-top: 16px;
+	padding-bottom: 0px;
+	color: white !important; /* Weiß */
+	font-size: 14px;
+	min-height: 48px;
+}
+
+ul#menu-primary a:hover{
+	color: #F9BF73 !important; /* Babybrei */
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+	text-shadow:none !important;
+}
+
+.navbar-fixed-top{
+	background: #4F5B75 !important; /* Mondschein */
+	min-height: 48px !important;
+}
+
+/* --- --- --- --- --- NAVIGATION END --- --- --- --- --- */
+
+/* --- --- --- --- --- SIDEBAR --- --- --- --- --- */
+
+.mySidebar{
+	border-left: 1px dashed #CCC;
+	padding: 0 0 0 16px;
+	min-height: 500px;
+}
+
+aside img{
+	border: 1px solid #CCC;
+}
+
+aside h3{
+	font-size: 16px;
+}
+
+/* --- --- --- --- --- SIDEBAR END --- --- --- --- --- */
+
+
+/* --- --- --- --- --- CAROUSEL --- --- --- --- --- */
+
+.bgr-carousel{
+	background: #363E52; /* Mitternacht */
+	/*padding-bottom: 120px;*/
+}
+
+.bgr-carousel .container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*border-bottom: 1px solid #e41448;*/
+}
+
+.carousel-indicators{
+	visibility: hidden;
+}
+
+/*#myCarousel{
+	font-family: font-family: 'Lobster', cursive !important;
+	font-size: 60px !important;
+	color: white;
+}*/
+
+/* --- --- --- --- --- CAROUSEL END --- --- --- --- --- */
+
+/* --- --- --- --- --- HOMEPAGE SEGMENTS --- --- --- --- --- */
+
+/* --- --- --- --- --- WELCOME --- --- --- --- --- */
+
+.bgr-welcome{
+	background: white; /* Weiß */
+	padding: 30px 0 20px 0;
+	/*padding-bottom: 120px;*/
+	text-align: center;	
+}
+
+.bgr-welcome h2.welcome{
+	text-align: center;
+	color: black; /* Textfarbe Schwarz */	
+	width: 100%;
+	margin-bottom: 40px !important;
+}
+
+.bgr-welcome p{
+	text-align: center;
+	color: black; /* Textfarbe Schwarz */	
+	width: 100%;
+}
+
+/* --- --- --- --- --- WELCOME END --- --- --- --- --- */
+
+
+
+/* --- --- --- --- --- HOMEPAGE --- --- --- --- --- */
+.myHomepage{
+	margin-top: 0px;
+}
+
+
+
+.homepage-header-myHomepage h1{
+	margin: 14px 0 30px 0 !important;
+	padding: 0px;
+	color: white;
+	font-size: 30px !important;
+}
+
+.bgr-video{
+	margin-top: 0px;
+	background: black;
+	text-align: center;
+        height: 315px;
+        margin: 0;
+        padding: 0;
+}
+
+.bgr-signin{
+	margin-top: 0px;
+	padding-bottom: 80px;
+        height: 113px;
+        background-color: #363e52; /* Mitternachtsblau */
+	background-position:top center;	
+	background-repeat:repeat-x;
+        margin-bottom: 60px;
+}
+
+.myHomepage_document_icon{
+	position: relative;
+	top: -90px;
+	left: -50px;
+	height: 160px;
+	z-index: +1;
+	float: left;
+	margin-bottom: -55px;
+}
+
+.bgr-signin h2{
+	color: white;
+	padding: 8px 0 0px 0;
+        margin: 0 0 4px 0;
+        font-size: 18px;
+}
+
+.bgr-features h2{
+	color: black;
+	padding: 0px 0 0px 0;
+        margin: 0 0 4px 0;
+        font-size: 20px;
+}
+
+.wf-inputpos{
+        display: inline;
+        margin-right: 16px;
+}
+
+input .small-inputs{
+        display: inline;
+        width: 120px;
+        margin-right: 16px;
+}
+
+.wf-labelpos, .wf-counter{
+	display: none;
+        visibility: hidden;
+}
+
+ul.wf-sortable{
+        margin: 0;
+        padding: 0;
+}
+
+ul.wf-sortable li{
+        list-style: none;
+        width: 200px;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+}
+
+.bgr-myHomepage .panel{
+	min-height: 335px;
+	border: 1px solid #F3F1F2 !important;
+	background-color: #F3F1F2 !important; /* Hellgrau */	
+	box-shadow: rgba(0, 0, 0, 0.0470588) 0px 0px 1.2000000476837158px 0px;	
+}
+
+.bgr-myHomepage .panel-body{
+	padding: 0 !important;
+}
+
+.bgr-myHomepage .panel p{
+	margin: 10px 15px 10px 15px !important;
+	padding:0px !important; 
+}
+
+.bgr-myHomepage .panel h4{
+	min-height: 42px;
+	margin: 15px 15px 10px 15px !important;
+	line-height: 22px;
+	color: #F48B19 !important; /* BabybreiLink */
+	font-size: 16px !important;
+}
+
+.features{
+        margin: 50px 0 50px 0;
+}
+
+.features img{
+	border: 1px solid #363e52;
+	box-shadow: 4px 4px 0px #363e52;
+}
+
+/* --- --- --- --- --- Homepage END --- --- --- --- --- */
+
+
+
+
+
+
+
+/* --- --- --- --- --- LEVEL 1 --- --- --- --- --- */
+.level1{
+	margin-top: 0px;
+}
+
+.level1_led{
+	position: relative;
+	top: -70px;
+	left: -10px;
+	height: 160px;
+	z-index: +1;
+	float: left;
+	margin-bottom: -55px;
+}
+
+.homepage-header-l1 h1{
+	margin: 14px 0 30px 0 !important;
+	padding: 0px;
+	color: white;
+	font-size: 30px !important;
+}
+
+.bgr-level1{
+	margin-top: 0px;
+	background: white;
+	padding-bottom: 80px;
+	background-image: url(assets/images/babybrei.png);	
+	background-position:top center;	
+	background-repeat:repeat-x;
+}
+
+.bgr-level1 .panel{
+	min-height: 335px;
+	border: 1px solid #F3F1F2 !important;
+	background-color: #F3F1F2 !important; /* Hellgrau */	
+	box-shadow: rgba(0, 0, 0, 0.0470588) 0px 0px 1.2000000476837158px 0px;	
+}
+
+.bgr-level1 .panel-body{
+	padding: 0 !important;
+}
+
+.bgr-level1 .panel p{
+	margin: 10px 15px 10px 15px !important;
+	padding:0px !important; 
+}
+
+.bgr-level1 .panel h4{
+	min-height: 42px;
+	margin: 15px 15px 10px 15px !important;
+	line-height: 22px;
+	color: #F48B19 !important; /* BabybreiLink */
+	font-size: 16px !important;
+}
+
+/* --- --- --- --- --- LEVEL 1 END --- --- --- --- --- */
+
+/* --- --- --- --- --- LEVEL 2 --- --- --- --- --- */
+.level2{
+	margin-top: 0px;
+}
+
+.level2_led{
+	position: relative;
+	top: -70px;
+	left: -10px;
+	height: 160px;
+	z-index: +1;
+	float: left;
+	margin-bottom: -55px;
+}
+
+.homepage-header-l2 h1{
+	margin: 14px 0 30px 0 !important;
+	padding: 0px;
+	color: white;
+	font-size: 30px !important;
+
+}
+
+.bgr-level2{
+	margin-top: 0px;
+	background: white;
+	padding-bottom: 80px;
+	background-image: url(assets/images/erdbeereis.png);	
+	background-position:top center;		
+	background-repeat:repeat-x;
+}
+
+.bgr-level2 .panel{
+	min-height: 335px;
+	border: 1px solid #F3F1F2 !important;
+	background-color: #F3F1F2 !important; /* Hellgrau */	
+	box-shadow: rgba(0, 0, 0, 0.0470588) 0px 0px 1.2000000476837158px 0px;	
+}
+
+.bgr-level2 .panel-body{
+	padding: 0 !important;
+}
+
+.bgr-level2 .panel p{
+	margin: 10px 15px 10px 15px !important;
+	padding:0px !important; 
+}
+
+.bgr-level2 .panel h4{
+	min-height: 42px;
+	margin: 15px 15px 10px 15px !important;
+	line-height: 22px;
+	color: #ED423E !important; /* ErdbeereisLink */
+	font-size: 16px !important;
+
+}
+
+
+/* --- --- --- --- --- LEVEL 2 END --- --- --- --- --- */
+
+/* --- --- --- --- --- LEVEL 3 --- --- --- --- --- */
+.level3{
+	margin-top: 0px;
+}
+
+.level3_led{
+	position: relative;
+	top: -70px;
+	left: -10px;
+	height: 160px;
+	z-index: +1;
+	float: left;
+	margin-bottom: -55px;
+}
+
+.homepage-header-l3 h1{
+	margin: 14px 0 30px 0 !important;
+	padding: 0px;
+	color: white;
+	font-size: 30px !important;
+
+}
+
+.bgr-level3{
+	margin-top: 0px;
+	background: white;
+	padding-bottom: 80px;
+	background-image: url(assets/images/zahnpasta.png);	
+	background-position:top center;		
+	background-repeat:repeat-x;
+}
+
+.bgr-level3 .panel{
+	min-height: 335px;
+	border: 1px solid #F3F1F2 !important;
+	background-color: #F3F1F2 !important; /* Hellgrau */	
+	box-shadow: rgba(0, 0, 0, 0.0470588) 0px 0px 1.2000000476837158px 0px;	
+}
+
+.bgr-level3 .panel-body{
+	padding: 0 !important;
+}
+
+.bgr-level3 .panel p{
+	margin: 10px 15px 10px 15px !important;
+	padding:0px !important; 
+}
+
+.bgr-level3 .panel h4{
+	min-height: 42px;
+	margin: 15px 15px 10px 15px !important;
+	line-height: 22px;
+	color: #097C73 !important; /* ZahnpastaLink */
+	font-size: 16px !important;
+
+}
+
+
+/* --- --- --- --- --- LEVEL 3 END --- --- --- --- --- */
+
+/* --- --- --- --- --- LEVEL 4 --- --- --- --- --- */
+.level4{
+	margin-top: 0px;
+}
+
+.level4_led{
+	position: relative;
+	top: -70px;
+	left: -25px;
+	height: 160px;
+	z-index: +1;
+	float: left;
+	margin-bottom: -55px;
+}
+
+.homepage-header-l4 h1{
+	margin: 14px 0 30px 0 !important;
+	padding: 0;
+	color: white;
+	font-size: 30px !important;
+
+}
+
+.bgr-level4{
+	margin-top: 0px;
+	background: white;
+	padding-bottom: 80px;
+	background-image: url(assets/images/marine.png);	
+	background-position:top center;		
+	background-repeat:repeat-x;
+}
+
+.bgr-level4 .panel{
+	min-height: 335px;
+	border: 1px solid #F3F1F2 !important;
+	background-color: #F3F1F2 !important; /* Hellgrau */	
+	box-shadow: rgba(0, 0, 0, 0.0470588) 0px 0px 1.2000000476837158px 0px;	
+}
+
+.bgr-level4 .panel-body{
+	padding: 0 !important;
+}
+
+.bgr-level4 .panel p{
+	margin: 10px 15px 10px 15px !important;
+	padding:0px !important; 
+}
+
+.bgr-level4 .panel h4{
+	min-height: 42px;
+	margin: 15px 15px 10px 15px !important;
+	line-height: 22px;
+	color: #1B77AA !important; /* MarineLink */
+	font-size: 16px !important;
+
+}
+
+
+/* --- --- --- --- --- LEVEL 4 END --- --- --- --- --- */
+
+/* --- --- --- --- --- LEVEL 5 --- --- --- --- --- */
+.level5{
+	margin-top: 0px;
+}
+
+.level5_led{
+	position: relative;
+	top: -70px;
+	left: -45px;
+	height: 160px;
+	z-index: +1;
+	float: left;
+	margin-bottom: -55px;
+}
+
+.homepage-header-l5 h1{
+	margin: 14px 0 30px 0 !important;
+	padding: 0px;
+	color: white;
+	font-size: 30px !important;
+
+}
+
+.bgr-level5{
+	margin-top: 0px;
+	background: white;
+	padding-bottom: 80px;
+	background-image: url(assets/images/mitternacht.png);	
+	background-position:top center;	
+	background-repeat:repeat-x;
+}
+
+.bgr-level5 .panel{
+	min-height: 335px;
+	border: 1px solid #F3F1F2 !important;
+	background-color: #F3F1F2 !important; /* Hellgrau */	
+	box-shadow: rgba(0, 0, 0, 0.0470588) 0px 0px 1.2000000476837158px 0px;	
+}
+
+.bgr-level5 .panel-body{
+	padding: 0 !important;
+}
+
+.bgr-level5 .panel p{
+	margin: 10px 15px 10px 15px !important;
+	padding:0px !important; 
+}
+
+.bgr-level5 .panel h4{
+	min-height: 42px;
+	margin: 15px 15px 10px 15px !important;
+	line-height: 22px;
+	color: #3C4D6D !important; /* MitternachtLink */
+	font-size: 16px !important;
+
+}
+
+
+/* --- --- --- --- --- LEVEL 5 END --- --- --- --- --- */
+
+
+/* --- --- --- --- --- --- --- --- --- --- FOOTER --- --- --- --- --- --- --- --- --- --- */
+
+footer{
+	background: #363E52; /* Mitternacht */
+}
+
+.myFooter{
+	margin-top: 0px;
+	padding-top: 20px;
+	color: white;
+}
+
+.myFooter a{
+	color: #F48B19 !important; /* BabybreiLink */
+}
+
+/* --- --- --- --- --- --- --- --- --- --- FOOTER END --- --- --- --- --- --- --- --- --- --- */
+
+/* --- --- --- --- --- --- --- --- --- --- HOMEPAGE SEGMENTS END   --- --- --- --- --- --- --- --- --- --- --- --- --- */
+
+/* --- --- --- --- --- --- --- --- --- --- SINGLE AND PAGE  --- --- --- --- --- --- --- --- --- --- --- --- ---  --- - */
+
+.imageCaption{
+	margin: 0 0 24px 0;
+}
+
+.primary-content{
+	min-height:600px;
+	padding: none !important;
+	margin: none !important;
+	/*padding-left: 15px;
+	padding-right: 15px;	*/
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+	padding-bottom: 50px;
+}
+
+.primary-content-inner{
+	padding-top: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 60px;
+}
+
+.page-header{
+	margin-top: 0px !important;
+}
+
+.bgr-content{
+	background-color: white !important; /* Weiß */	
+	
+}
+
+.top-spacing{
+	margin-top: 0px;
+}
+
+.container{
+	/*min-height: 58px !important;*/
+}
+
+.row{
+	margin-bottom: 0px;
+}
+
+.anleitungsbilder{
+	margin-bottom: 40px;
+}
+
+.bgr-single-navigation{
+	background: white !important; /* Weiß */
+	padding: 0 !important;
+	margin: 0 0 50px 0 !important;
+}
+
+.bgr-single-navigation .row{
+	margin-bottom: 0px !important;	
+}
+
+.bgr-single-navigation .container{
+	min-height: 20px !important;
+}
+
+.bgr-single-navigation a{
+	margin: 0 !important;
+	padding: 0 !important;
+	color: #F48B19 !important; /* BabybreiLink */
+	/*font-size: 18px;*/
+}
+
+.bgr-single-navigation a:hover{
+	color: #F9BF73 !important; /* Babybrei */
+	text-decoration: none;
+}
+
+
+.bgr-radius{
+	margin-top: 0px;
+	background: white !important; /* Weiß */	
+	padding-bottom: 80px;
+}
+
+.comments{
+	margin: 0 0 0 0;
+	padding-top: 20px;
+	
+}
+
+h3#reply-title{
+	margin: 5px 0 10px 0;
+	padding: 0;
+}
+
+.responsive-video {
+	 position: relative;
+	 padding-bottom: 56.25%;
+	 padding-top: 60px; overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 16px;
+}
+
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+}
+
+/* --- --- --- --- --- --- --- --- --- --- SPRECHBLASEN --- --- --- --- --- --- --- --- --- --- */
+
+.triangle-border a{
+	color: #ED423E1 !important; /* ErdbeereisLink
+}
+
+.triangle-border a:hover{
+	color: #F48B19 !important; /* Babybrei Link */	
+}
+
+.triangle-border {
+  position:relative;
+  padding:15px;
+  margin:0 0 1em 0;
+  border:5px solid #F9BF73; /* Babybrei */
+  color:#333;
+  background:#F9BF73;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+.triangle-border:before {
+  content:"";
+  position:absolute;
+  bottom:-20px; /* value = - border-top-width - border-bottom-width */
+  left:75px; /* controls horizontal position */
+  border-width:20px 20px 0;
+  border-style:solid;
+  border-color:	#F9BF73 transparent; /* Babybrei */
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* creates the smaller  triangle */
+.triangle-border:after {
+  content:"";
+  position:absolute;
+  bottom:-13px; /* value = - border-top-width - border-bottom-width */
+  left:82px; /* value = (:before left) + (:before border-left) - (:after border-left) */
+  border-width:13px 13px 0;
+  border-style:solid;
+  border-color:#F9BF73 transparent; /* Babybrei */
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+
+.triangle-border.top:before {
+  top:-20px; /* value = - border-top-width - border-bottom-width */
+  bottom:auto;
+  left:auto;
+  left:40px; /* controls horizontal position */
+  border-width:0 20px 20px;
+}
+
+/* creates the smaller  triangle */
+.triangle-border.top:after {
+  top:-13px; /* value = - border-top-width - border-bottom-width */
+  bottom:auto;
+  left:auto;
+  left:47px; /* value = (:before right) + (:before border-right) - (:after border-right) */
+  border-width:0 13px 13px;
+}		
+
+.ichiro{
+	height: 100px;
+	background: url("assets/images/ichiro2.png") 0px 0px no-repeat;
+	background-size: 202px 103px;
+	margin-bottom: 20px;
+
+}
+.arisu{
+	height: 100px;
+	background: url("assets/images/arisu.png") 0px 0px no-repeat;
+	background-size: 200px 103px;
+	margin-bottom: 20px;
+}
+/* --- --- --- --- --- --- --- --- --- --- SPRECHBLASEN END --- --- --- --- --- --- --- --- --- --- */
+
+/* --- --- --- --- --- --- --- --- --- --- BAUPLANBOXEN --- --- --- --- --- --- --- --- --- --- */
+
+
+.list-group-item.active{
+	background-image: none !important; 
+	background-origin: padding-box;
+	background-repeat: repeat-x;
+	background-size: auto;
+	background-color: #F9BF73 !important; /* Babybrei */
+    border: 1px solid #F9BF73 !important; /* Babybrei */
+	text-shadow: none !important;
+	color: white !important; 
+	font-size: 18px;	
+	padding: 8px 20px 3px 20px !important;
+}
+
+.list-group-item{
+	background-image: none !important; 
+	background-origin: padding-box;
+	background-repeat: repeat-x;
+	background-size: auto;
+	border-bottom-color: #F9BF73 !important; /* Babybrei */
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-left-color: #F9BF73 !important; /* Babybrei */
+	border-left-style: solid;
+	border-left-width: 2px;
+	border-right-color: #F9BF73 !important; /* Babybrei */
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-top-color: #F9BF73 !important; /* Babybrei */
+	background-color: white !important;
+    border: 5px solid #F9BF73 !important; /* Babybrei */
+	text-shadow: none !important;
+	color: black !important;
+	/*text-align: right;*/
+}
+
+.list-group-item .row{
+	margin-bottom: 50px;
+}
+
+.label-primary{
+	background-color: #F9BF73 !important; /* Babybrei */
+	color: white !important;
+
+}
+
+.label-info{
+	border: none !important;
+	background-color: #F9BF73 !important; /* Babybrei */
+}
+
+.fritzing:after{
+	content:"Illustrationen mit der Fritzing-Software erstellt" !important;
+	font-size: 10px;
+	float:right;
+}
+
+.fritzing_en:after{
+	content:"Illustrations made with the Fritzing software" !important;
+	font-size: 10px;
+	float:right;
+}
+
+
+/* --- --- --- --- --- --- --- --- --- --- BAUPLANBOXEN END --- --- --- --- --- --- --- --- --- --- */
+
+
+/* --- --- --- --- --- --- --- --- --- --- SHARE BUTTONS --- --- --- --- --- --- --- --- --- --- */
+.addtoany_content_bottom:before{
+	content: "Teilen: ";
+}
+
+.addtoany_content_bottom{
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	text-align: center;
+}
+
+/* --- --- --- --- --- --- --- --- --- --- SHARE BUTTONS END --- --- --- --- --- --- --- --- --- --- */
+
+/* --- --- --- --- --- --- --- --- --- --- KOMMENTARE --- --- --- --- --- --- --- --- --- --- */
+
+.bgr-comments{
+	background-color: #4F5B75 !important; /* Mondschein */
+	color: white; /* Weiß */
+	padding-bottom: 50px;
+
+}
+
+.bgr-comments 
+
+/* --- --- --- --- --- --- --- --- --- --- KOMMENTARE --- --- --- --- --- --- --- --- --- --- */
+
+/* --- --- --- --- --- --- --- --- --- --- SINGLE AND PAGE END --- --- --- --- --- --- --- --- --- --- --- --- ---  --- - */
+
+.wp-post-image{
+	border: 1px solid grey;
+}
+
+
+.bauplan-links{
+	padding: 0 30px 0px 10px;
+}
+
+.bauplan-rechts{
+	padding: 0 30px 0px 10px;
+}
+
+
+
+.kleinesBild img{
+	max-height: 200px;
+}
+
+.entry-meta{
+	display: none;
+}
+
+.form-allowed-tags{
+	display: none;
+}
+
+.arduino-code{
+        font-family: 'Fira Mono', monospace;
+        line-height: 130%;
+	padding: 10px 10px 12px 10px;
+	border-top: 4px solid #0aafb3;
+	border-bottom: 4px solid #00777d;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+}
+	
+.withBorder{
+	border: 1px solid grey;
+}
+
+.content-navigation{
+  margin-top: 24px;
+}
+
+	.form-submit {
+	    display: none;
+	}
+	.comment-form-author,
+	.comment-form-email,
+	.comment-form-url {
+	    width: 50%;
+	}	
+	
+	
+	button a{
+		text-decoration: none;
+		color: white !important;
+	}
+	
+	button a:hover{
+		text-decoration: none;
+		color: white !important;
+	}
+	
+	
+	
+
+/* END : Post styles */
+
+/* START : General bits */
+
+/* END : General bits */
+
+
+
+@-ms-viewport {
+  width: device-width;
+}
+
+/* iPhone < 5: */
+@media screen and (device-aspect-ratio: 2/3) {
+/* --- --- --- --- --- NAVIGATION --- --- --- --- --- */
+
+.navbar{
+	position: relative !important;
+	min-height: 58px !important;
+	border: none !important;
+	margin-bottom: 0px !important;
+}
+
+.navbar-brand{
+	padding: 0 !important;
+	margin: 0 !important;
+	height: 58px !important;
+}
+
+.navbar-brand img{
+	margin-top: 10px;
+	margin-left: 0px;
+	height: 38px !important;
+}
+
+.navbar-header{
+	min-height: 58px !important;
+	margin-right: 0px !important;
+	padding-left: 16px;
+}
+
+ul#menu-primary a{
+	padding-top: 20px;
+	color: white !important; /* Weiß */
+	font-size: 14px;
+	min-height: 58px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+	text-shadow:none !important;
+}
+}
+
+/* iPhone 5: */
+@media screen and (device-aspect-ratio: 40/71) {
+/* --- --- --- --- --- NAVIGATION --- --- --- --- --- */
+
+.navbar{
+	position: relative !important;
+	min-height: 58px !important;
+	border: none !important;
+	margin-bottom: 0px !important;
+}
+
+.navbar-brand{
+	padding: 0 !important;
+	margin: 0 !important;
+	height: 58px !important;
+}
+
+.navbar-brand img{
+	margin-top: 10px;
+	margin-left: 0px;
+	height: 38px !important;
+}
+
+.navbar-header{
+	min-height: 58px !important;
+	margin-right: 0px !important;
+	padding-left: 16px;
+}
+
+ul#menu-primary a{
+	padding-top: 20px;
+	color: white !important; /* Weiß */
+	font-size: 14px;
+	min-height: 58px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+	text-shadow:none !important;
+}
+
+/* --- --- --- --- --- NAVIGATION END --- --- --- --- --- */	
+}
+
+/* iPhone 6: */
+@media screen and (device-aspect-ratio: 667/375) {
+/* --- --- --- --- --- NAVIGATION --- --- --- --- --- */
+
+.navbar{
+	position: relative !important;
+	min-height: 58px !important;
+	border: none !important;
+	margin-bottom: 0px !important;
+}
+
+.navbar-brand{
+	padding: 0 !important;
+	margin: 0 !important;
+	height: 58px !important;
+}
+
+.navbar-brand img{
+	margin-top: 10px;
+	margin-left: 0px;
+	height: 38px !important;
+}
+
+.navbar-header{
+	min-height: 58px !important;
+	margin-right: 0px !important;
+	padding-left: 16px;
+}
+
+ul#menu-primary a{
+	padding-top: 20px;
+	color: white !important; /* Weiß */
+	font-size: 14px;
+	min-height: 58px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+	text-shadow:none !important;
+}
+}
+
+/* iPhone 6 Plus: */
+@media screen and (device-aspect-ratio: 16/9) {
+/* --- --- --- --- --- NAVIGATION --- --- --- --- --- */
+
+.navbar{
+	position: relative !important;
+	min-height: 58px !important;
+	border: none !important;
+	margin-bottom: 0px !important;
+}
+
+.navbar-brand{
+	padding: 0 !important;
+	margin: 0 !important;
+	height: 58px !important;
+}
+
+.navbar-brand img{
+	margin-top: 10px;
+	margin-left: 0px;
+	height: 38px !important;
+}
+
+.navbar-header{
+	min-height: 58px !important;
+	margin-right: 0px !important;
+	padding-left: 16px;
+}
+
+ul#menu-primary a{
+	padding-top: 20px;
+	color: white !important; /* Weiß */
+	font-size: 14px;
+	min-height: 58px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+	text-shadow:none !important;
+}
+}
+
+/* iPad: */
+@media screen and (device-aspect-ratio: 3/4) {
+/* --- --- --- --- --- NAVIGATION --- --- --- --- --- */
+
+.navbar{
+	position: relative !important;
+	min-height: 58px !important;
+	border: none !important;
+	margin-bottom: 0px !important;
+}
+
+.navbar-brand{
+	padding: 0 !important;
+	margin: 0 !important;
+	height: 58px !important;
+}
+
+.navbar-brand img{
+	margin-top: 10px;
+	margin-left: 0px;
+	height: 38px !important;
+}
+
+.navbar-header{
+	min-height: 58px !important;
+	margin-right: 0px !important;
+	padding-left: 0px;
+}
+
+ul#menu-primary a{
+	padding-top: 20px;
+	color: white !important; /* Weiß */
+	font-size: 14px;
+	min-height: 58px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+	text-shadow:none !important;
+}
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

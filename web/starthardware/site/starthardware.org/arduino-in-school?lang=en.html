@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html lang="en" class="ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+<title>Arduino in school | Start Hardware</title>
+
+<link rel="stylesheet" href="wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css%3Fv=3.3.6.css" type="text/css" media="all" />
+<meta name="description" content="Start Hardware - Lerne Hardware zu programmieren!" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=0.6666, maximum-scale=1.0, minimum-scale=0.6666" />
+
+<!-- The little things -->
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="../starthardware.org/xmlrpc.php" />
+<link rel="shortcut icon" href="wp-content/themes/Barebones/favicon.ico">
+
+<meta name='application-name' content='StartHardware' />
+<meta name='msapplication-TileColor' content='#363D52' />
+<meta name='msapplication-TileImage' content='http://starthardware.org/wp-content/themes/Barebones/metro-tile.png' />
+<meta name='msapplication-starturl' content='http//www.starthardware.org' />
+
+<!--<meta name="msapplication-square70x70logo" content="../starthardware.org/wp-content/themes/Barebones/tiny.png"/>
+<meta name="msapplication-square150x150logo" content="../starthardware.org/wp-content/themes/Barebones/square.png"/>
+<meta name="msapplication-wide310x150logo" content="../starthardware.org/wp-content/themes/Barebones/wide.png"/>
+<meta name="msapplication-square310x310logo" content="../starthardware.org/wp-content/themes/Barebones/large.png"/>-->
+
+<link rel="apple-touch-icon" href="wp-content/themes/Barebones/apple-touch-icon-precomposed.png"/>
+<!-- <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'> -->
+<link href='../fonts.googleapis.com/css%3Ffamily=Fira+Sans:300,300italic.css' rel='stylesheet' type='text/css'>
+<link href='../fonts.googleapis.com/css%3Ffamily=Fira+Mono.css' rel='stylesheet' type='text/css'>
+<!-- The little things -->
+
+<!-- Stylesheets -->
+<!-- <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> -->
+
+<link href="wp-content/themes/Barebones/assets/css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap core CSS -->
+<link href="wp-content/themes/Barebones/assets/css/bootstrap-theme.min.css" rel="stylesheet"><!-- Bootstrap theme -->
+<link rel="stylesheet" href="wp-content/themes/Barebones/style.css" />
+
+<!-- Stylesheets -->
+
+<!-- Scripts -->
+
+<script src="../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!--<script src="../starthardware.org/wp-content/themes/Barebones/assets/scripts/bootstrap.js"></script>-->
+
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script src="wp-content/themes/Barebones/assets/scripts/dropdown.js"></script>	
+<!--<script src="../starthardware.org/wp-content/themes/Barebones/assets/scripts/carousel.js"></script>-->
+
+<!-- Scripts end -->	
+
+<!--
+    Optional Stuff - Remove comment if you need it
+    <script src="../starthardware.org/wp-content/themes/Barebones/assets/scripts/modernizr-2.6.2.js"></script>
+-->
+	<link rel="alternate" hreflang="en-US" href="arduino-in-school%3Flang=en.html" />
+<link rel="alternate" hreflang="de-DE" href="index.html%3Fp=1589.html" />
+<link rel="alternate" type="application/rss+xml" title="Start Hardware &raquo; Arduino in school Comments Feed" href="arduino-in-schoolfeed/index.html%3Flang=en.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/starthardware.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cookielawinfo-style-css'  href='wp-content/plugins/cookie-law-info/css/cli-style.css%3Fver=1.5.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='youtube-channel-gallery-css'  href='wp-content/plugins/youtube-channel-gallery/styles.css%3Fver=4.4.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.magnific-popup-css'  href='wp-content/plugins/youtube-channel-gallery/magnific-popup.css%3Fver=4.4.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='slb_core-css'  href='wp-content/plugins/simple-lightbox/client/css/app.css%3Fver=2.5.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='wp-content/plugins/add-to-any/addtoany.min.css%3Fver=1.12.css' type='text/css' media='all' />
+<script type='text/javascript' src='wp-content/themes/Barebones/assets/scripts/bootstrap.min.js%3Fver=4.4.2'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.js%3Fver=1.11.3'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js%3Fver=1.2.1'></script>
+<script type='text/javascript' src='wp-content/plugins/cookie-law-info/js/cookielawinfo.js%3Fver=1.5.3'></script>
+<link rel='https://api.w.org/' href='wp-json%3Flang=en%252F' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<link rel="canonical" href="arduino-in-school%3Flang=en.html" />
+<link rel='shortlink' href='index.html%3Fp=1791&amp;lang=en.html' />
+<link rel="alternate" type="application/json+oembed" href="wp-json%3Flang=en%252Foembed%252F1.0%252Fembed&amp;url=http%253A%252F%252Fstarthardware.org%252Farduino-in-school%253Flang%253Den" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json%3Flang=en%252Foembed%252F1.0%252Fembed&amp;url=http%253A%252F%252Fstarthardware.org%252Farduino-in-school%253Flang%253Den&amp;format=xml" />
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}wpa2a.done=true;}wpa2a.targets=[];}};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.callbacks.push({ready:wpa2a.script_onready});a2a_config.templates=a2a_config.templates||{};
+a2a_config.onclick=1;
+//--></script>
+<meta name="generator" content="WPML ver:3.3.6 stt:1,3;" />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+<!--<script src="../starthardware.org/wp-content/themes/Barebones/assets/scripts/carousel.js"></script>-->
+<!-- wp_deregister_script('jquery');-->
+
+</head>
+
+<body class="page page-id-1791 page-template-default" id="top" role="document">
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="../www.googletagmanager.com/ns.html%3Fid=GTM-T9Z35S.html"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9Z35S');</script>
+<!-- End Google Tag Manager -->	
+	
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html%3Flang=en.html"><img src="wp-content/uploads/2014/11/starthardwareorg-logo-100_3.png" alt="startHardware.org"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+		  <ul id="menu-primary-englisch0" class="nav navbar-nav"><li id="menu-item-1808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1808"><a title="Kidskurs" href="index.html%3Flang=en.html">Kidskurs</a></li>
+<li id="menu-item-1809" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1791 current_page_item menu-item-1809 active"><a title="Arduino in school" href="arduino-in-school%3Flang=en.html">Arduino in school</a></li>
+<li id="menu-item-1810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1810"><a title="Starter Kits" href="starter-kits%3Flang=en.html">Starter Kits</a></li>
+</ul>        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	
+	<!--<div class="container theme-showcase" role="main">--><article role="main" class="primary-content" id="post-1791">
+
+        <div class="bgr-features">
+  <div class="container">	
+    <div class="row features">
+      <div class="col-md-12">
+        <h2>Arduino in school? No problem!</h2>
+      </div>
+    </div>
+
+    <div class="row features">
+      <div class="col-md-8">
+<p>Please, if you find mistakes (even spelling) drop me a message. I do everything in my free time and by my own. I need your support <img src="wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+        <p>Since, the german version of the Arduino in school program consists of the workshop presentation, a schedule and a description to each slide, the english version by now unfortunately is just the presentation. But wait. The presentation are more then 60 slides and if you are a little bit familiar with Arduino, you will probably be able to use it. The students will learn the basics of electronics, voltage and current, of the Arduino and programming.</p>
+
+         <ol class="carousel-indicators">
+           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+         </ol>
+         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+           <div class="carousel slide" id="myCarousel">
+             <div class="carousel-inner">
+               <div class="item active"><img src="wp-content/uploads/2015/06/arduinoWorkshop.png" alt="Arduino in der Schule"/></div>
+             </div>
+           </div>
+         </div>
+         
+       </div>
+    <div class="col-md-4">
+             <p>Download:</p>
+              <p><a href="man_uploads/WorkshopEN.zip">WorkshopEN.zip (5,6 MB)</a></br></br>
+60 slides of Arduino knowledge</br></br>
+Everything under a Creative Commons License (BY-SA 4.0)
+        </p>
+      </div>
+         </div> <!-- row features -->
+
+         <div class="row features">
+            <div class="col-md-8">
+              <h2>Topics of the presentation</h2> 
+               <ul>
+                 <li>Circuits (flash light),</li>
+                 <li>The Arduino, </li>
+                 <li>The breadboard, </li>
+                 <li>Commands, </li>
+                 <li>Morsing, </li>
+                 <li>Traffic light for cars, </li>
+                 <li>Traffic light for cars and pedestrians, </li>
+                 <li>Piezo speaker, </li>
+                 <li>if-statement, </li>
+                 <li>One-button-piano, </li>
+                 <li>variables, </li>
+                 <li>Analog input and </li>
+                 <li>the Serial communication.</li>
+               </ul>
+                
+           </div>
+           <div class="col-md-4"></div>
+         </div> <!-- row features -->
+
+         <div class="row" style="margin-top: 60px;">
+            <div class="col-md-8">
+
+<hr>
+<h2>The StartHardware.org Arduino-Kit</h2>
+
+<img src="wp-content/uploads/2014/11/kit_starthardware.jpg" alt="Arduino online course" width="1200" height="771" class="alignleft size-full wp-image-1312" />
+
+<p>This Arduino-Starter-Kit is perfect suited to start with the microcontroller board. It is very affordable and comes with everything you need to start with this course.</p>
+<p><a href="https://www.tinkersoup.de/a-1492/?utm_source=starthardware&#038;utm_medium=website&#038;utm_content=link&#038;utm_campaign=Start%20Hardware%20Kit">More infos at Tinkersoup.de</a></p>
+           </div>
+           <div class="col-md-4"></div>
+         </div> <!-- row features -->
+       </div>
+</div> <!-- bgr-features --><div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit addtoany_list a2a_target" id="wpa2a_1"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fstarthardware.org%2Farduino-in-school%3Flang%3Den&amp;linkname=Arduino%20in%20school" title="Facebook" rel="nofollow" target="_blank"><img src="wp-content/plugins/add-to-any/icons/facebook.png" width="16" height="16" alt="Facebook"/></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fstarthardware.org%2Farduino-in-school%3Flang%3Den&amp;linkname=Arduino%20in%20school" title="Twitter" rel="nofollow" target="_blank"><img src="wp-content/plugins/add-to-any/icons/twitter.png" width="16" height="16" alt="Twitter"/></a><a class="a2a_button_pinterest" href="http://www.addtoany.com/add_to/pinterest?linkurl=http%3A%2F%2Fstarthardware.org%2Farduino-in-school%3Flang%3Den&amp;linkname=Arduino%20in%20school" title="Pinterest" rel="nofollow" target="_blank"><img src="wp-content/plugins/add-to-any/icons/pinterest.png" width="16" height="16" alt="Pinterest"/></a><a class="a2a_button_whatsapp" href="http://www.addtoany.com/add_to/whatsapp?linkurl=http%3A%2F%2Fstarthardware.org%2Farduino-in-school%3Flang%3Den&amp;linkname=Arduino%20in%20school" title="WhatsApp" rel="nofollow" target="_blank"><img src="wp-content/plugins/add-to-any/icons/whatsapp.png" width="16" height="16" alt="WhatsApp"/></a><a class="a2a_button_yahoo_messenger" href="http://www.addtoany.com/add_to/yahoo_messenger?linkurl=http%3A%2F%2Fstarthardware.org%2Farduino-in-school%3Flang%3Den&amp;linkname=Arduino%20in%20school" title="Yahoo Messenger" rel="nofollow" target="_blank"><img src="wp-content/plugins/add-to-any/icons/yim.png" width="16" height="16" alt="Yahoo Messenger"/></a><a class="a2a_button_delicious" href="http://www.addtoany.com/add_to/delicious?linkurl=http%3A%2F%2Fstarthardware.org%2Farduino-in-school%3Flang%3Den&amp;linkname=Arduino%20in%20school" title="Delicious" rel="nofollow" target="_blank"><img src="wp-content/plugins/add-to-any/icons/delicious.png" width="16" height="16" alt="Delicious"/></a><a class="a2a_button_email" href="http://www.addtoany.com/add_to/email?linkurl=http%3A%2F%2Fstarthardware.org%2Farduino-in-school%3Flang%3Den&amp;linkname=Arduino%20in%20school" title="Email" rel="nofollow" target="_blank"><img src="wp-content/plugins/add-to-any/icons/email.png" width="16" height="16" alt="Email"/></a>
+<script type="text/javascript"><!--
+if(wpa2a)wpa2a.script_load();
+//--></script>
+</div></div>
+	       
+
+             
+
+</article>
+
+
+	
+
+
+
+<footer role="contentinfo">
+  <div class="container">
+    <div class="row">
+  <div class="row myFooter">
+    <div class="col-sm-3">
+	<h4>Für Coder</h4>
+	<p><a href="starter-kitsfeed/index.html%3Flang=en.html">Startseite</a><br>
+	<a href="index.html%3Fp=534.html">Starter Sets</a></p>
+    </div>
+    <div class="col-sm-3">
+	<h4>Für Lehrer</h4>
+	<p><a href="index.html%3Fp=1589.html">Arduino in der Schule</a></p>
+    </div>
+    <div class="col-sm-3">
+	<h4>Rechtliches</h4>
+	<p><a href="index.html%3Fp=543.html">Datenschutz</a><br>
+	<a href="index.html%3Fp=537.html">Impressum</a><br>
+	<a href="index.html%3Fp=541.html">Haftungsausschluss (Disclaimer)</a></p>
+    </div>
+    <div class="col-sm-3">
+	<h4>Creative Commons</h4>
+	<p>Alle Inhalte stehen unter einer Creative Commons Lizenz: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a> 4.0 – StartHardware.org 2016</p>
+    </div>
+  </div>
+</div>
+</div>
+
+</footer>
+
+
+
+<script type="text/javascript"><!--
+wpa2a.targets=[
+{title:"Arduino in school",url:"../starthardware.org/arduino-in-school?lang=en"}];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+<div id="cookie-law-info-bar"><span>StartHardware.org verwendet Cookies, um Ihnen den bestmöglichen Service zu gewährleisten. Wenn Sie auf der Seite weitersurfen stimmen Sie der Cookie-Nutzung zu. <a href="index.html%3Fp=1791&amp;lang=en.html#" id="cookie_action_close_header"  class="medium cli-plugin-button cli-plugin-main-button" >Akzeptieren</a> <a href="index.html%3Fp=543.html" id="CONSTANT_OPEN_URL" target="_blank"  class="cli-plugin-main-link"  >Datenschutzerklärung</a></span></div>		
+		<script type="text/javascript">
+			//<![CDATA[
+			jQuery(document).ready(function() {
+				cli_show_cookiebar({
+					settings: '{"animate_speed_hide":"500","animate_speed_show":"500","background":"#fff","border":"#444","border_on":true,"button_1_button_colour":"#000","button_1_button_hover":"#000000","button_1_link_colour":"#fff","button_1_as_button":true,"button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":false,"font_family":"inherit","header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"top","scroll_close":false,"scroll_close_reload":false,"showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":false,"show_once":"10000"}'
+				});
+			});
+			//]]>
+		</script>
+		
+		
+							<div id="lang_sel_footer">
+									<ul>
+									    <li><a href="arduino-in-school%3Flang=en.html" class="lang_sel_sel"><img src="wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="English" class="iclflag" title="English"  />&nbsp;English</a></li>
+									    <li><a href="index.html%3Fp=1589.html"><img src="wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png" alt="Deutsch" class="iclflag" title="Deutsch"  />&nbsp;Deutsch</a></li>
+									</ul>
+							</div><script type='text/javascript' src='wp-includes/js/wp-embed.min.js%3Fver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icl_vars = {"current_language":"en","icl_home":"http:\/\/starthardware.org?lang=en","ajax_url":"http:\/\/starthardware.org\/wp-admin\/admin-ajax.php?lang=en","url_type":"3"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js%3Fver=4.4.2'></script>
+<script type="text/javascript" id="slb_context">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/* ]]> */</script>
+
+<script type='text/javascript' src='wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js%3Fver=3.0.9'></script>
+<script type='text/javascript' src='wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushCpp.js%3Fver=3.0.9'></script>
+<script type='text/javascript' src='wp-content/plugins/syntaxhighlighter-arduino/shBrushArduino.js%3Fver=1.2.3'></script>
+
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "../starthardware.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "../starthardware.org/wp-content/plugins/syntaxhighlighter-arduino/shThemeArduino.css?ver=3.0.9";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ Quelltext aufklappen';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Keine Syntax-Datei vorhanden für: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Die Syntax-Datei ist nicht für die „htmlscript” Option konfiguriert: ';
+	SyntaxHighlighter.defaults['auto-links'] = false;
+	SyntaxHighlighter.defaults['class-name'] = 'arduino-code';
+	SyntaxHighlighter.defaults['gutter'] = false;
+	SyntaxHighlighter.defaults['light'] = true;
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+
+
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>-->
+
+<!--<script>!window.jQuery && document.write(unescape('%3Cscript src="../starthardware.org/wp-content/themes/Barebones/assets/scripts/jquery-2.0.3.js"%3E%3C/script%3E'))</script>-->
+
+<script src="wp-content/themes/Barebones/assets/scripts/general.js"></script>
+<script type='text/javascript' src='wp-includes/js/comment-reply.min.js%3Fver=4.4.2'></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+WEBVTT
+
+NOTE Paragraph
+
+00:00:02.262 --> 00:00:11.873
+♩♫♪♬
+
+00:00:11.873 --> 00:00:14.611
+Hey everyone, welcome back to to App Inventor's Hour of Code.
+
+00:00:14.611 --> 00:00:17.222
+- &gt;Stop Stop Stop Stop Stop Stop Shaking Me!&lt;
+- Enough of that!
+
+00:00:17.251 --> 00:00:20.098
+The next app we build is gonna be a game app.
+
+00:00:20.200 --> 00:00:21.559
+They're talking this time?
+
+00:00:21.569 --> 00:00:25.162
+No, sorry. Let's get going on a silent app.
+
+00:00:25.272 --> 00:00:29.869
+To get started, log on to App Inventor and click "New Project".
+
+00:00:30.169 --> 00:00:32.187
+Name this one "BallBounce".
+
+00:00:32.353 --> 00:00:38.637
+This app is going to have a ball moving around the screen. The ball will be what we call a "sprite".
+
+00:00:38.682 --> 00:00:47.447
+In App Inventor, ball and image sprites can only live on a canvas. Before we put in a canvas, there is a setting we need to change on the screen properties.
+
+00:00:47.589 --> 00:00:51.095
+It's small but very important for an app with a canvas.
+
+00:00:51.175 --> 00:00:58.357
+Go to the screen properties, scroll down to the bottom part of the properties list and, uncheck "Scrollable".
+
+00:00:58.415 --> 00:01:03.799
+This makes it so that the screen will be of fixed size and will not allow the user to scroll up and down.
+
+00:01:03.937 --> 00:01:11.493
+Okay, now drag out a canvas from the drawing and animation drawer. Notice that it looks very small.
+
+00:01:11.553 --> 00:01:18.378
+Go to the properties pane of the canvas and change the settings of both "Width" and "Height" to fill parent.
+
+00:01:20.478 --> 00:01:22.301
+That opens up our canvas quite a bit.
+
+00:01:22.371 --> 00:01:33.694
+Now drag out a ball sprite and drop it onto the canvas. It's kind of small. Let's make the ball a little larger. Go to the properties for the ball and change the radius to ten.
+
+00:01:33.739 --> 00:01:38.068
+Okay, for now that's all we need. Time for the blocks!
+
+00:01:39.588 --> 00:01:49.976
+Click on "Ball1" to view its blocks. Pull out the "Ball1.Flung". Yes, we named it "flung". It may be a silly word but it is grammatically correct.
+
+00:01:50.076 --> 00:02:00.955
+Now, think about what we would like the ball to do after it is flung. We'd like it to move in the direction of the fling with the speed that matches the strength or quickness of the fling gesture.
+
+00:02:02.035 --> 00:02:09.062
+The way to do that is to get the parameters of the fling gesture and to plug them in to the ball's heading and speed.
+
+00:02:09.138 --> 00:02:20.873
+First pull out the setter blocks for the ball's heading and for the ball's speed. We want to set the ball's heading and speed to the heading and speed of the fling gesture.
+
+00:02:20.968 --> 00:02:30.725
+There's actually a really easy way to do this in the flung event handler. Pull out the "get heading" and plug that into "set Ball1.Heading".
+
+00:02:31.445 --> 00:02:36.188
+Pull out the "get speed" and plug that into the "set Ball1.Speed".
+
+00:02:36.244 --> 00:02:49.236
+So. Now, we have the event in place that will handle when the ball is flung by the user. This means that the user uses their finger to flick the ball. That's a flick like a pool cue, not like an angry bird launch.
+
+00:02:49.276 --> 00:02:58.072
+If you are connected to your phone, then you can test the app out. How easy or hard is it to fling the ball? Does the app respond the way you expect it to?
+
+00:02:58.131 --> 00:03:04.217
+One thing that you probably notice right away is that when the ball hits an edge it gets stuck there.
+
+00:03:04.249 --> 00:03:08.256
+We have to tell the ball to bounce off the edges. Back to the blocks!
+
+00:03:08.366 --> 00:03:18.765
+Go to the ball blocks and choose the "when Ball1.EdgeReached" block. Go back into the ball blocks and drag out the "call Ball1.Bounce" block.
+
+00:03:18.765 --> 00:03:25.607
+Notice that this bounce block takes an edge as an argument. Where can we get that edge value, do you think?
+
+00:03:25.729 --> 00:03:35.678
+Well, how convenient! The EdgeReached event handler reports which edge was reached. Mouse over that edge parameter and you'll see the get block for it.
+
+00:03:35.813 --> 00:03:37.879
+Pull that one out and plug it in.
+
+00:03:40.768 --> 00:03:42.705
+That's all! Test your app out again.
+
+00:03:43.705 --> 00:03:47.635
+Hey, look! The ball bounces off the edges now! Pretty cool, huh?
+
+00:03:47.739 --> 00:03:55.869
+Okay. So now, we've got a very basic game app going here but this could be the start of a whole bunch of different games.
+
+00:03:55.959 --> 00:04:01.341
+The App Inventor website has a tutorial that shows you how to make this into a mini golf game.
+
+00:04:02.519 --> 00:04:06.282
+You can probably also imagine a game of pool or a pong game.
+
+00:04:06.347 --> 00:04:11.455
+This is just the beginning. Challenge yourself and make this even more engaging and fun.
+
+00:04:12.316 --> 00:04:18.558
+We are out of time on this tutorial. So, if any of you out there would like to extend your Ball Bounce app, go to our website for more great ideas.
+
+00:04:18.707 --> 00:04:27.010
+Definitely worth checking out. In our next and final tutorial, we're going to show you how to make an app called "Digital Doodle" that let's you make pictures on your phone.
+
+00:04:27.118 --> 00:04:30.755
+Sounds great! Okay, we're out for now. See you soon!
+
+00:04:30.859 --> 00:04:40.647
+♩♫♪♬

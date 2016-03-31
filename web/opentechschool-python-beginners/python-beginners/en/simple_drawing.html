@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Simple drawing with turtle &mdash; Introduction to Programming with Python</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.3.4/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.3.4/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2015.11.01',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/spoilers.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="copyright" title="Copyright" href="copyright.html" />
+    <link rel="top" title="Introduction to Programming with Python" href="index.html" />
+    <link rel="next" title="Variables" href="variables.html" />
+    <link rel="prev" title="Getting started" href="getting_started.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Python for Beginners</a>
+        <span class="navbar-text navbar-version pull-left"><b>2015.11.01</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Material <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting started</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Simple drawing with turtle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="variables.html">Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loops.html">Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functions.html">User-defined functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functions_parameters.html">Functions with parameters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditionals.html">Conditional statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditional_loops.html">Conditional Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logical_operators.html">Logical operators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="where_to_go.html">Where to go from here</a></li>
+<li class="toctree-l1"><a class="reference internal" href="copyright.html">License</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Chapter <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Simple drawing with turtle</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#drawing-a-square">Drawing a square</a><ul>
+<li><a class="reference internal" href="#exercise">Exercise</a></li>
+<li><a class="reference internal" href="#solution">Solution</a></li>
+<li><a class="reference internal" href="#bonus">Bonus</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#drawing-a-rectangle">Drawing a rectangle</a><ul>
+<li><a class="reference internal" href="#id1">Exercise</a></li>
+<li><a class="reference internal" href="#id2">Solution</a></li>
+<li><a class="reference internal" href="#id3">Bonus</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#more-squares">More squares</a><ul>
+<li><a class="reference internal" href="#id4">Exercise</a></li>
+<li><a class="reference internal" href="#id5">Solution</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li class="navbar-rel">
+    <a href="getting_started.html" title="Previous Chapter: Getting started">
+      <span class="glyphicon glyphicon-step-backward"></span>
+      <span>Previous</span>
+    </a>
+  </li>
+  <li class="navbar-rel">
+    <a href="variables.html" title="Next Chapter: Variables">
+        <span class="glyphicon glyphicon-step-forward"></span>
+        <span>Next</span>
+    </a>
+  </li>
+<li class="dropdown">
+  <a role="button"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Languages <b class="caret"></b></a>
+  <ul class="dropdown-menu"
+      role="menu">
+    <li><a href="../en/index.html">English</a></li>
+    <li><a href="../de/index.html">Deutsch (German)</a></li>
+    <li><a href="../es_CL/index.html">Español (Spanish)</a></li>
+    <li><a href="../ru/index.html">русский (Russian)</a></li>
+    <li><a href="../ko/index.html">한국인 (Korean)</a></li>
+    <li><a href="../ro/index.html">Română (Romanian)</a></li>
+  </ul>
+</li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="simple-drawing-with-turtle">
+<h1>Simple drawing with turtle<a class="headerlink" href="#simple-drawing-with-turtle" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>&#8220;Turtle&#8221; is a python feature like a drawing board, which lets you command
+a turtle to draw all over it!</p>
+<p>You can use functions like <code class="docutils literal"><span class="pre">turtle.forward(...)</span></code> and <code class="docutils literal"><span class="pre">turtle.left(...)</span></code>
+which can move the turtle around.</p>
+<p>Before you can use turtle, you have to import it. We recommend playing around
+with it in the interactive interpreter first, as there is an extra bit of work
+required to make it work from files. Just go to your terminal and type:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">turtle</span>
+</pre></div>
+</div>
+<img alt="_images/default.png" src="_images/default.png" />
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Not seeing anything on Mac OS?  Try issuing a command like
+<code class="docutils literal"><span class="pre">turtle.forward(0)</span></code> and looking if a new window opened behind your
+command line.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Do you work with Ubuntu and get the error message &#8220;No module named
+_tkinter&#8221;? Install the missing package with <code class="docutils literal"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span>
+<span class="pre">python3-tk</span></code></p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">While it might be tempting to just copy and paste what&#8217;s written on
+this page into your terminal, we encourage you to type out each command.
+Typing gets the syntax under your fingers (building that muscle memory!)
+and can even help avoid strange syntax errors.</p>
+</div>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span>
+</pre></div>
+</div>
+<img alt="_images/forward.png" src="_images/forward.png" />
+<div class="highlight-python"><div class="highlight"><pre><span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+</pre></div>
+</div>
+<img alt="_images/left.png" src="_images/left.png" />
+<p>The <code class="docutils literal"><span class="pre">turtle.forward(...)</span></code> function tells the turtle to move forward
+by the given distance. <code class="docutils literal"><span class="pre">turtle.left(...)</span></code> takes a number of degrees which you
+want to rotate to the left. There is also <code class="docutils literal"><span class="pre">turtle.backward(...)</span></code> and
+<code class="docutils literal"><span class="pre">turtle.right(...)</span></code>, too.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Want to start fresh? You can type <code class="docutils literal"><span class="pre">turtle.reset()</span></code> to clear the drawing
+that your <code class="docutils literal"><span class="pre">turtle</span></code> has made so far. We&#8217;ll go into more detail on
+<code class="docutils literal"><span class="pre">turtle.reset()</span></code> in just a bit.</p>
+</div>
+<p>The standard turtle is just a triangle. That&#8217;s no fun! Let&#8217;s make it a turtle
+instead with the <code class="docutils literal"><span class="pre">turtle.shape()</span></code> command:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">turtle</span><span class="o">.</span><span class="n">shape</span><span class="p">(</span><span class="s">&quot;turtle&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>So much cuter!</p>
+<p>If you put the commands into a file, you might have recognized that the turtle
+window vanishes after the turtle finished its movement.  (That is because
+Python exits when your turtle has finished moving.  Since the turtle window
+belongs to Python, it goes away as well.)  To prevent that, just put
+<code class="docutils literal"><span class="pre">turtle.exitonclick()</span></code> at the bottom of your file.  Now the window stays open
+until you click on it:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">turtle</span>
+
+<span class="n">turtle</span><span class="o">.</span><span class="n">shape</span><span class="p">(</span><span class="s">&quot;turtle&quot;</span><span class="p">)</span>
+
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span>
+
+<span class="n">turtle</span><span class="o">.</span><span class="n">exitonclick</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Python is a programming language where horizontal indenting of text is
+important. We&#8217;ll learn all about this in the Functions chapter later on,
+but for now just keep in mind that stray spaces or tabs before any line
+of Python code can cause an unexpected error. You could even try adding one
+to check how python will complain!</p>
+</div>
+</div>
+<div class="section" id="drawing-a-square">
+<h2>Drawing a square<a class="headerlink" href="#drawing-a-square" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You&#8217;re not always expected to know the anwer immediately. Learn by
+trial and error! Experiment, see what python does when you tell it
+different things, what gives beautiful (although sometimes
+unexpected) results and what gives errors. If you want to keep
+playing with something you learned that creates interesting
+results, that&#8217;s OK too. Don&#8217;t hesitate to try and fail and learn
+from it!</p>
+</div>
+<div class="section" id="exercise">
+<h3>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h3>
+<p>Draw a square as in the following picture:</p>
+<img alt="_images/square.png" src="_images/square.png" />
+<p>For a square you will probably need a right angle, which is 90 degrees.</p>
+</div>
+<div class="solution section" id="solution">
+<h3>Solution<a class="headerlink" href="#solution" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Notice how the turtle starts and finishes in the same place and
+facing the same direction, before and after drawing the
+square. This is a useful convention to follow, it makes it easier
+to draw multiple shapes later on.</p>
+</div>
+</div>
+<div class="section" id="bonus">
+<h3>Bonus<a class="headerlink" href="#bonus" title="Permalink to this headline">¶</a></h3>
+<p>If you want to get creative, you can modify your shape with the
+<code class="docutils literal"><span class="pre">turtle.width(...)</span></code> and <code class="docutils literal"><span class="pre">turtle.color(...)</span></code> functions.  How do you
+use these functions?  Before you can use a function you need to know
+its <em>signature</em> (for example what to put between the parentheses and what those
+things mean.) To find this out you can type <code class="docutils literal"><span class="pre">help(turtle.color)</span></code> into the
+Python shell. If there is a lot of text, Python will put the help text
+into a <em>pager</em>, which lets you page up and down. Press the <code class="kbd docutils literal"><span class="pre">q</span></code>
+key to exit the pager.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p>Are you seeing an error like this:</p>
+<div class="highlight-python"><div class="highlight"><pre>NameError: name &#39;turtle&#39; is not defined
+</pre></div>
+</div>
+<p class="last">when trying to view help? In Python you have to import names before you
+can refer to them, so in a new Python interactive shell you&#8217;ll need to
+<code class="docutils literal"><span class="pre">import</span> <span class="pre">turtle</span></code> before <code class="docutils literal"><span class="pre">help(turtle.color)</span></code> will work.</p>
+</div>
+<p>Another way to find out about functions is to browse the <a class="reference external" href="http://docs.python.org/3/library/turtle">online documentation</a>.</p>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">If you misdrew anything, you can tell turtle to erase its drawing board
+with the <code class="docutils literal"><span class="pre">turtle.reset()</span></code> directive, or undo the most recent step with
+<code class="docutils literal"><span class="pre">turtle.undo()</span></code>.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p>As you might have read in the help, you can modify the color with
+<code class="samp docutils literal"><span class="pre">turtle.color(</span><em><span class="pre">colorstring</span></em><span class="pre">)</span></code>.  These include but are not limited to
+&#8220;red,&#8221; &#8220;green,&#8221; and &#8220;violet.&#8221;  See this <a class="reference external" href="http://www.tcl.tk/man/tcl8.5/TkCmd/colors.htm">colours manual</a> for an extensive
+list.</p>
+<p class="last">If you want to set an RGB value, make sure to run <code class="docutils literal"><span class="pre">turtle.colormode(255)</span></code>
+first. Then for instance you could run <code class="docutils literal"><span class="pre">turtle.color(215,</span> <span class="pre">100,</span> <span class="pre">170)</span></code> to
+set a pink colour.</p>
+</div>
+</div>
+</div>
+<div class="section" id="drawing-a-rectangle">
+<h2>Drawing a rectangle<a class="headerlink" href="#drawing-a-rectangle" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Exercise<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Can you draw a rectangle too?</p>
+<img alt="_images/rectangle.png" src="_images/rectangle.png" />
+</div>
+<div class="solution section" id="id2">
+<h3>Solution<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id3">
+<h3>Bonus<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>How about a triangle? In an equilateral triangle (a triangle with all
+sides of equal length) each corner has an angle of 60 degrees.</p>
+</div>
+</div>
+<div class="section" id="more-squares">
+<h2>More squares<a class="headerlink" href="#more-squares" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id4">
+<h3>Exercise<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>Now, draw a tilted square. And another one, and another one. You can
+experiment with the angles between the individual squares.</p>
+<img alt="_images/tiltedsquares.png" src="_images/tiltedsquares.png" />
+<p>The picture shows three 20 degree turns. But you could try 20, 30 and 40 degree
+turns, for example.</p>
+</div>
+<div class="solution section" id="id5">
+<h3>Solution<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span>
+
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+  <ul id="sourcelink" class="list-inline">
+    <li>
+      <a href="https://github.com/opentechschool/python-beginners/edit/master/source/simple_drawing.rst" title="simple_drawing.rst">
+        Edit on Github
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/OpenTechSchool/python-beginners/issues/new?title=Problem+with+simple_drawing">
+        Report a problem
+      </a>
+    </li>
+  </ul>
+      
+    </p>
+    <p>
+        &copy; <a href="copyright.html">Copyright</a> 2012–2014, OpenTechSchool and contributors.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

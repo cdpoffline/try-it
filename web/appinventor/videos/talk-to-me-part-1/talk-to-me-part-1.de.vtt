@@ -1,0 +1,246 @@
+WEBVTT
+
+NOTE Paragraph
+
+00:00:02.110 --> 00:00:11.945
+♩♫♪♬
+
+00:00:11.945 --> 00:00:15.395
+Hi! Wilkommen zu App Inventors Hour of Code!
+
+00:00:15.395 --> 00:00:18.525
+Wir sind hier im Zentrum für mobiles Lernen vom MIT. Ich bin Shay.
+
+00:00:18.525 --> 00:00:21.930
+Und ich bin Emily. Heute werden wir dir zeigen, wie du deine erste Andriodapp programmierst.
+
+00:00:21.930 --> 00:00:24.996
+Die heuige App heißt "Talk To Me", weil sie zu einem spricht.
+
+00:00:25.090 --> 00:00:28.783
+Es ist recht einfach: Du drückst einen Knopf und das Smartphone spricht einen Satz laut aus.
+
+00:00:29.683 --> 00:00:31.280
+&gt;Welcome to App Inventor&lt;
+
+00:00:31.704 --> 00:00:33.110
+Kann man es auch andere Sachen sagen lassen?
+
+00:00:33.110 --> 00:00:34.120
+So ziemlich alles!
+
+00:00:34.140 --> 00:00:36.340
+Das würde mir Spaß machen!
+
+00:00:36.370 --> 00:00:37.920
+Okay, fangen wir an...
+
+00:00:37.938 --> 00:00:40.218
+Teil 1: Ein Neues Projekt Erstellen
+
+00:00:40.618 --> 00:00:48.503
+Um eine neue App zu erstellen, klicke auf den "Create"-Knopf auf der App Inventor Webseite "appinventor.mit.edu".
+
+00:00:48.682 --> 00:00:56.162
+Du brauchst einen Googleaccount zum Einloggen. Das ist ein Gmail- oder ein Schulaccount, wenn deine Schule Google Apps verwendet.
+
+00:00:57.122 --> 00:00:59.042
+Der Splashscreen kann vorerst geschlossen werden.
+
+00:00:59.043 --> 00:01:03.497
+Wenn du dich das erste Mal einloggst, hast du noch keine Projekte.
+
+00:01:03.663 --> 00:01:05.586
+Also klicke "New Project" oben links.
+
+00:01:07.509 --> 00:01:09.432
+Unsere erste App heißt "TalkToMe".
+
+00:01:09.432 --> 00:01:14.518
+Projektnamen dürfen keine Leerzeichen enthalten. Also nur "TalkToMe" eintippen - ohne Leerzeichen.
+
+00:01:15.388 --> 00:01:19.813
+Nun bist du im Designfenster. Dort werden die Komponenten und das Layout aufgebaut.
+
+00:01:19.813 --> 00:01:25.819
+Unsere App braucht einen Knopf. Also klicke auf "Button", ziehe ihn hinüber zur Anzeige und lass ihn fallen.
+
+00:01:26.065 --> 00:01:31.896
+Eines der nettesten Eigenschaften von App Inventor ist, dass du die App benutzen kannst, während du sie baust.
+
+00:01:32.059 --> 00:01:36.515
+Lass uns das Smartphone zu der App verbinden, um sie darauf zu sehen und auszutesten, während du sie baust.
+
+00:01:36.515 --> 00:01:41.654
+Solltest du kein Android-Smartphone oder -Tablet haben, kannst du das Tutorial trotzdem machen.
+
+00:01:41.687 --> 00:01:47.819
+Allerdings musst du kurz das Video pausieren und die Instruktionen lesen, wie man einen Andriod-Emulator auf dem Computer startet.
+
+00:01:47.948 --> 00:01:53.766
+Wie das geht und anderes Hilfreiches findest du unter "Guide".
+
+00:01:54.247 --> 00:01:56.954
+Teil 2: Das Smartphone Verbinden
+
+00:01:57.003 --> 00:02:04.565
+Nun, um das Andriod-Smartphone mit App Inventor zu verbinden, gehe zum "Connect"-Menü und wähle "AI Companion".
+
+00:02:04.735 --> 00:02:11.257
+Du brauchst die "App Inventor Companion"-App auf deinem Smartphone oder Tablet. Das ist einfach gemacht:
+
+00:02:11.257 --> 00:02:14.854
+Klicke auf "Need help finding the companion app?".
+
+00:02:14.924 --> 00:02:18.954
+Das führt dich zum Google Play Store zum Download der App.
+
+00:02:18.954 --> 00:02:30.450
+Am Einfachsten geht der Download mit einem QR-Code-Leser, mit dem du den Code einliest. Du kannst auch selbst den Playstore öffnen und nach "MIT AI2 Companion" suchen.
+
+00:02:30.515 --> 00:02:37.832
+Okay, sobald die "MIT AI2 Companion"-App installiert ist, musst du sie auf dem Smartphone starten.
+
+00:02:40.348 --> 00:02:47.582
+Wenn du das Verbindungsfenster in App Inventor geschlossen hast, klicke nochmal auf das "Connect"-Menü und wähle "AI Companion".
+
+00:02:47.582 --> 00:02:52.170
+Das Verbindungsfenster, das aufpoppt, zeigt dir sechs Zeichen und einen QR-Code.
+
+00:02:53.089 --> 00:02:58.268
+In der Companionapp auf dem Smartphone drücke "scan QR code".
+
+00:03:03.078 --> 00:03:10.276
+Hat dein Smartphone keine Kamera, kannst du einfach die sechs Zeichen eintippen und dann "connect with code" drücken.
+
+00:03:11.056 --> 00:03:18.244
+Großartig! Jetzt ist dein Smartphone in echtzeit mit App Inventor verbunden! Du solltest den Knopf sehen, den du schon zur App hinzugefügt hast.
+
+00:03:18.359 --> 00:03:23.479
+Von jetzt an, wirst du alle Änderungen an der App sofort auch auf dem Smartphone wiederfinden.
+
+00:03:23.504 --> 00:03:29.776
+Sieht aus wie Magie, stimmts? Naja, wenn du die Verbindung zu App Inventor trennst, siehst du auch die App nicht mehr auf dem Smartphone.
+
+00:03:29.951 --> 00:03:37.636
+Damit die App auf dem Smartphone bleibt oder auf dem eines Freundes, musst du sie erst verpacken. Aber dazu kommen wir später.
+
+00:03:39.370 --> 00:03:41.710
+Teil 3: Die App Designen
+
+00:03:42.119 --> 00:03:47.289
+Bemerke, dass der Knopf, den wir hinzugefügt haben, sagt "Text for Button1". Lass und das ändern.
+
+00:03:47.628 --> 00:03:54.468
+Hier drüben, rechts ist der Abschnitt für Eigenschaften. Dort können die Eigenschaften aller Komponenten in deiner App gesetzt werden.
+
+00:03:54.651 --> 00:04:01.144
+Um den Text auf dem Knopf zu verändern, klicke auf "Text" und tippe "Talk To Me".
+
+00:04:01.354 --> 00:04:06.837
+Schau, auf dem verbundenen Smartphone ändert sich auch der Text. Cool, oder?
+
+00:04:09.273 --> 00:04:14.293
+Super. So. Jetzt brauchen wir nur noch eine weitere Komponente bevor wir in die Blöcke gehen und programmieren.
+
+00:04:14.442 --> 00:04:22.539
+Gehe zu "Media" und ziehe eine "TextToSpeech"-Komponente heraus: Klicke darauf, ziehe sie herüber zur Appansicht und lass' sie fallen.
+
+00:04:22.715 --> 00:04:28.578
+Du wirst feststellen, dass sie nach unten fällt, zu den unsichbaren Komponenten. Jetzt haben wir alle Komponenten.
+
+00:04:28.748 --> 00:04:35.356
+Nun, da wir die Komponenten für unsere App gesetzt haben, müssen wir angeben, was die Komponenten tun sollen. Dafür klicken wir auf "Blocks".
+
+00:04:37.058 --> 00:04:39.879
+Teil 4: Programmieren Mit Blöcken
+
+00:04:40.039 --> 00:04:41.782
+Und jetzt sind wir im Blockeditor.
+
+00:04:41.958 --> 00:04:47.220
+Der Blockeditor ist, wo man die Blocke zusammenklickt, um das Verhalten seiner App festzulegen.
+
+00:04:47.371 --> 00:04:50.461
+Wir möchten die App auf einen Knopf-Klick reagieren lassen.
+
+00:04:50.657 --> 00:04:54.728
+So, gehe zu "Button1" und sieh alle Blöcke für Knöpfe.
+
+00:04:54.880 --> 00:04:58.331
+Wähle "Button1.Click" and wirf es auf die Arbeitsfläche.
+
+00:04:58.439 --> 00:05:03.136
+Nun haben wir die Blöcke, um der App zu sagen, was zu tun ist, wenn der Knopf geklickt wird.
+
+00:05:03.378 --> 00:05:09.409
+Gehe zur "TextToSpeech"-Komponente, klicke darauf und sieh die Blöcke für Text-zu-Sprache.
+
+00:05:09.418 --> 00:05:16.381
+Wähle den Aufruf "TextToSpeech1.Speak" und ziehe ihn hinüber zum "when Button1.Click"-Block.
+
+00:05:15.653 --> 00:05:21.075
+Es passt wie angegossen und du hörst einen Klack, wenn die Blöcke verschmelzen. Ich liebe den Klang!
+
+00:05:21.230 --> 00:05:24.997
+Nun müssen wir noch eine Sache hinzufügen bevor wir die App testen.
+
+00:05:25.085 --> 00:05:30.021
+Beachte, dass wir eine leere Buchse hier haben. Wir müssen dem "Speak"-Block sagen, was er sagen soll.
+
+00:05:30.028 --> 00:05:41.236
+Um das zu tun, gehe zur "Text"-Schublade unter den "Built-in"-Blöcken. Nimm einen leeren Textblock und bringe ihn herüber. Klicke es in den "TextToSpeach1.Speak"-Block.
+
+00:05:41.376 --> 00:05:43.610
+Ein neues befriedigendes Klicken.
+
+00:05:43.683 --> 00:05:51.291
+Nun klicke auf den leeren Textblock und tippe "Herzlichen Glückwunsch! Du hast deine erste App erstellt!".
+
+00:05:52.153 --> 00:05:54.216
+Teil 5: Teste Deine App
+
+00:05:54.226 --> 00:05:57.894
+Okay, du kannst die App jetzt testen! Gehe zu deinem Smartphone und drücke auf den Knopf.
+
+00:05:58.225 --> 00:06:00.493
+&gt;Herzlichen Glückwunsch! Du hast deine erste App erstellt!&lt;
+
+00:06:00.807 --> 00:06:04.651
+Wenn du irgendwelche Probleme mit dem Tutorial hattest, kannst du die schriftliche Version auf der App Inventor Seite ansehen.
+
+00:06:04.762 --> 00:06:07.084
+- Das war's?
+- Äh ja...
+
+00:06:07.084 --> 00:06:08.502
+Okay, bis bald!
+
+00:06:08.646 --> 00:06:09.630
+Warte, komm zurück!
+
+00:06:09.903 --> 00:06:13.751
+Schön, ich dachte die App wäre ein bisschen cooler - Ich kann mit mir selbst reden...
+
+00:06:13.924 --> 00:06:18.954
+Geduld, junger Padawan! Nun da wir wissen, wie App Inventor benutzt wird, sind die Möglichkeiten endlos.
+
+00:06:19.112 --> 00:06:21.597
+- Können wir es auf Schütteln reagieren lassen?
+- Ja
+
+00:06:21.597 --> 00:06:23.756
+- Oder den Nutzer seinen eigenen text eingeben lassen?
+- Absolut!
+
+00:06:24.204 --> 00:06:27.227
+Tatsächlich, im unserem nächsten Video, ist das genau was wir tun werden.
+
+00:06:27.287 --> 00:06:32.652
+Wir machen es so, dass, wenn jemand das Smartphone schüttelt, es redet, und Nutzer ihre eigenen Texte eingeben können.
+
+00:06:32.757 --> 00:06:34.327
+Stark! Ich kann es kaum erwarten!
+
+00:06:34.333 --> 00:06:43.820
+♩♫♪♬

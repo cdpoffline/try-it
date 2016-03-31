@@ -1,0 +1,163 @@
+WEBVTT
+
+NOTE Paragraph
+
+00:00:02.376 --> 00:00:12.115
+♩♫♪♬
+
+00:00:12.363 --> 00:00:17.482
+Hey, willkommen zurück. Wir sind Shay und Emily und wir sind hier mit dem dritten Tutorial der App Inventor Hour of Code.
+
+00:00:17.625 --> 00:00:20.779
+- Hey Emily, ich fordere dich zu einem Zeichenduell heraus!
+- Zeig's mir!
+
+00:00:27.024 --> 00:00:29.558
+Okay, das war kindisch aber überraschend spaßig.
+
+00:00:29.648 --> 00:00:33.803
+Yeah. Es ist Zeit für den nächsten Schritt und wir haben dir gerade eine Aussicht gegeben.
+
+00:00:33.913 --> 00:00:40.180
+Es wird eine großartige App. Für diese App machen wir eine Leinwand, auf der man den Finger wie einen Stift verwenden kann.
+
+00:00:40.443 --> 00:00:42.092
+Wir nennen es "Digitales Kritzeln".
+
+00:00:42.162 --> 00:00:49.105
+Okay, zurück zum Bildschirm. Haha, verstehst du? Bild-Schirm... ähm. Großartig. Also los.
+
+00:00:49.186 --> 00:00:52.485
+Erneut, logge dich bei App Inventor ein, wenn du noch nicht dort bist.
+
+00:00:52.566 --> 00:00:56.906
+Beginne ein neues Projekt. Nenne dieses "DigitalDoodle".
+
+00:00:56.990 --> 00:01:00.940
+So wie bei der "Ball Bounce"-App brauchst du anfangs eine Leinwand.
+
+00:01:01.011 --> 00:01:06.038
+Aber bevor wir das machen - erinnerst du dich an den Trick, der die App vom Scrollen abhält?
+
+00:01:06.723 --> 00:01:11.545
+Richtig. Gehe in die Eigenschaften von "Screen1" und deaktiviere "Scrollable".
+
+00:01:11.638 --> 00:01:16.580
+Nun füge eine Leinwand hinzu, die du unter "Drawing and Animation" findest.
+
+00:01:16.681 --> 00:01:23.585
+Gehe zu den Eigenschaften der Leinwand und ändere die Einstellungen für Breite und Höhe auf "Fülle Elter".
+
+00:01:23.706 --> 00:01:25.517
+Das vergrößert unsere Leinwand ein ganzes Stück.
+
+00:01:25.680 --> 00:01:34.143
+Auch, obwohl wir sie noch nicht benutzen, ziehe eine Beschleunigungskomponente aus der Sensorenschublade und wirf sie auf die App.
+
+00:01:34.602 --> 00:01:36.738
+Zeit für die Blöcke!
+
+00:01:37.073 --> 00:01:42.576
+Okay, also das Event, das erkennt, wenn jemand den Finger auf der Zeichenfläche zieht, ist recht einfach zu erraten.
+
+00:01:42.668 --> 00:01:49.253
+Klicke auf die Blöcke der Leinwandkomponente und sieh in die Schublade. Kannst du herausfinden, welchen Block du brauchst?
+
+00:01:50.190 --> 00:01:53.686
+Richtig, du möchtest die Eventbehandlung für wenn "Canvas1" gezogen wird.
+
+00:01:53.770 --> 00:01:59.678
+Diese Eventbehandlung hat eine Reihe von Parametern. Keine Sorge - die sind recht einfach zu verstehen.
+
+00:01:59.735 --> 00:02:05.207
+Und du kannst Hilfe auf dem Bildschirm jeder Zeit bekommen, indem du die Maus über den Block bewegst. So.
+
+00:02:05.863 --> 00:02:11.808
+Okay, großartig! So. Wir wollen immer eine Linie malen von wo der Finger zuletzt war zu wo er jetzt ist.
+
+00:02:11.912 --> 00:02:17.510
+Im Grunde bringen wir die Zeichenfläche dazu, hunderte von Linien zwischen den Punkten der Fingerbewegung zu malen.
+
+00:02:17.596 --> 00:02:20.913
+Das wird so aussehen, als malten wir auf dem Bildschirm des Smartphones.
+
+00:02:20.980 --> 00:02:30.915
+Aber zuerst brauchen wir den Block, der eine Linie malt. Gehe wieder zu "Canvas1" und hol' diesmal den Block "call Canvas1.DrawLine".
+
+00:02:33.224 --> 00:02:37.774
+Jetzt brachen wir die X- und Y-Koordinaten vom Anfang der Linie zu deren Ende.
+
+00:02:37.870 --> 00:02:44.185
+Das "when Dragged"-Event ruft "DrawLine" immer und immer wieder während der Finger über den Bildschirm schleift.
+
+00:02:44.294 --> 00:02:47.792
+Wir müssen lediglich die XY-Koordinaten für die Linien breitstellen.
+
+00:02:47.850 --> 00:02:51.449
+Fahre fort und nutze vorheriges X und vorheriges Y.
+
+00:02:52.757 --> 00:02:56.041
+Du wirst auch jetziges X und jetziges Y brauchen.
+
+00:02:57.576 --> 00:02:58.836
+Nun, probiere deine App aus.
+
+00:02:59.774 --> 00:03:01.179
+Sie sollte dich auf den Bildschirm zeichen lassen.
+
+00:03:03.397 --> 00:03:08.820
+Die App ist ist großartig aber wäre es nicht cool, wenn du Schütteln könntest, um den Bildschirm zu löschen, statt einen Knopf zu drücken?
+
+00:03:08.883 --> 00:03:10.363
+Ja, wie eine Zaubertafel.
+
+00:03:10.471 --> 00:03:16.182
+Okay, es ist Zaubertafelzeit. Erinnere dich an den Beschleunigungssensor, den wir in die Komponentenliste getan haben.
+
+00:03:16.322 --> 00:03:18.484
+Also können wir das jetzt programmieren.
+
+00:03:18.573 --> 00:03:22.811
+Gehe zur Schublade des Beschleunigungssensors und ziehe "when Shaking" raus.
+
+00:03:22.871 --> 00:03:26.145
+Der Block, den wir zum Löschen des Bildschirms brauchen, ist einfach gefunden.
+
+00:03:26.245 --> 00:03:34.660
+Gehe zur Leinwand und wähle "call Canvas1.Clear". Stecke diesen violetten Block richtig in den Eventhandler für das Schütteln.
+
+00:03:35.670 --> 00:03:37.021
+Großartig! Teste die App wieder.
+
+00:03:37.148 --> 00:03:39.377
+Löscht sich die Zeichnung, wenn du es schüttelst?
+
+00:03:39.457 --> 00:03:45.584
+Knorke! Wiederum haben wir eine einfache App gebaut, die auf verschiedene lustige Weisen erweitert werden kann.
+
+00:03:45.656 --> 00:03:55.059
+Die App, die wir am Anfang des Tutorials demonstriert haben, lässt dich zuerst ein Bild machen und tut dieses Bild dann auf die Leinwand, wo du drauf malen kannst.
+
+00:03:55.172 --> 00:03:59.149
+Du kannst auch Knöpfe erstellen, um die Farbe der Tinte für die Zeichnung zu ändern.
+
+00:03:59.216 --> 00:04:03.777
+All diese Erweiterungen werden in dem "PaintPot"-Tutorial auf unserer Webseite erklärt.
+
+00:04:03.880 --> 00:04:10.817
+Wie du sehen kannst, gibt es endlos viele Möglichkeiten, was du mit App Inventor bauen kannst. Es reicht an fast alle Fähigkeiten deines Smartphones heran.
+
+00:04:10.888 --> 00:04:15.349
+Du kannst sogar Text senden und empfangen und anrufen, wenn du ein voll funktionstüchtiges Smartphone hast.
+
+00:04:15.436 --> 00:04:18.555
+Sogar auf einem Tablet, über WLAN, kannst du ganz coole Sachen machen.
+
+00:04:18.652 --> 00:04:24.490
+Danke, dass du mitgemacht hast. Wenn du interessiert bist, mehr über App Inventor zu lernen, gehe auf die App Inventor Webseite.
+
+00:04:24.603 --> 00:04:26.305
+Frohes Erfinden!
+
+00:04:26.409 --> 00:04:36.091
+♩♫♪♬

@@ -1,0 +1,130 @@
+WEBVTT
+
+NOTE Paragraph
+
+00:00:02.262 --> 00:00:11.873
+♩♫♪♬
+
+00:00:11.873 --> 00:00:14.611
+Hallo zusammen! Willkommen zurück zu App Inventors Hour of Code.
+
+00:00:14.611 --> 00:00:17.222
+- &gt;Stop Stop Stop Stop Stop Stop Shaking Me!&lt;
+- Es reicht!
+
+00:00:17.251 --> 00:00:20.098
+Die nächste App, die wir bauen, ist eine Spielapp.
+
+00:00:20.200 --> 00:00:21.559
+Spricht sie dieses mal?
+
+00:00:21.569 --> 00:00:25.162
+Nein, leider nicht. Lass uns eine stille App bauen.
+
+00:00:25.272 --> 00:00:29.869
+Um anzufangen, logge dich bei App Inventor ein und klicke auf "New Project".
+
+00:00:30.169 --> 00:00:32.187
+Nenne dieses "BallBounce".
+
+00:00:32.353 --> 00:00:38.637
+Diese App wird einen Ball über den Bildschirm bewegen. Der Ball ist ein so genannter "Sprite".
+
+00:00:38.682 --> 00:00:47.447
+In App Inventor leben Ball- und Bildsprites auf einer Leinwand. Bevor wir eine Leinwand hineintun, müssen wir eine Einstellung in den Bildschirmeigenschaften verändern.
+
+00:00:47.589 --> 00:00:51.095
+Diese Einstellung ist klein aber sehr wichtig für eine App mit Leinwand.
+
+00:00:51.175 --> 00:00:57.107
+Gehe zu den Bildschirmeigenschaften, scrolle die Eigenschaftsliste ganz runter und deaktiviere "Scrollable".
+
+00:00:58.845 --> 00:01:03.799
+Das macht, dass der Bildschirm nun eine feste Größe hat und den Nutzer nicht hoch und runter scrollen lässt.
+
+00:01:03.937 --> 00:01:11.493
+Okay, nun ziehe eine Leinwand aus der Malen- und Animationsschublade heraus. Bemerke, dass sie sehr klein ist.
+
+00:01:11.553 --> 00:01:18.378
+Gehe zum Eigenschaftsabschnitt der Leinwand und ändere die Eigenschaften Breite und Höhe zu "Fill parent".
+
+00:01:20.478 --> 00:01:22.301
+Das vergrößert unsere Leinwand ein ganzes Stück.
+
+00:01:22.371 --> 00:01:33.694
+Nun ziehe einen Ballsprite heraus und wirf ihn auf die Leinwand. Er ist zu klein. Lass uns den Ball etwas vergrößern. Gehe zu den Eigenschaften für den Ball und ändere den Radius auf zehn.
+
+00:01:33.739 --> 00:01:38.068
+Okay, für jetzt ist das alles, was wir brauchen. Zeit für Blöcke!
+
+00:01:39.588 --> 00:01:49.976
+Klicke auf "Ball1" um dessen Blöcke anzuzeigen. Ziehe "Ball1.Flung" heraus. Ja, wir haben es "Flung" genannt. Das ist vielleicht ein dummes Wort aber es ist grammatikalisch korrekt.
+
+00:01:50.076 --> 00:02:00.955
+Nun, überlege, was der Ball tun soll, nachdem er gestoßen wurde. Wir wollen, dass er sich in die Richtung des Stoßes mit der Stärke beziehungsweise Schnelligkeit der Geste bewegt.
+
+00:02:02.035 --> 00:02:09.062
+Die Art, das zu erreichen, ist, die Parameter der Stubsgeste zu holen und sie in die Richtung und Geschwindigkeit des Balls zu stecken.
+
+00:02:09.138 --> 00:02:20.873
+Zuerst ziehe die Setterblöcke für die Richtung des Balls und dessen Geschwindigkeit heraus. Wir wollen des Balls Richtung und Geschwindigkeit auf die Richtung und Geschwindigkeit der Stubsgeste setzen.
+
+00:02:20.968 --> 00:02:30.725
+Dafür gibt es sogar eine wirklich einfache Möglichkeit in dem Stoßeventhandler. Ziehe "get heading" heraus und stecke es in "set Ball1.Heading".
+
+00:02:31.445 --> 00:02:36.188
+Ziehe "get speed" heraus und stecke das in "set Ball1.Speed".
+
+00:02:36.244 --> 00:02:49.236
+So. Nun, ist das Event fertig, das behandelt, dass der Ball gestoßen wird. Das heißt, dass der Nutzer den Finger benutzt, um den Ball zu stoßen. Das ist ein Stoß wie bei einem Billiardstock, nicht wie bei Angry Birds.
+
+00:02:49.276 --> 00:02:58.072
+Wenn du mit deinem Smartphone verbunden bist, kannst du deine App testen. Wie einfach der schwer ist es, den Ball zu stoßen? Reagiert die App so, wie es erwartet wird?
+
+00:02:58.131 --> 00:03:04.217
+Etwas, das du wahrscheinlich feststellst, ist, dass der Ball, wenn er eine Kante berührt, an ihr stecken bleibt.
+
+00:03:04.249 --> 00:03:08.256
+Wir müssen dem Ball erklären, wie er von einer Kante abprallt. Zurück zu den Blöcken!
+
+00:03:08.366 --> 00:03:18.765
+Gehe zu den Ballblöcken und wähle den Block "when Ball1.EdgeReached". Gehe zurück zu den Blöcken und ziehe "call Ball1.Bounce" heraus.
+
+00:03:18.765 --> 00:03:25.607
+Bemerke, dass der Block eine Kante als Argument nimmt. Wo bekommen wir den Kantenwert her, was meinst du?
+
+00:03:25.729 --> 00:03:35.678
+Gut, wie bequem! Der EdgeReached-Eventhandler meldet, welche Kante erreicht wurde. Ziehe die Maus über den Kantenparameter und du siehst den "get"-Block dafür.
+
+00:03:35.813 --> 00:03:37.879
+Ziehe diesen raus und stecke in ein.
+
+00:03:40.768 --> 00:03:42.705
+Das war's! Teste deine App nochmal aus.
+
+00:03:43.705 --> 00:03:47.635
+Hey, schau! Der Ball prallt an der Kante ab! Ziemlich cool, he?
+
+00:03:47.739 --> 00:03:55.869
+Okay, jetzt haben wir eine sehr grundlegende Spieleapp am Laufen und das kann der Anfang von einer ganzen Menge verschiedener Spiele werden.
+
+00:03:55.959 --> 00:04:01.341
+Die App Inventor-Webseite hat ein Tutorial, das dir zeigt, wie man das zu einem Minigolfspiel macht.
+
+00:04:02.519 --> 00:04:06.282
+Ein Billiardspiel oder Pong wären auch vorstellbar.
+
+00:04:06.347 --> 00:04:11.455
+Das ist nur der Anfang. Fordere dich selbst heraus und mache das noch spannender und spaßiger.
+
+00:04:12.316 --> 00:04:18.558
+Unsere Tutorialzeit ist abgelaufen. So, wenn irgendjemand von euch da draußen die eigene BallBounce-App erweitern will, siehe die Webseite für weitere großartige Ideen.
+
+00:04:18.707 --> 00:04:27.010
+Definitiv einen Blick wert. In unserem nächsten und letzten Tutorial werden wir euch zeigen, wie man eine App namens "Digital Doodle" macht, mit der man Bilder auf seinem Smartphone malen kann.
+
+00:04:27.118 --> 00:04:30.755
+Klingt großartig! Okay, wir machen jetzt Schluss. Bis bald!
+
+00:04:30.859 --> 00:04:40.647
+♩♫♪♬

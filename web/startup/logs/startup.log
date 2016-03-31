@@ -1,0 +1,603 @@
+locking
+  File "/home/coderdojo/offline-material/modules/startup/bin/start_all_modules.sh", line 3
+    if [ "$1" != "locked" ]
+                          ^
+SyntaxError: invalid syntax
+locking
+python: can't open file 'start_locked.py': [Errno 2] No such file or directory
+locking
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+locked
+Traceback (most recent call last):
+  File "start_locked.py", line 14, in <module>
+    subprocess.check_call(sys.argv[1:])
+  File "/usr/lib/python2.7/subprocess.py", line 535, in check_call
+    retcode = call(*popenargs, **kwargs)
+  File "/usr/lib/python2.7/subprocess.py", line 522, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1214, in _execute_child
+    executable = args[0]
+IndexError: list index out of range
+locking
+locking
+Locked and not starting.
+locking
+locking
+Locked and not starting.
+locking
+Locked and not starting.
+locking
+Locked and not starting.
+locking
+locking
+Locked and not starting.
+locking
+---------------------- Mon Mar  7 15:43:47 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+chown: invalid user: ‘locked’
+locking
+---------------------- Mon Mar  7 15:45:05 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+chown: cannot access ‘logs/*’: No such file or directory
+locking
+---------------------- Mon Mar  7 15:49:22 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Mon Mar  7 15:53:57 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Mon Mar  7 16:11:26 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...fail, look into "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...fail, look into "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Mon Mar  7 16:13:25 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...fail, look into "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...fail, look into "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Mon Mar  7 16:20:07 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...fail, look into "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Mon Mar  7 16:26:52 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...fail, look into "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Mon Mar  7 16:29:58 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Mon Mar  7 16:33:01 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Mon Mar  7 16:35:28 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Tue Mar  8 02:10:43 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Tue Mar  8 02:31:02 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Tue Mar  8 02:32:14 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Tue Mar  8 02:33:32 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Tue Mar  8 02:35:31 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Tue Mar  8 02:37:25 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Tue Mar  8 02:41:46 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Tue Mar  8 10:35:14 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Wed Mar  9 00:20:18 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped starthardware, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Wed Mar  9 10:54:28 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped starthardware, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Thu Mar 10 05:02:11 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped starthardware, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Thu Mar 10 11:58:34 PST 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped starthardware, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Wed Mar 30 02:57:25 PDT 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped starthardware, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Wed Mar 30 04:36:20 PDT 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped starthardware, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Wed Mar 30 05:10:39 PDT 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped jupyter, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped starthardware, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Wed Mar 30 05:13:02 PDT 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+starting jupyter ...fail, look into "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/jupyter.log"
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped starthardware, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Wed Mar 30 05:19:24 PDT 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+starting jupyter ...locking
+---------------------- Wed Mar 30 05:25:47 PDT 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+starting jupyter ...locking
+---------------------- Wed Mar 30 05:34:27 PDT 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+starting jupyter ...locking
+---------------------- Wed Mar 30 05:55:33 PDT 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+  [skipped jupyter-server, no startup.sh]
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped starthardware, no startup.sh]
+  [skipped startup, no startup.sh]
+locking
+---------------------- Wed Mar 30 05:58:23 PDT 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+starting jupyter-server ...locking
+---------------------- Wed Mar 30 09:23:26 PDT 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+starting jupyter-server ...locking
+---------------------- Wed Mar 30 12:53:56 PDT 2016 ----------------------
+running locked
+config loaded
+modules directory: "/home/coderdojo/offline-material/active-modules"
+starting announce ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/announce.log"
+starting appinventor ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/appinventor.log"
+  [skipped blockly-games, no startup.sh]
+starting codecombat ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/codecombat.log"
+  [skipped editors, no startup.sh]
+  [skipped files, no startup.sh]
+  [skipped http-server, no startup.sh]
+starting jupyter-server ...ok, output in "/home/coderdojo/offline-material/modules/startup/bin/../web/logs/jupyter-server.log"
+  [skipped lightbot, no startup.sh]
+  [skipped opentechschool-javascript-beginners, no startup.sh]
+  [skipped opentechschool-python-beginners, no startup.sh]
+  [skipped overview, no startup.sh]
+  [skipped scratch, no startup.sh]
+  [skipped starthardware, no startup.sh]
+  [skipped startup, no startup.sh]

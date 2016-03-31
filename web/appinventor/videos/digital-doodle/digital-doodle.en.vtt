@@ -1,0 +1,163 @@
+WEBVTT
+
+NOTE Paragraph
+
+00:00:02.376 --> 00:00:12.115
+♩♫♪♬
+
+00:00:12.363 --> 00:00:17.482
+Hey, welcome back. It's Shay and Emily and we are here with the third tutorial of the App Inventor Hour of Code.
+
+00:00:17.625 --> 00:00:20.779
+- Hey Emily, I challenge you to a quick draw!
+- You're on!
+
+00:00:27.024 --> 00:00:29.558
+Okay, that was childish but surprisingly fun.
+
+00:00:29.648 --> 00:00:33.803
+Yeah. It's time for our next step and we just gave you a preview.
+
+00:00:33.913 --> 00:00:40.180
+It's going to be a great app. For this app we are going to make a drawing canvas on the board where you can use your finger as a pen.
+
+00:00:40.443 --> 00:00:42.092
+We call it "Digital Doodle".
+
+00:00:42.162 --> 00:00:49.105
+Okay, back to the drawing board. Haha, get it? Drawing board... hum. Great. Here we go.
+
+00:00:49.186 --> 00:00:52.485
+Once again, log on to App Inventor if you're not already there.
+
+00:00:52.566 --> 00:00:56.906
+Start a new project. Name this one "DigitalDoodle".
+
+00:00:56.990 --> 00:01:00.940
+Just like in the "Ball Bounce" app, you'll need a canvas to start.
+
+00:01:01.011 --> 00:01:06.038
+But before we do that - do you remember the trick we learned for keeping the app from scrolling?
+
+00:01:06.723 --> 00:01:11.545
+Right. Go into the properties for "Screen1" and uncheck "Scrollable".
+
+00:01:11.638 --> 00:01:16.580
+Now add a canvas which you can find under "Drawing and Animation".
+
+00:01:16.681 --> 00:01:23.585
+Go to the properties pane of the canvas and change the settings for both width and height to "Fill parent".
+
+00:01:23.706 --> 00:01:25.517
+That opens up our canvas quite a bit.
+
+00:01:25.680 --> 00:01:34.143
+Also, even tough we are not going to use it just yet, drag out an accelerometer component from the sensor drawer and drop that into your app.
+
+00:01:34.602 --> 00:01:36.738
+Time to program the blocks!
+
+00:01:37.073 --> 00:01:42.576
+Okay. So, the event that will detect someone's finger dragging on the canvas is pretty easy to guess.
+
+00:01:42.668 --> 00:01:49.253
+Click on the canvas components' blocks and look around in the drawer. Can you figure out which block you need?
+
+00:01:50.190 --> 00:01:53.686
+Right, you want the event handler for when "Canvas1" is dragged.
+
+00:01:53.770 --> 00:01:59.678
+This event handler has a whole bunch of parameters. Don't worry - they're pretty easy to understand.
+
+00:01:59.735 --> 00:02:05.207
+And, you can get on-screen help anytime just by mousing over a block. Like this.
+
+00:02:05.863 --> 00:02:11.808
+Okay, great! So, we want to draw a line from wherever the finger drag was last to where it is now.
+
+00:02:11.912 --> 00:02:17.510
+We'll essentially make the canvas draw hundreds of tiny lines between the points of the finger drag.
+
+00:02:17.596 --> 00:02:20.913
+This will look just like drawing on the phone's screen.
+
+00:02:20.980 --> 00:02:30.915
+But first we need that block that will draw a line. Go to "Canvas1" again and this time get the block that says to "call Canvas1.DrawLine".
+
+00:02:33.224 --> 00:02:37.774
+Now, we need the X and Y coordinates of the beginning of the line draw to the end.
+
+00:02:37.870 --> 00:02:44.185
+The "when Dragged" event will call "DrawLine" over and over while the finger is dragging on the screen.
+
+00:02:44.294 --> 00:02:47.792
+We just need to provide the XY coordinates for these lines.
+
+00:02:47.850 --> 00:02:51.449
+Go ahead and use previous X and previous Y.
+
+00:02:52.757 --> 00:02:55.121
+You'll also need current X and current Y.
+
+00:02:57.576 --> 00:02:58.836
+Now, go try out your app.
+
+00:02:59.774 --> 00:03:01.179
+It should let you draw on the screen.
+
+00:03:03.397 --> 00:03:08.820
+This app is great but wouldn't it be cool if you could shake to erase the screen rather than press a button?
+
+00:03:08.883 --> 00:03:10.363
+Yeah, like Etch A Sketch.
+
+00:03:10.471 --> 00:03:16.182
+Okay, It's Etch A Sketch time. Remember, we put in an accelerometer sensor into the components' list.
+
+00:03:16.322 --> 00:03:18.484
+So now, we can program that.
+
+00:03:18.573 --> 00:03:22.811
+Go to the accelerometer drawer and pull out "when Shaking".
+
+00:03:22.871 --> 00:03:26.145
+The block we need to erase the screen is really simple to get.
+
+00:03:26.245 --> 00:03:34.660
+Go to canvas and choose "call Canvas1.Clear". Plug that purple block right into the event handler for shaking.
+
+00:03:35.670 --> 00:03:37.021
+Great! Test your app again.
+
+00:03:37.148 --> 00:03:39.377
+Does your drawing erase when you shake it?
+
+00:03:39.457 --> 00:03:45.584
+All right! So once again we've built a very simple app which can be extended in lots of fun ways.
+
+00:03:45.656 --> 00:03:55.059
+The app that we demonstrated at the beginning of this tutorial lets you take a picture first and then put the picture on the canvas where you can draw on it.
+
+00:03:55.172 --> 00:03:59.149
+You could also set up buttons to change the color of the ink used in the drawing.
+
+00:03:59.216 --> 00:04:03.777
+All of these extensions are explained in the "PaintPot" tutorial on our website.
+
+00:04:03.880 --> 00:04:10.817
+As you can see, there are endless possibilities of what you can build with App Inventor. It tabs into almost all of your phones capabilities.
+
+00:04:10.888 --> 00:04:15.349
+You can even send and receive text and phone calls if you have a fully functional phone.
+
+00:04:15.436 --> 00:04:18.555
+Even on a tablet over Wifi you can do some pretty cool things.
+
+00:04:18.652 --> 00:04:24.490
+Thanks for joining us. If you're interested in learning more about App Inventor, go to the App Inventor website.
+
+00:04:24.603 --> 00:04:26.305
+Happy Inventing!
+
+00:04:26.409 --> 00:04:36.091
+♩♫♪♬

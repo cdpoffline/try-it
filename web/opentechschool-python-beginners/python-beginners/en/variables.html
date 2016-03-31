@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Variables &mdash; Introduction to Programming with Python</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.3.4/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.3.4/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2015.11.01',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/spoilers.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="copyright" title="Copyright" href="copyright.html" />
+    <link rel="top" title="Introduction to Programming with Python" href="index.html" />
+    <link rel="next" title="Loops" href="loops.html" />
+    <link rel="prev" title="Simple drawing with turtle" href="simple_drawing.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Python for Beginners</a>
+        <span class="navbar-text navbar-version pull-left"><b>2015.11.01</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Material <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="simple_drawing.html">Simple drawing with turtle</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loops.html">Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functions.html">User-defined functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functions_parameters.html">Functions with parameters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditionals.html">Conditional statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditional_loops.html">Conditional Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logical_operators.html">Logical operators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="where_to_go.html">Where to go from here</a></li>
+<li class="toctree-l1"><a class="reference internal" href="copyright.html">License</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Chapter <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Variables</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#a-variable-called-angle">A variable called angle</a><ul>
+<li><a class="reference internal" href="#exercise">Exercise</a></li>
+<li><a class="reference internal" href="#solution">Solution</a></li>
+<li><a class="reference internal" href="#bonus">Bonus</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#the-house-of-santa-claus">The house of santa claus</a><ul>
+<li><a class="reference internal" href="#id1">Exercise</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li class="navbar-rel">
+    <a href="simple_drawing.html" title="Previous Chapter: Simple drawing with turtle">
+      <span class="glyphicon glyphicon-step-backward"></span>
+      <span>Previous</span>
+    </a>
+  </li>
+  <li class="navbar-rel">
+    <a href="loops.html" title="Next Chapter: Loops">
+        <span class="glyphicon glyphicon-step-forward"></span>
+        <span>Next</span>
+    </a>
+  </li>
+<li class="dropdown">
+  <a role="button"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Languages <b class="caret"></b></a>
+  <ul class="dropdown-menu"
+      role="menu">
+    <li><a href="../en/index.html">English</a></li>
+    <li><a href="../de/index.html">Deutsch (German)</a></li>
+    <li><a href="../es_CL/index.html">Español (Spanish)</a></li>
+    <li><a href="../ru/index.html">русский (Russian)</a></li>
+    <li><a href="../ko/index.html">한국인 (Korean)</a></li>
+    <li><a href="../ro/index.html">Română (Romanian)</a></li>
+  </ul>
+</li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="variables">
+<h1>Variables<a class="headerlink" href="#variables" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>Whew. Experimenting with the angles requires you to change three different
+places (numbers) in the code each time. Imagine you&#8217;d want to experiment with
+all of the squares&#8217; sizes, or with with rectangles! Fortunately there are
+easier ways to do so than changing lots of numbers every time.</p>
+<p>This is where <strong>variables</strong> come into play: You can tell Python that from now on,
+whenever you refer to a variable, you actually mean something else. That concept
+might be familiar from symbolic maths, where you would write: <em>Let x be 5.</em>
+Then <em>x * 2</em> will obviously be <em>10</em>.</p>
+<p>In Python syntax, that very statement translates to:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
+</pre></div>
+</div>
+<p>After that statement, if you do <code class="docutils literal"><span class="pre">print(x)</span></code>, it will actually output its value
+&#8212; 5.  Well, can use that for your turtle too:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Variables can store all sorts of things, not just numbers. A typical
+other thing you want to have stored often is a <strong>string</strong> - a piece of text.
+Strings are indicated with a starting and ending <code class="docutils literal"><span class="pre">&quot;</span></code> (double quote).
+You&#8217;ll learn about this and other types of data you can store, and
+what you can do with them later on.</p>
+<p>You can even use a variable to refer to the turtle by a name:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">timmy</span> <span class="o">=</span> <span class="n">turtle</span>
+</pre></div>
+</div>
+<p>Now every time you type <code class="docutils literal"><span class="pre">timmy</span></code> python knows you mean <code class="docutils literal"><span class="pre">turtle</span></code>. You can
+still continue to use <code class="docutils literal"><span class="pre">turtle</span></code> as well:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">timmy</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">timmy</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="a-variable-called-angle">
+<h2>A variable called angle<a class="headerlink" href="#a-variable-called-angle" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="exercise">
+<h3>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h3>
+<p>If we make a variable called <code class="docutils literal"><span class="pre">tilt</span></code> (we could assign it a number of degrees),
+how could we use that to experiment much faster with our tilted squares program?</p>
+</div>
+<div class="solution section" id="solution">
+<h3>Solution<a class="headerlink" href="#solution" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">tilt</span> <span class="o">=</span> <span class="mi">20</span>
+
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="n">tilt</span><span class="p">)</span>
+
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+
+<span class="n">turtle</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="n">tilt</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>... and so on!</p>
+</div>
+<div class="section" id="bonus">
+<h3>Bonus<a class="headerlink" href="#bonus" title="Permalink to this headline">¶</a></h3>
+<p>Can you apply that principle to the <em>size</em> of the squares, too?</p>
+</div>
+</div>
+<div class="section" id="the-house-of-santa-claus">
+<h2>The house of santa claus<a class="headerlink" href="#the-house-of-santa-claus" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Exercise<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Draw a house.</p>
+<img alt="_images/house.png" src="_images/house.png" />
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p>You can calculate the length of the diagonal line with the Pythagorean
+theorem. That value is a good candidate to store in a variable.
+To calculate the square root of a number in Python, you&#8217;ll need to import
+the <em>math</em> module and use the <code class="docutils literal"><span class="pre">math.sqrt()</span></code> function.
+Exponentiating a number is done with the <code class="docutils literal"><span class="pre">**</span></code> operator
+(so squaring means <code class="docutils literal"><span class="pre">**</span> <span class="pre">2</span></code>):</p>
+<div class="last highlight-python"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">math</span>
+
+<span class="n">c</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">a</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">b</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+  <ul id="sourcelink" class="list-inline">
+    <li>
+      <a href="https://github.com/opentechschool/python-beginners/edit/master/source/variables.rst" title="variables.rst">
+        Edit on Github
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/OpenTechSchool/python-beginners/issues/new?title=Problem+with+variables">
+        Report a problem
+      </a>
+    </li>
+  </ul>
+      
+    </p>
+    <p>
+        &copy; <a href="copyright.html">Copyright</a> 2012–2014, OpenTechSchool and contributors.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

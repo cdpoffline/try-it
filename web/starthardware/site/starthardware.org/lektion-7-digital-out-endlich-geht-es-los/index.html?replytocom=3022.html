@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html lang="en" class="ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="de-DE"> <!--<![endif]-->
+<head>
+<title>Lektion 7 – Digital Out: Endlich geht es los! | Start Hardware</title>
+
+<link rel="stylesheet" href="../wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css%3Fv=3.3.6.css" type="text/css" media="all" />
+<meta name="description" content="Lektion 7 – Digital Out: Endlich geht es los!" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=0.6666, maximum-scale=1.0, minimum-scale=0.6666" />
+
+<!-- The little things -->
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="../../starthardware.org/xmlrpc.php" />
+<link rel="shortcut icon" href="../wp-content/themes/Barebones/favicon.ico">
+
+<meta name='application-name' content='StartHardware' />
+<meta name='msapplication-TileColor' content='#363D52' />
+<meta name='msapplication-TileImage' content='http://starthardware.org/wp-content/themes/Barebones/metro-tile.png' />
+<meta name='msapplication-starturl' content='http//www.starthardware.org' />
+
+<!--<meta name="msapplication-square70x70logo" content="../../starthardware.org/wp-content/themes/Barebones/tiny.png"/>
+<meta name="msapplication-square150x150logo" content="../../starthardware.org/wp-content/themes/Barebones/square.png"/>
+<meta name="msapplication-wide310x150logo" content="../../starthardware.org/wp-content/themes/Barebones/wide.png"/>
+<meta name="msapplication-square310x310logo" content="../../starthardware.org/wp-content/themes/Barebones/large.png"/>-->
+
+<link rel="apple-touch-icon" href="../wp-content/themes/Barebones/apple-touch-icon-precomposed.png"/>
+<!-- <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'> -->
+<link href='../../fonts.googleapis.com/css%3Ffamily=Fira+Sans:300,300italic.css' rel='stylesheet' type='text/css'>
+<link href='../../fonts.googleapis.com/css%3Ffamily=Fira+Mono.css' rel='stylesheet' type='text/css'>
+<!-- The little things -->
+
+<!-- Stylesheets -->
+<!-- <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> -->
+
+<link href="../wp-content/themes/Barebones/assets/css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap core CSS -->
+<link href="../wp-content/themes/Barebones/assets/css/bootstrap-theme.min.css" rel="stylesheet"><!-- Bootstrap theme -->
+<link rel="stylesheet" href="../wp-content/themes/Barebones/style.css" />
+
+<!-- Stylesheets -->
+
+<!-- Scripts -->
+
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!--<script src="../../starthardware.org/wp-content/themes/Barebones/assets/scripts/bootstrap.js"></script>-->
+
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script src="../wp-content/themes/Barebones/assets/scripts/dropdown.js"></script>	
+<!--<script src="../../starthardware.org/wp-content/themes/Barebones/assets/scripts/carousel.js"></script>-->
+
+<!-- Scripts end -->	
+
+<!--
+    Optional Stuff - Remove comment if you need it
+    <script src="../../starthardware.org/wp-content/themes/Barebones/assets/scripts/modernizr-2.6.2.js"></script>
+-->
+	<link rel="alternate" hreflang="en-US" href="../index.html%3Fp=1366&amp;lang=en.html" />
+<link rel="alternate" hreflang="de-DE" href="../index.html%3Fp=139.html" />
+<link rel="alternate" type="application/rss+xml" title="Start Hardware &raquo; Lektion 7 – Digital Out: Endlich geht es los! Kommentar-Feed" href="feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/starthardware.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cookielawinfo-style-css'  href='../wp-content/plugins/cookie-law-info/css/cli-style.css%3Fver=1.5.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='youtube-channel-gallery-css'  href='../wp-content/plugins/youtube-channel-gallery/styles.css%3Fver=4.4.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.magnific-popup-css'  href='../wp-content/plugins/youtube-channel-gallery/magnific-popup.css%3Fver=4.4.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='slb_core-css'  href='../wp-content/plugins/simple-lightbox/client/css/app.css%3Fver=2.5.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='../wp-content/plugins/add-to-any/addtoany.min.css%3Fver=1.12.css' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-content/themes/Barebones/assets/scripts/bootstrap.min.js%3Fver=4.4.2'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.js%3Fver=1.11.3'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min.js%3Fver=1.2.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/cookie-law-info/js/cookielawinfo.js%3Fver=1.5.3'></script>
+<link rel='https://api.w.org/' href='../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php%3Frsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Lektion 6 – Digital Out Vorbereitung' href='../index.html%3Fp=131.html' />
+<link rel='next' title='Lektion 8 – Es blinkt!' href='../index.html%3Fp=159.html' />
+<link rel="canonical" href="../index.html%3Fp=139.html" />
+<link rel='shortlink' href='../index.html%3Fp=139.html' />
+<meta name='robots' content='noindex,follow' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed%3Furl=http%253A%252F%252Fstarthardware.org%252Flektion-7-digital-out-endlich-geht-es-los%252F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed%3Furl=http%253A%252F%252Fstarthardware.org%252Flektion-7-digital-out-endlich-geht-es-los%252F&amp;format=xml" />
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}wpa2a.done=true;}wpa2a.targets=[];}};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.callbacks.push({ready:wpa2a.script_onready});a2a_config.templates=a2a_config.templates||{};a2a_localize = {
+	Share: "Empfehlen",
+	Save: "Speichern",
+	Subscribe: "Abonnieren",
+	Email: "Email",
+	Bookmark: "Bookmark",
+	ShowAll: "zeige alle",
+	ShowLess: "Zeige weniger",
+	FindServices: "Finden Dienstleistung(en)",
+	FindAnyServiceToAddTo: "Um weitere Dienste ergänzen",
+	PoweredBy: "Powered by",
+	ShareViaEmail: "Share via email",
+	SubscribeViaEmail: "Subscribe via email",
+	BookmarkInYourBrowser: "Seite den Bookmarks hinzufügen",
+	BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
+	AddToYourFavorites: "Zu Ihren Favoriten hinzufügen",
+	SendFromWebOrProgram: "Send from any email address or email program",
+	EmailProgram: "Email program",
+	More: "More&#8230;"
+};
+
+a2a_config.onclick=1;
+//--></script>
+<meta name="generator" content="WPML ver:3.3.6 stt:1,3;" />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+<!--<script src="../../starthardware.org/wp-content/themes/Barebones/assets/scripts/carousel.js"></script>-->
+<!-- wp_deregister_script('jquery');-->
+
+</head>
+
+<body class="single single-post postid-139 single-format-standard" id="top" role="document">
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="../../www.googletagmanager.com/ns.html%3Fid=GTM-T9Z35S.html"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9Z35S');</script>
+<!-- End Google Tag Manager -->	
+	
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../starter-kitsfeed/index.html%3Flang=en.html"><img src="../wp-content/uploads/2014/11/starthardwareorg-logo-100_3.png" alt="startHardware.org"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+		  <ul id="menu-primary" class="nav navbar-nav"><li id="menu-item-1667" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1667"><a title="Kidskurs" href="../starter-kitsfeed/index.html%3Flang=en.html">Kidskurs</a></li>
+<li id="menu-item-1662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1662"><a title="Arduino in der Schule" href="../index.html%3Fp=1589.html">Arduino in der Schule</a></li>
+<li id="menu-item-1556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1556"><a title="Starter Sets" href="../index.html%3Fp=534.html">Starter Sets</a></li>
+<li id="menu-item-1873" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1873"><a title="Über StartHardware" href="../index.html%3Fp=1871.html">Über StartHardware</a></li>
+<li id="menu-item-1836" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1836"><a title="Youtube Channel" href="https://www.youtube.com/channel/UCABEU74-EZwSSZ9EAZBVA6Q/videos">Youtube Channel</a></li>
+</ul>        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	
+	<!--<div class="container theme-showcase" role="main">-->    
+
+   			<div class="bgr-content">
+	<div class="container top-spacing">
+   		<div class="row">   		
+   				<article role="main" class="primary-content-inner" id="post-139">
+   					<!-- content area -->
+					<div class="row top-spacing">
+						<div class="col-sm-8 withSidebar">
+							<h2>Lektion 7 – Digital Out: Endlich geht es los!</h2>
+							<p class="triangle-border bottom">Hast du die Schaltung aus Lektion 6 aufgebaut? Sehr gut! Wenn du das Arduino-Board schon mit deinem Computer verbunden hast, dann ziehe es noch einmal heraus. Öffne die Arduino-Software auf deinem Computer und lass uns zwei kleine Einstellungen machen.</p>
+<div class="ichiro"></div>
+
+<h3><span class="label label-primary">1</span></h3>
+<p>Klicke im Menü auf Tools > Board und wähle »Arduino UNO« aus. </p>
+<p><a href="../wp-content/uploads/2014/10/6_1_board_auswaehlen.jpg" data-slb-active="1" data-slb-asset="2021782569" data-slb-internal="0" data-slb-group="139"><img src="../wp-content/uploads/2014/10/6_1_board_auswaehlen.jpg" alt="Arduino Board auswählen" width="1200" height="692" class="alignnone size-full wp-image-147 withBorder"  sizes="(max-width: 1200px) 100vw, 1200px" /></a></p>
+
+<h3><span class="label label-primary">2</span></h3>
+<p>Nun klicke auf Tools und dann auf Port. Merke dir die Informationen zu den Ports. Du kannst sie dir auch auf einen Zettel schreiben. Jetzt schließe das Arduino-Board an und klicke in der Software noch einmal auf Tools > Port. Mindestens ein Port ist jetzt neu dazu gekommen (Auf dem Mac ist es »/dev/tty.usbmodem&#8230;.«, unter Windows meistens »COM&#8230;«). Wähle den neuen Eintrag aus. Fertig.</p>
+<p><a href="../wp-content/uploads/2014/10/6_2_port_auswaehlen.jpg" data-slb-active="1" data-slb-asset="2041914278" data-slb-internal="0" data-slb-group="139"><img src="../wp-content/uploads/2014/10/6_2_port_auswaehlen.jpg" alt="Arduino Port auswählen" width="1200" height="692" class="alignnone size-full wp-image-148 withBorder"  sizes="(max-width: 1200px) 100vw, 1200px" /></a></p><p>Jetzt weiß die Arduino-Software, was für ein Arduino-Board wir haben und wo es angeschlossen ist.</p>
+
+<h3><span class="label label-info">Programmieren</span></h3>
+<p>Der weiße Bereich der Arduino-Software ist das Programmierfenster. Hier schreiben wir alles hinein. Schreiben? Ja, Programmieren ist nichts weiter, als Befehle hintereinander zu schreiben.</p>
+<p><a href="../wp-content/uploads/2014/10/6_3_arduino_software.jpg" data-slb-active="1" data-slb-asset="520659411" data-slb-internal="0" data-slb-group="139"><img src="../wp-content/uploads/2014/10/6_3_arduino_software.jpg" alt="Arduino Software" width="1200" height="995" class="alignnone size-full wp-image-149 withBorder"  sizes="(max-width: 1200px) 100vw, 1200px" /></a></p>
+				
+				
+<p>Auch beim Programmieren gibt es Regeln für Rechtschreibung und Grammatik. Diese Regeln nennt man Syntax. Das lernst du aber ganz schnell.</p>
+<p>Wenn man ein Arduino-Board programmieren möchte, muss man erst einmal Folgendes in das Programmfenster schreiben. Es ist die Grundkonstruktion eines jeden Arduino-Programms:</p>
+<pre class="brush: arduino;">void setup(){
+
+}
+
+void loop(){
+
+}</pre>
+
+<p>Sieht komisch aus? Also das hier sind zwei Methodenblöcke. In eine Methode kann man Befehle reinschreiben, die das Programm dann ausführt. Ein Befehl könnte sein: Schalte eine LED an!</p>
+<p>Die geschweiften Klammern öffnen und schließen den Methodenblock. Alles, was zwischen den Klammern steht, gehört zur Methode. Das Wort void sagt dem Arduino-Board, dass nun eine Methode folgt. Nach dem Wort void kommt der Methodenname. In diesem Fasll ist es setup und loop. Hinter dem Methodenname schreibt man Klammer auf und Klammer zu.</p> 
+
+<p>Aber mach dir um die Schreibweise keine Sorgen. Das lernst du automatisch und außerdem zeige ich dir hier, wie es richtig geschrieben wird.</p> 
+
+<p>Auf der Tastatur findest du die geschweiften Klammern beim PC mit Alt-Gr + 7 und Alt-Gr + 0, am Mac mit Alt + 8 und Alt + 9. </p>
+<h3><span class="label label-info">Setup und Loop</span></h3>
+<p>Stell dir vor, du bekommst ein neues Fahrrad. Als erstes stellst du den Sattel und vielleicht den Lenker auf deine Größe ein. Du machst also die Einstellungen. Auf Englisch heißt das Setup. Das machst du nur einmal. Und dann? Na dann setzt du dich auf den Sattel und trittst in die Pedale. Und das wiederholst du immer und immer wieder. Wiederholung nennt man in der Programmierung Schleife und im Englischen heißt Schleife loop.</p>
+
+<pre class="brush: arduino;">void setup(){
+
+}</pre>
+<p>Dieser Teil wird nur einmal ausgeführt, so wie das Einstellen der Sattelhöhe auch nur einmal gemacht wird. Es ist die Setup-Methode.</p>
+<pre class="brush: arduino;">void loop(){
+
+}</pre>
+<p>Dieser Teil wird ständig wiederholt, so wie das Treten in die Pedale. Es handelt sich um eine Endlosschleife. Das ist die Loop-Methode.</p>
+<h3><span class="label label-info">Befehle</span></h3>
+<p>Na gut. Und wie hilft uns das jetzt weiter? Reden wir kurz darüber, was unser Programm tun soll. Es soll die LED einschalten.</p> 
+
+<p>Dazu müssen wir dem Arduino-Board sagen, dass wir einen digitalen Pin benutzen wollen, um etwas zu schalten, nämlich unsere LED. Das macht den digitalen Pin zu einem Ausgabe-Pin, englisch: Output. Das müssen wir nur einmal machen. Demnach können wir das in der Setup-Methode erledigen. Wir benutzen dafür einen Befehl, der dem Arduino-Board sagt, was es machen soll:</p>
+
+<pre class="brush: arduino;">pinMode(9,OUTPUT);</pre>
+
+<p>Das ist ein schöner Befehl. Er besteht aus dem Schlüsselwort pinMode gefolgt von zwei runden Klammern, in denen wir sogenannte Parameter übergeben. Der erste Parameter ist die Nummer des Pins. Wir haben das Kabel in Pin 9 gesteckt, also muss hier auch eine 9 stehen. Der zweite Parameter ist die Funktion unseres Pins: OUTPUT – das bedeutet Ausgabe. Jede Befehlszeile muss mit einem Semikolon (;) beendet werden.</p>
+
+<p>Also: Befehlsname, runde Klammer auf, Pinnummer, Funktion, runde Klammer zu, Semikolon -> fertig ist der Befehl.</p>
+
+<p>Jetzt weiß das Arduino-Board also, dass wir einen Pin als Output verwenden wollen. Nun müssen wir ihm noch sagen, dass es den Pin auch einschalten soll. </p>
+
+<pre class="brush: arduino;">digitalWrite(9, HIGH);</pre>
+
+<p>Na der sieht doch dem anderen Befehl sehr ähnlich, oder? Der Befehl heißt digitalWrite. Auch dieser Befehl bekommt Parameter übergeben. Es handelt sich wieder um die Pin-Nummer (9) und die Information, was damit passieren soll. HIGH bedeutet, schalte den Kanal an. LOW würde bedeuten, schalte ihn aus. Wir wollen das jetzt nur einmal machen und somit kannst du diesen Befehl auch ins Setup schreiben.</p>
+
+<p>Das Programm sollte jetzt so aussehen:</p>
+<pre class="brush: arduino;">void setup(){
+  pinMode(9,OUTPUT);
+  digitalWrite(9, HIGH);
+}
+
+void loop(){
+
+}</pre>
+<p class="triangle-border bottom">Wenn du vor den Befehlen einmal auf die Tabulatortaste drückst, rücken die Zeilen etwas nach rechts. Dann ist das Programm einfacher zu lesen. Alternativ kannst Du im Menü einfach auf Tools > Automatisch Formatieren klicken. Dann erledigt die Arduino-Software das für dich.</p>
+<div class="arisu"></div>
+				
+
+<h3><span class="label label-info">Übertragen</span></h3> 
+<p>Jetzt hast du schon ein schönes Programm, aber die LED leuchtet immer noch nicht, oder? Dazu müssen wir es nämlich noch auf das Arduino-Board übertragen. Klicke dazu im Menü auf Datei > Upload. Jetzt blinken ein paar LEDs auf dem Arduino-Board selbst und nach einigen Sekunden geht die LED an.</p>
+
+<p>Leuchtet die LED nicht? Prüfe noch einmal, ob alle Kabel richtig angeschlossen sind. Manchmal hat man auch einen Schreibfehler im Programm und es zeigt in dem schwarzen Bereich unter dem Programmfenster rote Schrift.</p>
+
+<p>Leuchtet die LED? Herzlichen Glückwunsch!!! Du hast dein erstes Programm geschrieben.</p>   						</div>
+						<div class="col-sm-4 mySidebar">
+							<aside role="complementary" class="secondary-content">
+	<aside><div id="lang_sel_click" onclick="wpml_language_selector_click.toggle(this);"
+									 class="lang_sel_click" ><ul><li><a href="javascript:;" class="lang_sel_sel icl-de"><img class="iclflag" src="../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png" alt="de" title="Deutsch" />&nbsp;Deutsch</a><ul><li class="icl-en"><a rel="alternate" href="../index.html%3Fp=1366&amp;lang=en.html"><img class="iclflag" src="../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" title="English" />&nbsp;<span class="icl_lang_sel_native">English</span></a></li></ul></li></ul></div></aside><aside>			<div class="textwidget"><br></div>
+		</aside><aside><h3>Videos</h3><div class="youtubechannelgallery"><div id="ytc-1"><div id="ytc-wrapper"><div class="ytc-pslb ytc-thumbnails container-fluid ytc-thumb16x9 ytc-thumb-align-none">
+
+	<div class="ytc-row row">
+
+		    	
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=jxqfv8sFqm0" data-playerid="ytcplayer1" data-quality="medium" title="Maker Faire Berlin 2015" style="background-image:url(../../i.ytimg.com/vi/jxqfv8sFqm0/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=jxqfv8sFqm0" data-playerid="ytcplayer1" data-quality="medium" alt="Maker Faire Berlin 2015" title="Maker Faire Berlin 2015"  >
+	  			Maker Faire Berlin 2015			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=ZNosa55Rg2A" data-playerid="ytcplayer1" data-quality="medium" title="StartHardware Vortrag auf der Meshcon" style="background-image:url(../../i.ytimg.com/vi/ZNosa55Rg2A/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=ZNosa55Rg2A" data-playerid="ytcplayer1" data-quality="medium" alt="StartHardware Vortrag auf der Meshcon" title="StartHardware Vortrag auf der Meshcon"  >
+	  			StartHardware Vortrag auf der Meshcon			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=SrCU805JrqI" data-playerid="ytcplayer1" data-quality="medium" title="Romantisches Stimmungslicht mit alter Fernbedienung" style="background-image:url(../../i.ytimg.com/vi/SrCU805JrqI/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=SrCU805JrqI" data-playerid="ytcplayer1" data-quality="medium" alt="Romantisches Stimmungslicht mit alter Fernbedienung" title="Romantisches Stimmungslicht mit alter Fernbedienung"  >
+	  			Romantisches Stimmungslicht mit alter Fernbedienung			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=pXO9AoYfC0s" data-playerid="ytcplayer1" data-quality="medium" title="Das Internet der Dinge mit dem Particle Photon" style="background-image:url(../../i.ytimg.com/vi/pXO9AoYfC0s/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=pXO9AoYfC0s" data-playerid="ytcplayer1" data-quality="medium" alt="Das Internet der Dinge mit dem Particle Photon" title="Das Internet der Dinge mit dem Particle Photon"  >
+	  			Das Internet der Dinge mit dem Particle Photon			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=5HtzhJvO8FU" data-playerid="ytcplayer1" data-quality="medium" title="Wie baut man einen automatischen Ventilator mit Arduino?" style="background-image:url(../../i.ytimg.com/vi/5HtzhJvO8FU/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=5HtzhJvO8FU" data-playerid="ytcplayer1" data-quality="medium" alt="Wie baut man einen automatischen Ventilator mit Arduino?" title="Wie baut man einen automatischen Ventilator mit Arduino?"  >
+	  			Wie baut man einen automatischen Ventilator mit Arduino?			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=VnBOKcimD1o" data-playerid="ytcplayer1" data-quality="medium" title="Auduino – Ein Arduino Synthesizer" style="background-image:url(../../i.ytimg.com/vi/VnBOKcimD1o/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=VnBOKcimD1o" data-playerid="ytcplayer1" data-quality="medium" alt="Auduino – Ein Arduino Synthesizer" title="Auduino – Ein Arduino Synthesizer"  >
+	  			Auduino – Ein Arduino Synthesizer			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=ToTAGTtDQbE" data-playerid="ytcplayer1" data-quality="medium" title="So baut man eine Komplimentmaschine mit Arduino" style="background-image:url(../../i.ytimg.com/vi/ToTAGTtDQbE/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=ToTAGTtDQbE" data-playerid="ytcplayer1" data-quality="medium" alt="So baut man eine Komplimentmaschine mit Arduino" title="So baut man eine Komplimentmaschine mit Arduino"  >
+	  			So baut man eine Komplimentmaschine mit Arduino			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=HlyHXBIaMf0" data-playerid="ytcplayer1" data-quality="medium" title="Wie baut man ein Walking Dead Zombie Auge mit Arduino?" style="background-image:url(../../i.ytimg.com/vi/HlyHXBIaMf0/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=HlyHXBIaMf0" data-playerid="ytcplayer1" data-quality="medium" alt="Wie baut man ein Walking Dead Zombie Auge mit Arduino?" title="Wie baut man ein Walking Dead Zombie Auge mit Arduino?"  >
+	  			Wie baut man ein Walking Dead Zombie Auge mit Arduino?			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=B0YmHIJInto" data-playerid="ytcplayer1" data-quality="medium" title="Wie steuert man einen Motor mit Arduino?" style="background-image:url(../../i.ytimg.com/vi/B0YmHIJInto/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=B0YmHIJInto" data-playerid="ytcplayer1" data-quality="medium" alt="Wie steuert man einen Motor mit Arduino?" title="Wie steuert man einen Motor mit Arduino?"  >
+	  			Wie steuert man einen Motor mit Arduino?			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=9lrqeswfIQs" data-playerid="ytcplayer1" data-quality="medium" title="Wie liest man mit Arduino ein Potentiometer aus?" style="background-image:url(../../i.ytimg.com/vi/9lrqeswfIQs/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=9lrqeswfIQs" data-playerid="ytcplayer1" data-quality="medium" alt="Wie liest man mit Arduino ein Potentiometer aus?" title="Wie liest man mit Arduino ein Potentiometer aus?"  >
+	  			Wie liest man mit Arduino ein Potentiometer aus?			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=POh6DI4KhO4" data-playerid="ytcplayer1" data-quality="medium" title="Wie steuert man eine RGB LED mit Arduino?" style="background-image:url(../../i.ytimg.com/vi/POh6DI4KhO4/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=POh6DI4KhO4" data-playerid="ytcplayer1" data-quality="medium" alt="Wie steuert man eine RGB LED mit Arduino?" title="Wie steuert man eine RGB LED mit Arduino?"  >
+	  			Wie steuert man eine RGB LED mit Arduino?			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=GCttn3wnz-Q" data-playerid="ytcplayer1" data-quality="medium" title="Wie steuert man einen Motorfader?" style="background-image:url(../../i.ytimg.com/vi/GCttn3wnz-Q/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=GCttn3wnz-Q" data-playerid="ytcplayer1" data-quality="medium" alt="Wie steuert man einen Motorfader?" title="Wie steuert man einen Motorfader?"  >
+	  			Wie steuert man einen Motorfader?			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=G8N30iMGhd0" data-playerid="ytcplayer1" data-quality="medium" title="Wie liest man mit Arduino einen Taster aus?" style="background-image:url(../../i.ytimg.com/vi/G8N30iMGhd0/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=G8N30iMGhd0" data-playerid="ytcplayer1" data-quality="medium" alt="Wie liest man mit Arduino einen Taster aus?" title="Wie liest man mit Arduino einen Taster aus?"  >
+	  			Wie liest man mit Arduino einen Taster aus?			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=8w4hAZEehbQ" data-playerid="ytcplayer1" data-quality="medium" title="Wie steuert man eine Ampel mit Arduino?" style="background-image:url(../../i.ytimg.com/vi/8w4hAZEehbQ/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=8w4hAZEehbQ" data-playerid="ytcplayer1" data-quality="medium" alt="Wie steuert man eine Ampel mit Arduino?" title="Wie steuert man eine Ampel mit Arduino?"  >
+	  			Wie steuert man eine Ampel mit Arduino?			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=ExBYcdCv-tI" data-playerid="ytcplayer1" data-quality="medium" title="Wie lässt man mit Arduino eine LED blinken?" style="background-image:url(../../i.ytimg.com/vi/ExBYcdCv-tI/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=ExBYcdCv-tI" data-playerid="ytcplayer1" data-quality="medium" alt="Wie lässt man mit Arduino eine LED blinken?" title="Wie lässt man mit Arduino eine LED blinken?"  >
+	  			Wie lässt man mit Arduino eine LED blinken?			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=4EvrVj4cNGo" data-playerid="ytcplayer1" data-quality="medium" title="Wie baut man ein Glowboard mit Arduino?" style="background-image:url(../../i.ytimg.com/vi/4EvrVj4cNGo/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=4EvrVj4cNGo" data-playerid="ytcplayer1" data-quality="medium" alt="Wie baut man ein Glowboard mit Arduino?" title="Wie baut man ein Glowboard mit Arduino?"  >
+	  			Wie baut man ein Glowboard mit Arduino?			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=39yjdj1b9bs" data-playerid="ytcplayer1" data-quality="medium" title="Wie installiert man die Arduino Software?" style="background-image:url(../../i.ytimg.com/vi/39yjdj1b9bs/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=39yjdj1b9bs" data-playerid="ytcplayer1" data-quality="medium" alt="Wie installiert man die Arduino Software?" title="Wie installiert man die Arduino Software?"  >
+	  			Wie installiert man die Arduino Software?			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block"></div>
+				
+    
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=_M-CKlsR_8E" data-playerid="ytcplayer1" data-quality="medium" title="Was ist ein Arduino?" style="background-image:url(../../i.ytimg.com/vi/_M-CKlsR_8E/mqdefault.jpg);"  >
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=_M-CKlsR_8E" data-playerid="ytcplayer1" data-quality="medium" alt="Was ist ein Arduino?" title="Was ist ein Arduino?"  >
+	  			Was ist ein Arduino?			</a>
+	</h5>		</div>     	<div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+				
+	</div> 
+				<div class="ytc-pagination row">
+			<div class="col-xs-4 ytc-previous">
+							</div>
+			<div class="col-xs-4 ytc-numeration">
+				<div class="ytc-numeration-inner">
+										<span class="ytc-currentpage">1</span><span class="ytc-separator">/</span><span class="ytc-totalpages">1</span>
+				</div>
+			</div>
+			<div class="col-xs-4 ytc-next">
+							</div>
+		</div>
+	
+</div> 
+
+<div class="ytc-pslb ytc-links container-fluid">
+	<div class="ytc-row row">
+		
+					<div class="ytc-youtubelink col-xs-12">
+				<a href="https://www.youtube.com/playlist?list=UUABEU74-EZwSSZ9EAZBVA6Q" class="ytcmore" target="_blank">
+					Show more videos»				</a>
+			</div>
+			</div>
+</div>
+
+</div></div></div></aside><aside><div class="a2a_kit addtoany_list a2a_target" id="wpa2a_1"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fstarthardware.org%2Flektion-7-digital-out-endlich-geht-es-los%2F&amp;linkname=Lektion%207%20%E2%80%93%20Digital%20Out%3A%20Endlich%20geht%20es%20los%21" title="Facebook" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/facebook.png" width="16" height="16" alt="Facebook"/></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fstarthardware.org%2Flektion-7-digital-out-endlich-geht-es-los%2F&amp;linkname=Lektion%207%20%E2%80%93%20Digital%20Out%3A%20Endlich%20geht%20es%20los%21" title="Twitter" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/twitter.png" width="16" height="16" alt="Twitter"/></a><a class="a2a_button_pinterest" href="http://www.addtoany.com/add_to/pinterest?linkurl=http%3A%2F%2Fstarthardware.org%2Flektion-7-digital-out-endlich-geht-es-los%2F&amp;linkname=Lektion%207%20%E2%80%93%20Digital%20Out%3A%20Endlich%20geht%20es%20los%21" title="Pinterest" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/pinterest.png" width="16" height="16" alt="Pinterest"/></a><a class="a2a_button_whatsapp" href="http://www.addtoany.com/add_to/whatsapp?linkurl=http%3A%2F%2Fstarthardware.org%2Flektion-7-digital-out-endlich-geht-es-los%2F&amp;linkname=Lektion%207%20%E2%80%93%20Digital%20Out%3A%20Endlich%20geht%20es%20los%21" title="WhatsApp" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/whatsapp.png" width="16" height="16" alt="WhatsApp"/></a><a class="a2a_button_yahoo_messenger" href="http://www.addtoany.com/add_to/yahoo_messenger?linkurl=http%3A%2F%2Fstarthardware.org%2Flektion-7-digital-out-endlich-geht-es-los%2F&amp;linkname=Lektion%207%20%E2%80%93%20Digital%20Out%3A%20Endlich%20geht%20es%20los%21" title="Yahoo Messenger" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/yim.png" width="16" height="16" alt="Yahoo Messenger"/></a><a class="a2a_button_delicious" href="http://www.addtoany.com/add_to/delicious?linkurl=http%3A%2F%2Fstarthardware.org%2Flektion-7-digital-out-endlich-geht-es-los%2F&amp;linkname=Lektion%207%20%E2%80%93%20Digital%20Out%3A%20Endlich%20geht%20es%20los%21" title="Delicious" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/delicious.png" width="16" height="16" alt="Delicious"/></a><a class="a2a_button_email" href="http://www.addtoany.com/add_to/email?linkurl=http%3A%2F%2Fstarthardware.org%2Flektion-7-digital-out-endlich-geht-es-los%2F&amp;linkname=Lektion%207%20%E2%80%93%20Digital%20Out%3A%20Endlich%20geht%20es%20los%21" title="Email" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/email.png" width="16" height="16" alt="Email"/></a>
+<script type="text/javascript"><!--
+if(wpa2a)wpa2a.script_load();
+//--></script>
+</div></aside></aside>   						</div>
+   					</div>   		
+   				</article>
+   					<!-- <div class="row">
+   						<div class="col-sm-12">
+   							   						</div>
+   					</div> -->
+
+					</div> <!-- row end -->
+				</div> <!-- container top-spacing end -->
+			</div> <!-- bgr-content end -->
+
+			<div class="bgr-single-navigation">
+				<div class="container top-spacing">
+   		<div class="row">   		
+   								<a href="../index.html%3Fp=131.html" rel="prev">&larr; Lektion 6 – Digital Out Vorbereitung</a>   						&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
+   								<a href="../index.html%3Fp=159.html" rel="next"> Lektion 8 – Es blinkt! &rarr;</a>				  
+   						</div> <!-- row end -->
+				</div> <!-- container top-spacing end -->
+			</div> <!-- bgr-content end -->
+			
+			<div class="bgr-comments">
+				<div class="container">
+					<div class="row">   		
+						<div class="col-sm-12">		
+							<aside class="comments">
+	</aside>
+            
+			<h3>15 Responses to Lektion 7 – Digital Out: Endlich geht es los!</h3>
+
+
+
+<ol class="commentlist list-group">
+    	<li class="list-group-item" class="comment even thread-even depth-1" id="li-comment-3">
+		<div id="comment-3">
+		<div class="comment-author vcard">
+			<img alt='' src='http://2.gravatar.com/avatar/e481527133c27f29fc4b378cc3ea7dde?s=40&#038;d=monsterid&#038;r=g' srcset='http://2.gravatar.com/avatar/e481527133c27f29fc4b378cc3ea7dde?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				David Schmid    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-3">
+                    6. Dezember 2014                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>Bei mir kommt beim Upload immer dieser Fehler<br />
+  This report would have more information with<br />
+  &#8222;Show verbose output during compilation&#8220;<br />
+  enabled in File &gt; Preferences.<br />
+Arduino: 1.0.6 (Windows NT (unknown)), Board: &#8222;Arduino Uno&#8220;<br />
+sketch_dec06a.ino: In function &#8218;void setup()&#8216;:<br />
+sketch_dec06a:4: error: a function-definition is not allowed here before &#8218;{&#8218; token<br />
+sketch_dec06a:4: error: expected `}&#8216; at end of input</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=3.html#respond' onclick='return addComment.moveForm( "comment-3", "3", "respond", "139" )' aria-label='Antworte auf David Schmid'>Antworten</a>		</div>
+	</div>
+
+	<ul class="children">
+	<li class="list-group-item" class="comment odd alt depth-2" id="li-comment-4">
+		<div id="comment-4">
+		<div class="comment-author vcard">
+			<img alt='' src='http://2.gravatar.com/avatar/e481527133c27f29fc4b378cc3ea7dde?s=40&#038;d=monsterid&#038;r=g' srcset='http://2.gravatar.com/avatar/e481527133c27f29fc4b378cc3ea7dde?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				David Schmid    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-4">
+                    6. Dezember 2014                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>Habe es auch mit kopieren aus diesem Tutorial heraus versucht, es erscheint der selbe Fehler.</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=4.html#respond' onclick='return addComment.moveForm( "comment-4", "4", "respond", "139" )' aria-label='Antworte auf David Schmid'>Antworten</a>		</div>
+	</div>
+
+	<ul class="children">
+	<li class="list-group-item" class="comment byuser comment-author-stefan-hermann bypostauthor even depth-3" id="li-comment-5">
+		<div id="comment-5">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/185dc12e78f06fca94d99363ca1ab675?s=40&#038;d=monsterid&#038;r=g' srcset='http://1.gravatar.com/avatar/185dc12e78f06fca94d99363ca1ab675?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				Stefan Hermann    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-5">
+                    7. Dezember 2014                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>Hallo David,</p>
+<p>hast Du die Einstellungen gemacht, wie hier in Punkt 1 und 2 beschrieben? Der Port muss auf jeden Fall richtig gewählt werden. Wenn das nicht klappt, dann probier mal den Sketch unter Datei>Beispiele>01.Basics>Blink auf das Arduino zu übertragen, um zu sehen, ob das mit dem Port klappt. </p>
+<p>Hast Du ein Arduino UNO? Bei den Vorgängermodellen muss man nämlich noch einen Treiber installieren.</p>
+<p>Liebe Grüße</p>
+<p>Stefan</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=5.html#respond' onclick='return addComment.moveForm( "comment-5", "5", "respond", "139" )' aria-label='Antworte auf Stefan Hermann'>Antworten</a>		</div>
+	</div>
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="list-group-item" class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-3022">
+		<div id="comment-3022">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/9c9898542c2b65ac28449698a09755dd?s=40&#038;d=monsterid&#038;r=g' srcset='http://0.gravatar.com/avatar/9c9898542c2b65ac28449698a09755dd?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				Eberhard Blaum    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-3022">
+                    20. Dezember 2014                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>sorry, aber bei mir ist (unter Windows XP professional) das Feld &#8222;serial ports&#8220; nicht schwarz, sondern nur grau, d.h. ich kann diesen Menüpunkt nicht öffnen. Nun steht zwar auf der Arduino-Seite unten &#8222;Arduino Uno an COM1&#8220;, aber wenn ich das Programm hochlade, meldet er, daß er nicht mit dem Arduino kommunizieren kann (was kein Wunder ist, wenn ich den Port nicht auswählen kann, oderrrr?)<br />
+Also: wie kriege ich den Port aktiviert?</p>
+<p>alternativ habe ich es unter Ubuntu-Linux probiert, Arduino-software runtergeladen und entpackt, kriege sie aber nicht installiert / aktiviert. Wie gehts?</p>
+<p>Vielen Dank für einen oder zwei Tipps!<br />
+Und schöne Ostern!<br />
+E. Blaum</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=3022.html#respond' onclick='return addComment.moveForm( "comment-3022", "3022", "respond", "139" )' aria-label='Antworte auf Eberhard Blaum'>Antworten</a>		</div>
+	</div>
+
+	<ul class="children">
+	<li class="list-group-item" class="comment byuser comment-author-stefan-hermann bypostauthor even depth-2" id="li-comment-3033">
+		<div id="comment-3033">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/185dc12e78f06fca94d99363ca1ab675?s=40&#038;d=monsterid&#038;r=g' srcset='http://1.gravatar.com/avatar/185dc12e78f06fca94d99363ca1ab675?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				Stefan Hermann    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-3033">
+                    20. Dezember 2014                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>Hallo Eberhard,</p>
+<p>hm, das klingt komisch. Probier mal einen anderen USB Anschluss. Die meisten Rechner haben ja mehrere. Guck mal, ob sich die COM Nummer ändert. Du musst, wenn Du das Arduino neu angesteckt hast, das Tools-Menü noch mal neu öffnen, da es sich sonst nicht updated.<br />
+Ist es ein Arduino UNO? Bei der Vorgängerversion muss man nämlich noch Treiber installieren. Hoffentlich klappt es jetzt.</p>
+<p>Mit Linux habe ich leider zu wenig Erfahrung, um Dir da richtig weiterzuhelfen. </p>
+<p>Liebe Grüße und frohe Weihnachten.</p>
+<p>Stefan&#8220;</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=3033.html#respond' onclick='return addComment.moveForm( "comment-3033", "3033", "respond", "139" )' aria-label='Antworte auf Stefan Hermann'>Antworten</a>		</div>
+	</div>
+
+	<ul class="children">
+	<li class="list-group-item" class="comment odd alt depth-3" id="li-comment-3080">
+		<div id="comment-3080">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/9c9898542c2b65ac28449698a09755dd?s=40&#038;d=monsterid&#038;r=g' srcset='http://0.gravatar.com/avatar/9c9898542c2b65ac28449698a09755dd?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				Eberhard Blaum    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-3080">
+                    20. Dezember 2014                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>Hurra, I´ve got it!</p>
+<p>also, das mit den anderen USB/Anschlüssen hatte ich auch schon probiert, war es leider nicht.<br />
+Nach längerem Suchen habe ich die Arduino/software nochmal runtergeladen, diesmal NICHT die Version &#8222;Windows ZIP file&#8220;, sondern die Version &#8222;Windows installer&#8220;.<br />
+Und das wars, jetzt gehts prima und über ewihnachten kann ich dann anfangen, meine Heizungsregelung (mit Solaranlage) dem kleinen Wunder beizubringen.<br />
+Hurra!<br />
+Und vielen Dank und schöne Weihnachten und einen guten Rutsch!</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=3080.html#respond' onclick='return addComment.moveForm( "comment-3080", "3080", "respond", "139" )' aria-label='Antworte auf Eberhard Blaum'>Antworten</a>		</div>
+	</div>
+
+	<ul class="children">
+	<li class="list-group-item" class="comment even depth-4" id="li-comment-3081">
+		<div id="comment-3081">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/07f556426f52dd0f3940d0cafad75adf?s=40&#038;d=monsterid&#038;r=g' srcset='http://0.gravatar.com/avatar/07f556426f52dd0f3940d0cafad75adf?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				Ingo    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-3081">
+                    20. Dezember 2014                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>Glückwunsch!</p>
+<p>Viel Spaß und Erfolg!</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=3081.html#respond' onclick='return addComment.moveForm( "comment-3081", "3081", "respond", "139" )' aria-label='Antworte auf Ingo'>Antworten</a>		</div>
+	</div>
+
+	</li><!-- #comment-## -->
+	<li class="list-group-item" class="comment odd alt depth-4" id="li-comment-3155">
+		<div id="comment-3155">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/185dc12e78f06fca94d99363ca1ab675?s=40&#038;d=monsterid&#038;r=g' srcset='http://1.gravatar.com/avatar/185dc12e78f06fca94d99363ca1ab675?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				<a href='http://www.stefan-hermann.info' rel='external nofollow' class='url'>Stefan</a>    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-3155">
+                    21. Dezember 2014                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>Super! Das freut mich, dass Du die Lösung gefunden hast. Dann viel Spaß und frohe Weihnachten.</p>
+<p>Liebe Grüße</p>
+<p>Stefan</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=3155.html#respond' onclick='return addComment.moveForm( "comment-3155", "3155", "respond", "139" )' aria-label='Antworte auf Stefan'>Antworten</a>		</div>
+	</div>
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="list-group-item" class="comment even depth-2" id="li-comment-7959">
+		<div id="comment-7959">
+		<div class="comment-author vcard">
+			<img alt='' src='http://2.gravatar.com/avatar/b5b174ccb5b45f357a99ee71e9e7c21e?s=40&#038;d=monsterid&#038;r=g' srcset='http://2.gravatar.com/avatar/b5b174ccb5b45f357a99ee71e9e7c21e?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				bac    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-7959">
+                    15. April 2015                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>Unter Ubuntu und Linux Mint war bei mir auch das Item Port grau, also nicht wählbar. </p>
+<p>Lösung: mit Administrator-Rechten im Terminal starten, also zuerst ins Verzeichnis, in dem arduino gespeichert ist, wechseln, dann Befehl</p>
+<p>sudo sh arduino</p>
+<p>eingeben, dann klappt&#8217;s.</p>
+<p>bac</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=7959.html#respond' onclick='return addComment.moveForm( "comment-7959", "7959", "respond", "139" )' aria-label='Antworte auf bac'>Antworten</a>		</div>
+	</div>
+
+	<ul class="children">
+	<li class="list-group-item" class="comment byuser comment-author-stefan-hermann bypostauthor odd alt depth-3" id="li-comment-7963">
+		<div id="comment-7963">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/185dc12e78f06fca94d99363ca1ab675?s=40&#038;d=monsterid&#038;r=g' srcset='http://1.gravatar.com/avatar/185dc12e78f06fca94d99363ca1ab675?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				Stefan Hermann    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-7963">
+                    15. April 2015                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>Klasse! Vielen Dank für den Hinweis.</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=7963.html#respond' onclick='return addComment.moveForm( "comment-7963", "7963", "respond", "139" )' aria-label='Antworte auf Stefan Hermann'>Antworten</a>		</div>
+	</div>
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="list-group-item" class="comment even thread-even depth-1" id="li-comment-3073">
+		<div id="comment-3073">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/07f556426f52dd0f3940d0cafad75adf?s=40&#038;d=monsterid&#038;r=g' srcset='http://0.gravatar.com/avatar/07f556426f52dd0f3940d0cafad75adf?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				Ingo    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-3073">
+                    20. Dezember 2014                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>Hallo Eberhard,</p>
+<p>könnte es sein, dass Du nicht als Administrator angemeldet bist? </p>
+<p>Ingo</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=3073.html#respond' onclick='return addComment.moveForm( "comment-3073", "3073", "respond", "139" )' aria-label='Antworte auf Ingo'>Antworten</a>		</div>
+	</div>
+
+	</li><!-- #comment-## -->
+	<li class="list-group-item" class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-8898">
+		<div id="comment-8898">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/c3f672af77f2345e926c194105914236?s=40&#038;d=monsterid&#038;r=g' srcset='http://0.gravatar.com/avatar/c3f672af77f2345e926c194105914236?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				Ewenn    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-8898">
+                    17. Mai 2015                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>ich hab alles richtig gemacht da schtet hochgeladen abgeschlossen und die led get nicht an.</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=8898.html#respond' onclick='return addComment.moveForm( "comment-8898", "8898", "respond", "139" )' aria-label='Antworte auf Ewenn'>Antworten</a>		</div>
+	</div>
+
+	<ul class="children">
+	<li class="list-group-item" class="comment byuser comment-author-stefan-hermann bypostauthor even depth-2" id="li-comment-8899">
+		<div id="comment-8899">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/185dc12e78f06fca94d99363ca1ab675?s=40&#038;d=monsterid&#038;r=g' srcset='http://1.gravatar.com/avatar/185dc12e78f06fca94d99363ca1ab675?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				Stefan Hermann    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-8899">
+                    17. Mai 2015                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>Hallo Ewenn, </p>
+<p>dreh mal die LED um. Das ist hier ein häufiger Fehler. Ansonsten mach mal ein Foto vom Breadboard und schick es an <a href="mailto:hallo@starthardware.org">hallo@starthardware.org</a>.</p>
+<p>Liebe Grüße</p>
+<p>Stefan</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=8899.html#respond' onclick='return addComment.moveForm( "comment-8899", "8899", "respond", "139" )' aria-label='Antworte auf Stefan Hermann'>Antworten</a>		</div>
+	</div>
+
+	<ul class="children">
+	<li class="list-group-item" class="comment odd alt depth-3" id="li-comment-8924">
+		<div id="comment-8924">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/c3f672af77f2345e926c194105914236?s=40&#038;d=monsterid&#038;r=g' srcset='http://0.gravatar.com/avatar/c3f672af77f2345e926c194105914236?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				Ewenn    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-8924">
+                    18. Mai 2015                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>ich habe alles wieder aufgebaut und es hat geklappt.<br />
+danke für die hilfe</p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=8924.html#respond' onclick='return addComment.moveForm( "comment-8924", "8924", "respond", "139" )' aria-label='Antworte auf Ewenn'>Antworten</a>		</div>
+	</div>
+
+	<ul class="children">
+	<li class="list-group-item" class="comment byuser comment-author-stefan-hermann bypostauthor even depth-4" id="li-comment-8949">
+		<div id="comment-8949">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/185dc12e78f06fca94d99363ca1ab675?s=40&#038;d=monsterid&#038;r=g' srcset='http://1.gravatar.com/avatar/185dc12e78f06fca94d99363ca1ab675?s=80&amp;d=monsterid&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />
+			<p class="comment-meta">
+				Stefan Hermann    
+                <a class="comment-date" href="../index.html%3Fp=139.html#comment-8949">
+                    19. Mai 2015                </a> 
+                
+                            </p>
+		</div>
+
+		<div class="comment-body"><p>Perfekt! Na dann viel Spaß weiterhin <img src="../wp-includes/images/smilies/simple-smile.png" alt=":-)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+</div>
+
+		<div class="reply">
+			<a rel='nofollow' class='comment-reply-link' href='index.html%3Freplytocom=8949.html#respond' onclick='return addComment.moveForm( "comment-8949", "8949", "respond", "139" )' aria-label='Antworte auf Stefan Hermann'>Antworten</a>		</div>
+	</div>
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ol>
+
+
+
+
+
+				<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">Schreibe einen Kommentar zu <a href="index.html%3Freplytocom=3022.html#comment-8949">Eberhard Blaum</a> <small><a rel="nofollow" id="cancel-comment-reply-link" href="../index.html%3Fp=139.html#respond">Antworten abbrechen</a></small></h3>				<form action="../../starthardware.org/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+					<p class="comment-notes"><span id="email-notes">Deine E-Mail-Adresse wird nicht veröffentlicht.</span> Erforderliche Felder sind markiert <span class="required">*</span></p><div class="form-group comment-form-comment">
+            <label for="comment">Kommentar</label> 
+            <textarea class="form-control" id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+        </div><div class="form-group comment-form-author"><label for="author">Name <span class="required">*</span></label> <input class="form-control" id="author" name="author" type="text" value="" size="30" aria-required='true' /></div>
+<div class="form-group comment-form-email"><label for="email">E-Mail-Adresse <span class="required">*</span></label> <input class="form-control" id="email" name="email" type="text" value="" size="30" aria-required='true' /></div>
+<div class="form-group comment-form-url"><label for="url">Website</label> <input class="form-control" id="url" name="url" type="text" value="" size="30" /></div>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Kommentar abschicken" /> <input type='hidden' name='comment_post_ID' value='139' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='3022' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="32fa178e51" /></p><button class="btn btn-default" type="submit">Senden</button><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="89"/></p><p style="clear:both"><input style="width: 20px" type="checkbox" value="1" name="subscribe" id="subscribe"/>&nbsp;<label style="margin:0; padding:0; position:relative; left:0; top:0;" for="subscribe">Sende mir eine Email bei einer neuen Antwort.</label></p>				</form>
+					</div><!-- #respond -->
+		
+
+
+<!--</div> #comments -->   						</div>
+					</div> <!-- row end -->
+				</div> <!-- container top-spacing end -->
+			</div> <!-- bgr-content end --> 		
+  
+   		
+   			
+	
+
+
+
+<footer role="contentinfo">
+  <div class="container">
+    <div class="row">
+  <div class="row myFooter">
+    <div class="col-sm-3">
+	<h4>Für Coder</h4>
+	<p><a href="../starter-kitsfeed/index.html%3Flang=en.html">Startseite</a><br>
+	<a href="../index.html%3Fp=534.html">Starter Sets</a></p>
+    </div>
+    <div class="col-sm-3">
+	<h4>Für Lehrer</h4>
+	<p><a href="../index.html%3Fp=1589.html">Arduino in der Schule</a></p>
+    </div>
+    <div class="col-sm-3">
+	<h4>Rechtliches</h4>
+	<p><a href="../index.html%3Fp=543.html">Datenschutz</a><br>
+	<a href="../index.html%3Fp=537.html">Impressum</a><br>
+	<a href="../index.html%3Fp=541.html">Haftungsausschluss (Disclaimer)</a></p>
+    </div>
+    <div class="col-sm-3">
+	<h4>Creative Commons</h4>
+	<p>Alle Inhalte stehen unter einer Creative Commons Lizenz: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a> 4.0 – StartHardware.org 2016</p>
+    </div>
+  </div>
+</div>
+</div>
+
+</footer>
+
+
+
+<script type="text/javascript"><!--
+wpa2a.targets=[
+{title:document.title,url:location.href}];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+<div id="cookie-law-info-bar"><span>StartHardware.org verwendet Cookies, um Ihnen den bestmöglichen Service zu gewährleisten. Wenn Sie auf der Seite weitersurfen stimmen Sie der Cookie-Nutzung zu. <a href="index.html%3Freplytocom=3022.html#" id="cookie_action_close_header"  class="medium cli-plugin-button cli-plugin-main-button" >Akzeptieren</a> <a href="../index.html%3Fp=543.html" id="CONSTANT_OPEN_URL" target="_blank"  class="cli-plugin-main-link"  >Datenschutzerklärung</a></span></div>		
+		<script type="text/javascript">
+			//<![CDATA[
+			jQuery(document).ready(function() {
+				cli_show_cookiebar({
+					settings: '{"animate_speed_hide":"500","animate_speed_show":"500","background":"#fff","border":"#444","border_on":true,"button_1_button_colour":"#000","button_1_button_hover":"#000000","button_1_link_colour":"#fff","button_1_as_button":true,"button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":false,"font_family":"inherit","header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"top","scroll_close":false,"scroll_close_reload":false,"showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":false,"show_once":"10000"}'
+				});
+			});
+			//]]>
+		</script>
+		
+		<script type='text/javascript' src='../wp-content/plugins/akismet/_inc/form.js%3Fver=3.1.7'></script>
+
+							<div id="lang_sel_footer">
+									<ul>
+									    <li><a href="../index.html%3Fp=1366&amp;lang=en.html"><img src="../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="English" class="iclflag" title="English"  />&nbsp;English</a></li>
+									    <li><a href="../index.html%3Fp=139.html" class="lang_sel_sel"><img src="../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png" alt="Deutsch" class="iclflag" title="Deutsch"  />&nbsp;Deutsch</a></li>
+									</ul>
+							</div><script type='text/javascript' src='../wp-includes/js/wp-embed.min.js%3Fver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icl_vars = {"current_language":"de","icl_home":"http:\/\/starthardware.org","ajax_url":"http:\/\/starthardware.org\/wp-admin\/admin-ajax.php","url_type":"3"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js%3Fver=4.4.2'></script>
+<script type='text/javascript' src='../wp-content/plugins/simple-lightbox/client/js/prod/lib.core.js%3Fver=2.5.2'></script>
+<script type='text/javascript' src='../wp-content/plugins/simple-lightbox/client/js/prod/lib.view.js%3Fver=2.5.2'></script>
+<script type='text/javascript' src='../wp-content/plugins/simple-lightbox/themes/baseline/js/prod/client.js%3Fver=2.5.2'></script>
+<script type='text/javascript' src='../wp-content/plugins/simple-lightbox/themes/default/js/prod/client.js%3Fver=2.5.2'></script>
+<script type='text/javascript' src='../wp-content/plugins/simple-lightbox/template-tags/item/js/prod/tag.item.js%3Fver=2.5.2'></script>
+<script type='text/javascript' src='../wp-content/plugins/simple-lightbox/template-tags/ui/js/prod/tag.ui.js%3Fver=2.5.2'></script>
+<script type='text/javascript' src='../wp-content/plugins/simple-lightbox/content-handlers/image/js/prod/handler.image.js%3Fver=2.5.2'></script>
+<script type="text/javascript" id="slb_footer">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB && SLB.has_child('View.init') ) { SLB.View.init({"ui_autofit":true,"ui_animate":true,"slideshow_autostart":true,"slideshow_duration":"6","group_loop":true,"ui_overlay_opacity":"0.8","ui_title_default":false,"theme_default":"slb_default","ui_labels":{"loading":"Loading","close":"Close","nav_next":"Next","nav_prev":"Previous","slideshow_start":"Start slideshow","slideshow_stop":"Stop slideshow","group_status":"Item %current% of %total%"}}); }
+if ( !!window.SLB && SLB.has_child('View.assets') ) { {$.extend(SLB.View.assets, {"2021782569":{"id":147,"type":"image","source":"http:\/\/starthardware.org\/wp-content\/uploads\/2014\/10\/6_1_board_auswaehlen.jpg","internal":true,"sizes":{"thumbnail":{"file":"6_1_board_auswaehlen-150x150.jpg","width":150,"height":150,"mime-type":"image\/jpeg"},"medium":{"file":"6_1_board_auswaehlen-300x173.jpg","width":300,"height":173,"mime-type":"image\/jpeg"},"large":{"file":"6_1_board_auswaehlen-1024x590.jpg","width":1024,"height":590,"mime-type":"image\/jpeg"},"original":{"file":"2014\/10\/6_1_board_auswaehlen.jpg","width":1200,"height":692}},"image_meta":{"aperture":0,"credit":"","camera":"","caption":"","created_timestamp":0,"copyright":"","focal_length":0,"iso":0,"shutter_speed":0,"title":"","orientation":0},"description":"","title":"Arduino Board ausw\u00e4hlen","caption":""},"2041914278":{"id":148,"type":"image","source":"http:\/\/starthardware.org\/wp-content\/uploads\/2014\/10\/6_2_port_auswaehlen.jpg","internal":true,"sizes":{"thumbnail":{"file":"6_2_port_auswaehlen-150x150.jpg","width":150,"height":150,"mime-type":"image\/jpeg"},"medium":{"file":"6_2_port_auswaehlen-300x173.jpg","width":300,"height":173,"mime-type":"image\/jpeg"},"large":{"file":"6_2_port_auswaehlen-1024x590.jpg","width":1024,"height":590,"mime-type":"image\/jpeg"},"original":{"file":"2014\/10\/6_2_port_auswaehlen.jpg","width":1200,"height":692}},"image_meta":{"aperture":0,"credit":"","camera":"","caption":"","created_timestamp":0,"copyright":"","focal_length":0,"iso":0,"shutter_speed":0,"title":"","orientation":0},"description":"","title":"Arduino Port ausw\u00e4hlen","caption":""},"520659411":{"id":149,"type":"image","source":"http:\/\/starthardware.org\/wp-content\/uploads\/2014\/10\/6_3_arduino_software.jpg","internal":true,"sizes":{"thumbnail":{"file":"6_3_arduino_software-150x150.jpg","width":150,"height":150,"mime-type":"image\/jpeg"},"medium":{"file":"6_3_arduino_software-300x248.jpg","width":300,"height":248,"mime-type":"image\/jpeg"},"large":{"file":"6_3_arduino_software-1024x849.jpg","width":1024,"height":849,"mime-type":"image\/jpeg"},"original":{"file":"2014\/10\/6_3_arduino_software.jpg","width":1200,"height":995}},"image_meta":{"aperture":0,"credit":"","camera":"","caption":"","created_timestamp":0,"copyright":"","focal_length":0,"iso":0,"shutter_speed":0,"title":"","orientation":0},"description":"","title":"Arduino Software","caption":""}});} }
+/* THM */
+if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_theme('slb_baseline',{"name":"Baseline","parent":"","styles":[{"handle":"base","uri":"http:\/\/starthardware.org\/wp-content\/plugins\/simple-lightbox\/themes\/baseline\/css\/style.css","deps":[]}],"layout_raw":"<div class=\"slb_container\"><div class=\"slb_content\">{{item.content}}<div class=\"slb_nav\"><span class=\"slb_prev\">{{ui.nav_prev}}<\/span><span class=\"slb_next\">{{ui.nav_next}}<\/span><\/div><div class=\"slb_controls\"><span class=\"slb_close\">{{ui.close}}<\/span><span class=\"slb_slideshow\">{{ui.slideshow_control}}<\/span><\/div><div class=\"slb_loading\">{{ui.loading}}<\/div><\/div><div class=\"slb_details\"><div class=\"inner\"><div class=\"slb_data\"><div class=\"slb_data_content\"><span class=\"slb_data_title\">{{item.title}}<\/span><span class=\"slb_group_status\">{{ui.group_status}}<\/span><div class=\"slb_data_desc\">{{item.description}}<\/div><\/div><\/div><div class=\"slb_nav\"><span class=\"slb_prev\">{{ui.nav_prev}}<\/span><span class=\"slb_next\">{{ui.nav_next}}<\/span><\/div><\/div><\/div><\/div>"}); }if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_theme('slb_default',{"name":"Default (Light)","parent":"slb_baseline","styles":[{"handle":"font","uri":"http:\/\/fonts.googleapis.com\/css?family=Yanone+Kaffeesatz","deps":[]},{"handle":"base","uri":"http:\/\/starthardware.org\/wp-content\/plugins\/simple-lightbox\/themes\/default\/css\/style.css","deps":[]}]}); }})})(jQuery);}/* ]]> */</script>
+<script type="text/javascript" id="slb_context">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/* ]]> */</script>
+
+<script type='text/javascript' src='../wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js%3Fver=3.0.9'></script>
+<script type='text/javascript' src='../wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushCpp.js%3Fver=3.0.9'></script>
+<script type='text/javascript' src='../wp-content/plugins/syntaxhighlighter-arduino/shBrushArduino.js%3Fver=1.2.3'></script>
+
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "../../starthardware.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "../../starthardware.org/wp-content/plugins/syntaxhighlighter-arduino/shThemeArduino.css?ver=3.0.9";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ Quelltext aufklappen';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Keine Syntax-Datei vorhanden für: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Die Syntax-Datei ist nicht für die „htmlscript” Option konfiguriert: ';
+	SyntaxHighlighter.defaults['auto-links'] = false;
+	SyntaxHighlighter.defaults['class-name'] = 'arduino-code';
+	SyntaxHighlighter.defaults['gutter'] = false;
+	SyntaxHighlighter.defaults['light'] = true;
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+
+
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>-->
+
+<!--<script>!window.jQuery && document.write(unescape('%3Cscript src="../../starthardware.org/wp-content/themes/Barebones/assets/scripts/jquery-2.0.3.js"%3E%3C/script%3E'))</script>-->
+
+<script src="../wp-content/themes/Barebones/assets/scripts/general.js"></script>
+<script type='text/javascript' src='../wp-includes/js/comment-reply.min.js%3Fver=4.4.2'></script>
+
+
+
+</body>
+</html>

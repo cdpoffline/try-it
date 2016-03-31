@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Getting started &mdash; Introduction to Programming with Python</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.3.4/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.3.4/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2015.11.01',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/spoilers.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="copyright" title="Copyright" href="copyright.html" />
+    <link rel="top" title="Introduction to Programming with Python" href="index.html" />
+    <link rel="next" title="Simple drawing with turtle" href="simple_drawing.html" />
+    <link rel="prev" title="Introduction to Programming with Python" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Python for Beginners</a>
+        <span class="navbar-text navbar-version pull-left"><b>2015.11.01</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Material <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="">Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="simple_drawing.html">Simple drawing with turtle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="variables.html">Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loops.html">Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functions.html">User-defined functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functions_parameters.html">Functions with parameters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditionals.html">Conditional statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditional_loops.html">Conditional Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logical_operators.html">Logical operators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="where_to_go.html">Where to go from here</a></li>
+<li class="toctree-l1"><a class="reference internal" href="copyright.html">License</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Chapter <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Getting started</a><ul>
+<li><a class="reference internal" href="#what-you-ll-need">What you&#8217;ll need</a><ul>
+<li><a class="reference internal" href="#a-python">A Python!</a></li>
+<li><a class="reference internal" href="#and-a-code-editor">And a Code Editor</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#what-is-python-exactly">What is Python, exactly?</a><ul>
+<li><a class="reference internal" href="#opening-a-console-on-mac-os-x">Opening a console on Mac OS X</a></li>
+<li><a class="reference internal" href="#opening-a-console-on-linux">Opening a console on Linux</a></li>
+<li><a class="reference internal" href="#opening-a-console-on-windows">Opening a console on Windows</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#using-python">Using Python</a><ul>
+<li><a class="reference internal" href="#interacting-with-python">Interacting With Python</a></li>
+<li><a class="reference internal" href="#exercise">Exercise</a></li>
+<li><a class="reference internal" href="#solution">Solution</a></li>
+<li><a class="reference internal" href="#running-python-files">Running Python files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li class="navbar-rel">
+    <a href="index.html" title="Previous Chapter: Introduction to Programming with Python">
+      <span class="glyphicon glyphicon-step-backward"></span>
+      <span>Previous</span>
+    </a>
+  </li>
+  <li class="navbar-rel">
+    <a href="simple_drawing.html" title="Next Chapter: Simple drawing with turtle">
+        <span class="glyphicon glyphicon-step-forward"></span>
+        <span>Next</span>
+    </a>
+  </li>
+<li class="dropdown">
+  <a role="button"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Languages <b class="caret"></b></a>
+  <ul class="dropdown-menu"
+      role="menu">
+    <li><a href="../en/index.html">English</a></li>
+    <li><a href="../de/index.html">Deutsch (German)</a></li>
+    <li><a href="../es_CL/index.html">Español (Spanish)</a></li>
+    <li><a href="../ru/index.html">русский (Russian)</a></li>
+    <li><a href="../ko/index.html">한국인 (Korean)</a></li>
+    <li><a href="../ro/index.html">Română (Romanian)</a></li>
+  </ul>
+</li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="getting-started">
+<h1>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="what-you-ll-need">
+<h2>What you&#8217;ll need<a class="headerlink" href="#what-you-ll-need" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="a-python">
+<h3>A Python!<a class="headerlink" href="#a-python" title="Permalink to this headline">¶</a></h3>
+<p>If you haven&#8217;t yet got python, the latest official installation packages
+can be found here:</p>
+<p><a class="reference external" href="http://python.org/download/">http://python.org/download/</a></p>
+<p>Python 3 is preferable, being the newest version out!</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">On Windows, you&#8217;ll want to add <strong class="program">Python</strong> to your PATH, so it
+can be found by other programs. With Python 3.5 or later, there should be
+and option to do this in the installer. Otherwise, you can navigate to your
+installation directory (<code class="file docutils literal"><span class="pre">C:\Python34\</span></code>), open the <code class="file docutils literal"><span class="pre">Tools</span></code>,
+then <code class="file docutils literal"><span class="pre">Scripts</span></code> folder, and run the <code class="file docutils literal"><span class="pre">win_add2path.py</span></code>
+file by double clicking on it.</p>
+</div>
+</div>
+<div class="section" id="and-a-code-editor">
+<h3>And a Code Editor<a class="headerlink" href="#and-a-code-editor" title="Permalink to this headline">¶</a></h3>
+<p>A code editor helps with reading and writing programming code. There are
+many around, and it is one of the most personal choices a programmer can
+make - Like a tennis-player choosing their racket, or a chef choosing their
+favourite knife. To start off with, you&#8217;ll just want a basic, easy-to-use one
+that doesn&#8217;t get in your way, but is still effective at writing python code.
+Here are some suggestions for those:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://atom.io">Atom</a>: A new code editor available for Windows, Mac and Linux. It&#8217;s
+an open-source project developed by GitHub and is very easy to add
+functionality for, with its packages system.</li>
+<li><a class="reference external" href="http://www.sublimetext.com/">Sublime Text</a>: A great all around editor that&#8217;s easy to use. It&#8217;s Ctl+B
+shortcut lets you run the python file you&#8217;re working on straight away. Runs
+on Windows, Mac and Linux.</li>
+<li><a class="reference external" href="http://www.geany.org/">Geany</a>: A simple editor that doesn&#8217;t aim to be too complicated. Available
+on Windows and Linux (you can probably find it in your package manager).</li>
+<li><a class="reference external" href="http://macromates.com/">TextMate</a>: One of the most famous code editors for Mac, it used to be a paid
+product but has since been open-sourced.</li>
+<li><a class="reference external" href="https://projects.gnome.org/gedit/">Gedit</a> and <a class="reference external" href="http://kate-editor.org/">Kate</a>: if you run Linux using Gnome or KDE respectively, you
+might already have one of these two installed!</li>
+<li><a class="reference external" href="http://www.activestate.com/komodo-edit">Komodo Edit</a>: a sleak, free editor for Mac, Windows and Linux, based on the
+more powerful Komodo IDE.</li>
+</ul>
+<p>If you&#8217;d like our recommendation, try out Sublime Text first.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Wordpad, TextEdit, Notepad, and Word are <strong>not</strong> suitable code editors.</p>
+</div>
+</div>
+</div>
+<div class="section" id="what-is-python-exactly">
+<h2>What is Python, exactly?<a class="headerlink" href="#what-is-python-exactly" title="Permalink to this headline">¶</a></h2>
+<p>Ok, so python is this thing called a <strong>programming language</strong>. It takes text that
+you&#8217;ve written (usually referred to as <strong>code</strong>), turns it into instructions for
+your computer, and runs those instructions. We&#8217;ll be learning how to write code
+to do cool and useful stuff. No longer will you be bound to use <em>others&#8217;</em>
+programs to do things with your computer - you can make your own!</p>
+<p>Practically, Python is just another program on your computer. The first thing to
+learn is how to use and interact with it. There are in fact many ways to do this;
+the first one to learn is to interact with python&#8217;s interpreter,
+using your <strong>operating system&#8217;s</strong> (OS) console.</p>
+<p>A <strong>console</strong> (or &#8216;terminal&#8217;, or &#8216;command prompt&#8217;) is a <em>textual</em> way to
+interact with your OS, just as the &#8216;desktop&#8217;, in conjunction with your mouse,
+is the <em>graphical</em> way to interact your system.</p>
+<div class="section" id="opening-a-console-on-mac-os-x">
+<h3>Opening a console on Mac OS X<a class="headerlink" href="#opening-a-console-on-mac-os-x" title="Permalink to this headline">¶</a></h3>
+<p>OS X&#8217;s standard console is a program called <strong class="program">Terminal</strong>. Open Terminal by
+navigating to Applications, then Utilities, then double-click the
+<strong class="program">Terminal</strong> program. You can also easily search for it in the system
+search tool in the top right.</p>
+<p>The command line Terminal is a tool for interacting with your
+computer. A window will open with a command line prompt message,
+something like this:</p>
+<div class="highlight-python"><div class="highlight"><pre>mycomputer:~ myusername$
+</pre></div>
+</div>
+</div>
+<div class="section" id="opening-a-console-on-linux">
+<h3>Opening a console on Linux<a class="headerlink" href="#opening-a-console-on-linux" title="Permalink to this headline">¶</a></h3>
+<p>Different linux distributions (e.g Ubuntu, Fedora, Mint) may have different
+console programs, usually referred to as a terminal. The exact terminal
+you start up, and how, can depend on your distribution. On Ubuntu, you will
+likely want to open <strong class="program">Gnome Terminal</strong>. It should present a prompt like this:</p>
+<div class="highlight-python"><div class="highlight"><pre>myusername@mycomputer:~$
+</pre></div>
+</div>
+</div>
+<div class="section" id="opening-a-console-on-windows">
+<h3>Opening a console on Windows<a class="headerlink" href="#opening-a-console-on-windows" title="Permalink to this headline">¶</a></h3>
+<p>Window&#8217;s console is called the Command Prompt, named <strong class="program">cmd</strong>.  An easy
+way to get to it is by using the key combination <code class="kbd docutils literal"><span class="pre">Windows+R</span></code>
+(<code class="kbd docutils literal"><span class="pre">Windows</span></code> meaning the windows logo button), which should open a
+<span class="guilabel">Run</span> dialog.  Then type <strong class="program">cmd</strong> and hit <code class="kbd docutils literal"><span class="pre">Enter</span></code> or
+click <span class="guilabel">Ok</span>. You can also search for it from the start menu. It should
+look like:</p>
+<div class="highlight-python"><div class="highlight"><pre>C:\Users\myusername&gt;
+</pre></div>
+</div>
+<p>Window&#8217;s Command Prompt is not quite as powerful as its counterparts on Linux
+and OS X, so you might like to start the Python Interpreter (see just below)
+directly, or using the <strong class="program">IDLE</strong> program that Python comes with.
+You can find these in the Start menu.</p>
+</div>
+</div>
+<div class="section" id="using-python">
+<h2>Using Python<a class="headerlink" href="#using-python" title="Permalink to this headline">¶</a></h2>
+<p>The python program that you have installed will by default act as something
+called an <strong>interpreter</strong>. An interpreter takes text commands and runs
+them as you enter them - very handy for trying things out.</p>
+<p>Just type <strong class="program">python</strong> at your console, hit <code class="kbd docutils literal"><span class="pre">Enter</span></code>, and you should
+enter Python&#8217;s Interpreter.</p>
+<p>To find out which version of python you&#8217;re running,
+instead type  <code class="docutils literal"><span class="pre">python</span> <span class="pre">-V</span></code> in your console to tell you.</p>
+<div class="section" id="interacting-with-python">
+<h3>Interacting With Python<a class="headerlink" href="#interacting-with-python" title="Permalink to this headline">¶</a></h3>
+<p>After Python opens, it will show you some contextual information similar to this:</p>
+<div class="highlight-python"><div class="highlight"><pre>Python 3.5.0 (default, Sep 20 2015, 11:28:25)
+[GCC 5.2.0] on linux
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+&gt;&gt;&gt;
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The prompt <strong>&gt;&gt;&gt;</strong> on the last line indicates that you are now in an
+interactive Python interpeter session, also called the &#8220;Python shell&#8221;.
+<strong>This is different from the normal terminal command prompt!</strong></p>
+</div>
+<p>You can now enter some code for python to run. Try:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello world&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Press <code class="kbd docutils literal"><span class="pre">Enter</span></code> and see what happens. After showing the results, Python
+will bring you back to the interactive prompt, where you could enter
+another command:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello world&quot;</span><span class="p">)</span>
+<span class="go">Hello world</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="mi">4</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span>
+<span class="go">10</span>
+</pre></div>
+</div>
+<p>An extremely useful command is <code class="docutils literal"><span class="pre">help()</span></code>, which enters a help functionality
+to explore all the stuff python lets you do, right from the interpreter.
+Press <code class="kbd docutils literal"><span class="pre">q</span></code> to close the help window and return to the Python prompt.</p>
+<p>To leave the interactive shell and go back to the console (the <em>system</em> shell),
+press <code class="kbd docutils literal"><span class="pre">Ctrl-Z</span></code> and then <code class="kbd docutils literal"><span class="pre">Enter</span></code> on Windows, or <code class="kbd docutils literal"><span class="pre">Ctrl-D</span></code> on
+OS X or Linux. Alternatively, you could also run the python command <code class="docutils literal"><span class="pre">exit()</span></code>!</p>
+</div>
+<div class="section" id="exercise">
+<h3>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h3>
+<p>Just above we demonstrated entering a command to figure out some math. Try
+some math commands of your own! What operations does python know? Get it
+to tell you what 239 and 588 added together, and then squared is.</p>
+</div>
+<div class="solution section" id="solution">
+<h3>Solution<a class="headerlink" href="#solution" title="Permalink to this headline">¶</a></h3>
+<p>Here are  some ways you might have got the answer:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="mi">239</span> <span class="o">+</span> <span class="mi">588</span>
+<span class="go">827</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">827</span> <span class="o">*</span> <span class="mi">827</span>
+<span class="go">683929</span>
+</pre></div>
+</div>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="p">(</span><span class="mi">239</span> <span class="o">+</span> <span class="mi">588</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="mi">239</span> <span class="o">+</span> <span class="mi">588</span><span class="p">)</span>
+<span class="go">683929</span>
+</pre></div>
+</div>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="p">(</span><span class="mi">239</span> <span class="o">+</span> <span class="mi">588</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span>
+<span class="go">683929</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="running-python-files">
+<h3>Running Python files<a class="headerlink" href="#running-python-files" title="Permalink to this headline">¶</a></h3>
+<p>When you have a lot of python code to run, you will want to save it into
+a file, so for instance, you can modify small parts of it (fix a bug) and
+re-run the code without having to repeatedly re-type the rest.
+Instead of typing commands in one-by-one you can save your code to a
+file and pass the file name to the <strong class="program">python</strong> program.
+It will execute that file&#8217;s code instead of
+launching its interactive interpreter.</p>
+<p><strong>Let&#8217;s try that!</strong>  Create a file <code class="file docutils literal"><span class="pre">hello.py</span></code> in your current directory
+with your favorite code editor and write the print command from above.  Now
+save that file. On Linux or OS X, you can also run <code class="docutils literal"><span class="pre">touch</span> <span class="pre">hello.py</span></code> to create
+an empty file to edit. To run this file with python, it&#8217;s pretty easy:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>python hello.py
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Make sure you are at your system command prompt, which will have <code class="docutils literal"><span class="pre">$</span></code> or
+<code class="docutils literal"><span class="pre">&gt;</span></code> at the end, <strong>not</strong> at python&#8217;s (which has <code class="docutils literal"><span class="pre">&gt;&gt;&gt;</span></code> instead)!</p>
+</div>
+<p>On Windows you should also be able to double-click the Python file to run it.</p>
+<p>When pressing <code class="kbd docutils literal"><span class="pre">Enter</span></code> now, the file is executed and you see the output
+as before.  But this time, after Python finished executing all commands from
+that file it exits back to the system command prompt, instead of going back
+to the interactive shell.</p>
+<p>And now we are all set and can get started with turtle!</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Not getting &#8220;Hello world&#8221; but some crazy error about &#8220;can&#8217;t open
+file&#8221; or &#8220;No such file or directory?&#8221; Your command line might not be
+running in the directory that you saved the file in. You can change
+the working directory of your current command line with the
+<strong class="command">cd</strong> command, which stands for &#8220;change directory&#8221;. On Windows,
+you might want something like:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; cd Desktop\Python_Exercises
+</pre></div>
+</div>
+<p>On Linux or OS X, you might want something like:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span><span class="nb">cd </span>Desktop/Python_Exercises
+</pre></div>
+</div>
+<p class="last">This changes to the directory Python_Exercises under the Desktop folder
+(yours might be somewhere different). If you don&#8217;t know the location
+of the directory where you saved the file, you can simply drag the
+directory to the command line window.  If you don&#8217;t know which
+directory your shell is currently running in use <strong class="command">pwd</strong>,
+which stands for &#8220;print working directory&#8221;.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">When playing around with turtle, avoid naming your file <code class="file docutils literal"><span class="pre">turtle.py</span></code>
+&#8212; rather use more appropriate names such as <code class="file docutils literal"><span class="pre">square.py</span></code> or
+<code class="file docutils literal"><span class="pre">rectangle.py</span></code>.  Otherwise, whenever you refer to <code class="docutils literal"><span class="pre">turtle</span></code>, Python
+will pick up <em>your</em> file instead of the standard Python turtle module.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+  <ul id="sourcelink" class="list-inline">
+    <li>
+      <a href="https://github.com/opentechschool/python-beginners/edit/master/source/getting_started.rst" title="getting_started.rst">
+        Edit on Github
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/OpenTechSchool/python-beginners/issues/new?title=Problem+with+getting_started">
+        Report a problem
+      </a>
+    </li>
+  </ul>
+      
+    </p>
+    <p>
+        &copy; <a href="copyright.html">Copyright</a> 2012–2014, OpenTechSchool and contributors.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

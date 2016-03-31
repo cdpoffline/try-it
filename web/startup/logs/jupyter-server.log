@@ -1,0 +1,98 @@
+---------------------- Wed Mar 30 05:58:23 PDT 2016 ----------------------
+Overwrite /home/jns/.jupyter/jupyter_notebook_config.py with default config? [y/N]Traceback (most recent call last):
+  File "/usr/local/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 267, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.5/site-packages/traitlets/config/application.py", line 596, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.5/site-packages/notebook/notebookapp.py", line 1075, in start
+    super(NotebookApp, self).start()
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 260, in start
+    self.write_default_config()
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 141, in write_default_config
+    answer = ask()
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 137, in ask
+    return raw_input(prompt).lower() or 'n'
+EOFError: EOF when reading a line
+[I 05:58:59.522 NotebookApp] Loading IPython parallel extension
+[I 05:58:59.619 NotebookApp] Serving notebooks from local directory: /home/jns/notebooks
+[I 05:58:59.619 NotebookApp] 0 active kernels 
+[I 05:58:59.620 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:9090/
+[I 05:58:59.620 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 05:59:17.438 NotebookApp] 302 GET / (192.168.157.1) 0.50ms
+[I 05:59:23.752 NotebookApp] 302 GET /tree (192.168.157.1) 0.81ms
+[I 05:59:32.045 NotebookApp] 302 POST /login?next=%2Ftree (192.168.157.1) 2.34ms
+[I 06:00:06.959 NotebookApp] Kernel started: d2cdad8d-7da2-4890-8287-f4795e366f09
+[I 06:00:11.157 NotebookApp] Saving file at /Untitled.ipynb
+[W 08:48:20.101 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37): Kernel does not exist: 2577bc1b-870c-4020-b680-6893f8614d72
+[W 08:48:20.611 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37) 513.27ms referer=None
+[W 08:48:20.001 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37): Kernel does not exist: 2577bc1b-870c-4020-b680-6893f8614d72
+[W 08:48:20.003 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37) 5.87ms referer=None
+[W 08:48:24.021 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37): Kernel does not exist: 2577bc1b-870c-4020-b680-6893f8614d72
+[W 08:48:24.022 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37) 4.26ms referer=None
+[W 08:48:32.035 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37): Kernel does not exist: 2577bc1b-870c-4020-b680-6893f8614d72
+[W 08:48:32.036 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37) 3.78ms referer=None
+[W 08:48:37.510 NotebookApp] WebSocket ping timeout after 10049999 ms.
+[W 08:48:48.049 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37): Kernel does not exist: 2577bc1b-870c-4020-b680-6893f8614d72
+[W 08:48:48.051 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37) 4.11ms referer=None
+[W 08:49:20.945 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37): Kernel does not exist: 2577bc1b-870c-4020-b680-6893f8614d72
+[W 08:49:20.946 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37) 4.11ms referer=None
+[W 08:50:24.949 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37): Kernel does not exist: 2577bc1b-870c-4020-b680-6893f8614d72
+[W 08:50:24.951 NotebookApp] 404 GET /api/kernels/2577bc1b-870c-4020-b680-6893f8614d72/channels?session_id=45696CD3EE404805A6B2E7ED8AE09662 (192.168.55.37) 3.95ms referer=None
+[W 09:10:22.701 NotebookApp] WebSocket ping timeout after 1169996 ms.
+[C 09:21:10.054 NotebookApp] received signal 15, stopping
+[I 09:21:10.055 NotebookApp] Shutting down kernels
+[C 09:21:10.058 NotebookApp] received signal 15, stopping
+[I 09:21:10.156 NotebookApp] Kernel shutdown: d2cdad8d-7da2-4890-8287-f4795e366f09
+---------------------- Wed Mar 30 09:23:26 PDT 2016 ----------------------
+Overwrite /home/jns/.jupyter/jupyter_notebook_config.py with default config? [y/N]Writing default config to: /home/jns/.jupyter/jupyter_notebook_config.py
+[I 09:24:01.152 NotebookApp] Loading IPython parallel extension
+[I 09:24:01.273 NotebookApp] Serving notebooks from local directory: /home/jns/notebooks
+[I 09:24:01.273 NotebookApp] 0 active kernels 
+[I 09:24:01.273 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:9090/
+[I 09:24:01.273 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 09:24:01.365 NotebookApp] 404 GET /api/kernels/d2cdad8d-7da2-4890-8287-f4795e366f09/channels?session_id=F1E40FB3F11B4BEFBE38282A9D4A186E (192.168.157.1): Kernel does not exist: d2cdad8d-7da2-4890-8287-f4795e366f09
+[W 09:24:02.429 NotebookApp] 404 GET /api/kernels/d2cdad8d-7da2-4890-8287-f4795e366f09/channels?session_id=F1E40FB3F11B4BEFBE38282A9D4A186E (192.168.157.1) 1152.87ms referer=None
+[W 09:24:06.440 NotebookApp] 404 GET /api/kernels/d2cdad8d-7da2-4890-8287-f4795e366f09/channels?session_id=F1E40FB3F11B4BEFBE38282A9D4A186E (192.168.157.1): Kernel does not exist: d2cdad8d-7da2-4890-8287-f4795e366f09
+[W 09:24:06.446 NotebookApp] 404 GET /api/kernels/d2cdad8d-7da2-4890-8287-f4795e366f09/channels?session_id=F1E40FB3F11B4BEFBE38282A9D4A186E (192.168.157.1) 8.17ms referer=None
+[W 09:24:14.472 NotebookApp] 404 GET /api/kernels/d2cdad8d-7da2-4890-8287-f4795e366f09/channels?session_id=F1E40FB3F11B4BEFBE38282A9D4A186E (192.168.157.1): Kernel does not exist: d2cdad8d-7da2-4890-8287-f4795e366f09
+[W 09:24:14.475 NotebookApp] 404 GET /api/kernels/d2cdad8d-7da2-4890-8287-f4795e366f09/channels?session_id=F1E40FB3F11B4BEFBE38282A9D4A186E (192.168.157.1) 11.25ms referer=None
+[W 09:24:30.486 NotebookApp] 404 GET /api/kernels/d2cdad8d-7da2-4890-8287-f4795e366f09/channels?session_id=F1E40FB3F11B4BEFBE38282A9D4A186E (192.168.157.1): Kernel does not exist: d2cdad8d-7da2-4890-8287-f4795e366f09
+[W 09:24:30.487 NotebookApp] 404 GET /api/kernels/d2cdad8d-7da2-4890-8287-f4795e366f09/channels?session_id=F1E40FB3F11B4BEFBE38282A9D4A186E (192.168.157.1) 4.40ms referer=None
+[I 09:27:43.871 NotebookApp] 302 GET / (192.168.157.1) 1.54ms
+[I 09:30:41.202 NotebookApp] Kernel started: 4c0d6dda-8f14-4744-ba91-a15a2263f4e3
+Untitled.ipynb
+sudo: no tty present and no askpass program specified
+sudo: no tty present and no askpass program specified
+[I 09:32:41.058 NotebookApp] Saving file at /Untitled.ipynb
+[I 09:33:02.124 NotebookApp] Saving file at /Untitled.ipynb
+[I 09:37:17.564 NotebookApp] 302 GET / (192.168.157.1) 0.42ms
+[I 10:14:55.345 NotebookApp] 302 GET / (192.168.157.1) 0.62ms
+[I 10:17:09.307 NotebookApp] Saving file at /print(1).ipynb
+[I 12:02:14.694 NotebookApp] 302 GET / (192.168.55.37) 0.76ms
+[W 12:37:46.232 NotebookApp] WebSocket ping timeout after 1710279 ms.
+[W 12:37:59.177 NotebookApp] WebSocket ping timeout after 1709998 ms.
+[I 12:40:57.079 NotebookApp] Saving file at /print(1).ipynb
+[C 12:53:22.142 NotebookApp] received signal 15, stopping
+[I 12:53:22.145 NotebookApp] Shutting down kernels
+[I 12:53:22.145 NotebookApp] Kernel shutdown: 4c0d6dda-8f14-4744-ba91-a15a2263f4e3
+---------------------- Wed Mar 30 12:53:56 PDT 2016 ----------------------
+Overwrite /home/jns/.jupyter/jupyter_notebook_config.py with default config? [y/N]Writing default config to: /home/jns/.jupyter/jupyter_notebook_config.py
+[I 12:54:42.950 NotebookApp] Loading IPython parallel extension
+[I 12:54:43.051 NotebookApp] Serving notebooks from local directory: /home/jns/notebooks
+[I 12:54:43.051 NotebookApp] 0 active kernels 
+[I 12:54:43.051 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:9090/
+[I 12:54:43.051 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 12:54:50.528 NotebookApp] 404 GET /api/kernels/4c0d6dda-8f14-4744-ba91-a15a2263f4e3/channels?session_id=127ECFA1B229433D95DD5DF253062EF9 (192.168.157.1): Kernel does not exist: 4c0d6dda-8f14-4744-ba91-a15a2263f4e3
+[W 12:54:51.065 NotebookApp] 404 GET /api/kernels/4c0d6dda-8f14-4744-ba91-a15a2263f4e3/channels?session_id=127ECFA1B229433D95DD5DF253062EF9 (192.168.157.1) 565.63ms referer=None
+[W 12:54:53.785 NotebookApp] 404 GET /api/kernels/4c0d6dda-8f14-4744-ba91-a15a2263f4e3/channels?session_id=ABE9ED95A20E48AF8C1534481ACF22B0 (192.168.157.1): Kernel does not exist: 4c0d6dda-8f14-4744-ba91-a15a2263f4e3
+[W 12:54:53.787 NotebookApp] 404 GET /api/kernels/4c0d6dda-8f14-4744-ba91-a15a2263f4e3/channels?session_id=ABE9ED95A20E48AF8C1534481ACF22B0 (192.168.157.1) 4.96ms referer=None
+[W 12:54:54.702 NotebookApp] 404 GET /api/kernels/4c0d6dda-8f14-4744-ba91-a15a2263f4e3/channels?session_id=661CF6E6807847EF8500A65A00F4B934 (192.168.157.1): Kernel does not exist: 4c0d6dda-8f14-4744-ba91-a15a2263f4e3
+[W 12:54:54.704 NotebookApp] 404 GET /api/kernels/4c0d6dda-8f14-4744-ba91-a15a2263f4e3/channels?session_id=661CF6E6807847EF8500A65A00F4B934 (192.168.157.1) 4.76ms referer=None
+[W 12:55:55.394 NotebookApp] 404 GET /api/kernels/4c0d6dda-8f14-4744-ba91-a15a2263f4e3/channels?session_id=127ECFA1B229433D95DD5DF253062EF9 (192.168.157.1): Kernel does not exist: 4c0d6dda-8f14-4744-ba91-a15a2263f4e3
+[W 12:55:55.397 NotebookApp] 404 GET /api/kernels/4c0d6dda-8f14-4744-ba91-a15a2263f4e3/channels?session_id=127ECFA1B229433D95DD5DF253062EF9 (192.168.157.1) 19.90ms referer=None
+[W 12:55:57.849 NotebookApp] 404 GET /api/kernels/4c0d6dda-8f14-4744-ba91-a15a2263f4e3/channels?session_id=ABE9ED95A20E48AF8C1534481ACF22B0 (192.168.157.1): Kernel does not exist: 4c0d6dda-8f14-4744-ba91-a15a2263f4e3
+[W 12:55:57.853 NotebookApp] 404 GET /api/kernels/4c0d6dda-8f14-4744-ba91-a15a2263f4e3/channels?session_id=ABE9ED95A20E48AF8C1534481ACF22B0 (192.168.157.1) 9.54ms referer=None
+[W 12:56:00.006 NotebookApp] 404 GET /api/kernels/4c0d6dda-8f14-4744-ba91-a15a2263f4e3/channels?session_id=661CF6E6807847EF8500A65A00F4B934 (192.168.157.1): Kernel does not exist: 4c0d6dda-8f14-4744-ba91-a15a2263f4e3
+[W 12:56:00.008 NotebookApp] 404 GET /api/kernels/4c0d6dda-8f14-4744-ba91-a15a2263f4e3/channels?session_id=661CF6E6807847EF8500A65A00F4B934 (192.168.157.1) 7.91ms referer=None

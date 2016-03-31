@@ -1,0 +1,175 @@
+WEBVTT
+
+NOTE Paragraph
+
+00:00:02.204 --> 00:00:11.810
+♩♫♪♬
+
+00:00:12.390 --> 00:00:15.327
+Hi and welcome back to App Inventor's Hour of Code.
+
+00:00:15.338 --> 00:00:17.398
+- I am Emily.
+- And I am Shay.
+
+00:00:17.549 --> 00:00:22.228
+In our last video we showed you how to make the Talk To Me app: You push a button and the phone talks to you.
+
+00:00:22.751 --> 00:00:25.593
+- So cool. 
+- Well, we had to start somewhere!
+
+00:00:25.726 --> 00:00:27.729
+I am ready to get to the cool stuff.
+
+00:00:27.749 --> 00:00:33.742
+Okay, now we are going to extend the Talk To me app so that it responds when we shake it and also so the user can input their own text.
+
+00:00:36.195 --> 00:00:37.500
+&gt;Stop shaking me!&lt;
+
+00:00:37.652 --> 00:00:43.776
+- Cool enough for you now?
+- I see endless opportunities. I can go on a run and get constant encouragement.
+
+00:00:44.238 --> 00:00:50.717
+Great! So we are gonna get started and the great thing is, this takes only a couple of minutes because App Inventor makes it really easy.
+
+00:00:50.863 --> 00:00:56.193
+Is your phone talking to you? Well, hang on, because it's about to get even more fun.
+
+00:00:56.348 --> 00:01:04.930
+We left off with our Talk To Me app in the blocks editor. Right now we need to go back into the designer to add another component.
+
+00:01:05.088 --> 00:01:12.772
+We want to extend Talk To Me so that the phone speaks when you shake it. To do that we need an accelerometer component.
+
+00:01:12.973 --> 00:01:23.536
+Click on the sensors drawer and drag out an accelerometer sensor. This is another non-visible component - so it drops down to the bottom of the screen.
+
+00:01:25.514 --> 00:01:28.553
+That's all we need for right now! Go back over to the blocks editor.
+
+00:01:28.677 --> 00:01:34.429
+As you develop your apps you will move back and forth between the designer and the blocks editor quite a bit.
+
+00:01:35.724 --> 00:01:41.039
+We now need a block for when the phone is shaking. This is also called an event handler.
+
+00:01:41.210 --> 00:01:45.806
+Drag out the "when AcceleromenterSensor1.Shaking" block.
+
+00:01:45.991 --> 00:01:49.907
+So, when this event is triggered that's when the phone is being shaken.
+
+00:01:50.106 --> 00:01:54.264
+What do we want to happen then? We want the phone to talk to us, right?
+
+00:01:54.367 --> 00:02:00.523
+So, we already know the blocks that handle that - the same blocks that we have inside the "Button1.Click" event.
+
+00:02:01.156 --> 00:02:07.061
+Here is a cool shortcut that will help you program in App Inventor even more quickly. You can copy and paste blocks.
+
+00:02:07.260 --> 00:02:14.856
+Click on the purple TextToSpeech block. Hit the key combination your computer for copy just like you would do with text.
+
+00:02:15.043 --> 00:02:21.641
+And then hit the key combination for paste. Voilà, you have a new set of the TextToSpeech and text blocks.
+
+00:02:21.792 --> 00:02:26.245
+Drag this new set down into the accelerometer shaking event block.
+
+00:02:26.396 --> 00:02:33.087
+If you had any trouble copying and pasting blocks, that's okay. You can also drag out new blocks from the drawers on the left.
+
+00:02:33.285 --> 00:02:41.670
+Remember, we got the TextToSpeech.Speak block from TextToSpeech and we got the plain text block from the built-in text drawer.
+
+00:02:42.777 --> 00:02:49.400
+So, right now, the phone will speak out loud if you shake it. But wouldn't it be much more fun if the phone says something about been shaken?
+
+00:02:49.559 --> 00:02:54.574
+Let's put in a funny phrase. I am going to type in "Stop Shaking Me!".
+
+00:02:56.467 --> 00:02:59.307
+Okay, try it out! Pick up your phone and shake it.
+
+00:02:59.559 --> 00:03:00.915
+&gt;Stop Shaking Me!&lt;
+
+00:03:01.071 --> 00:03:11.356
+So, our app is pretty cool, right? But wait! There is one more thing to add. Imagine sharing this app with your friends: Don't you think it would be a lot more fun if they can tell the phone what to say?
+
+00:03:11.558 --> 00:03:19.268
+To set this up go back into the designer, go to the user interface drawer and pull out a text box.
+
+00:03:21.934 --> 00:03:25.175
+Let's rearrange that a bit and put the button under the text box.
+
+00:03:26.491 --> 00:03:27.295
+Okay, guess what...
+
+00:03:27.680 --> 00:03:28.644
+Back to the blocks.
+
+00:03:28.781 --> 00:03:36.131
+Click on TextBox1 and look at the blocks it has. We now want to change what happens when the button is clicked.
+
+00:03:36.334 --> 00:03:42.290
+Instead of saying a fixed phrase we want the app to say whatever the user has typed into the text box.
+
+00:03:42.489 --> 00:03:51.827
+Scroll all the way down to the green blocks that we call "getters" and "setters" because they allow you to get and set the properties of the component.
+
+00:03:51.947 --> 00:03:58.716
+You want to get the text that has been typed into the box. So you need the getter block for "TextBox1.Text".
+
+00:03:58.859 --> 00:04:02.626
+Put that block inside the "when Button1.Click" block.
+
+00:04:02.775 --> 00:04:11.710
+To do this you have to throw away the old text block and then click this new TextBox1.Text block in its place.
+
+00:04:11.859 --> 00:04:20.292
+Try your app out again. When you click in the blank text box on your phone your keyboard will come up and you can type in whatever you want.
+
+00:04:20.425 --> 00:04:23.665
+Then, click "Talk To Me" and see what happens.
+
+00:04:23.856 --> 00:04:24.981
+&gt;Hello World&lt;
+
+00:04:25.147 --> 00:04:31.922
+There are some cool ways to extend this app. See the written tutorial for some great ideas for making it even better.
+
+00:04:32.076 --> 00:04:37.077
+If you had any trouble with this tutorial you can view the written version on our website.
+
+00:04:38.727 --> 00:04:41.259
+&gt;Stop! Stop! Stop! Stop!&lt;
+- Aw man, we made a real app!
+
+00:04:41.405 --> 00:04:44.295
+&gt;Stop! Stop! Stop! Stop!&lt;
+- That's kind of annoying!
+
+00:04:44.396 --> 00:04:45.588
+&gt;Stop! Stop! Stop! Stop!&lt;
+- You made it!
+
+00:04:45.717 --> 00:04:46.955
+Oh right.
+
+00:04:47.092 --> 00:04:52.926
+Well you are gonna have a ball with our next step because we're gonna show you how to make a ball roll around the screen when you fling it with your finger.
+
+00:04:53.099 --> 00:04:55.662
+&gt;Stop! Stop! Stop! Stop!&lt;
+- Can't wait!
+
+00:04:55.831 --> 00:04:57.795
+&gt;Stop! Stop! Stop! Stop! Stop! Stop! Stop Shaking Me!&lt;
+
+00:04:58.067 --> 00:05:07.133
+♩♫♪♬

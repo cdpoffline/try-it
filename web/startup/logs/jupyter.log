@@ -1,0 +1,98 @@
+---------------------- Wed Mar 30 05:13:02 PDT 2016 ----------------------
+sudo: ./jns-startup.sh: command not found
+---------------------- Wed Mar 30 05:19:24 PDT 2016 ----------------------
+Overwrite /home/jns/.jupyter/jupyter_notebook_config.py with default config? [y/N]Traceback (most recent call last):
+  File "/usr/local/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 267, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.5/site-packages/traitlets/config/application.py", line 596, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.5/site-packages/notebook/notebookapp.py", line 1075, in start
+    super(NotebookApp, self).start()
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 260, in start
+    self.write_default_config()
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 141, in write_default_config
+    answer = ask()
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 137, in ask
+    return raw_input(prompt).lower() or 'n'
+EOFError: EOF when reading a line
+mkdir: cannot create directory ‘notebooks’: File exists
+[I 05:19:55.105 NotebookApp] Writing notebook server cookie secret to /home/jns/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 05:19:56.920 NotebookApp] Loading IPython parallel extension
+[I 05:19:56.927 NotebookApp] Serving notebooks from local directory: /home/jns/notebooks
+[I 05:19:56.928 NotebookApp] 0 active kernels 
+[I 05:19:56.928 NotebookApp] The Jupyter Notebook is running at: http://192.168.55.51 192.168.157.131:9090/
+[I 05:19:56.928 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 05:25:14.000 NotebookApp] received signal 15, stopping
+[I 05:25:14.001 NotebookApp] Shutting down kernels
+symlink /home/jns/.local/share/jupyter/nbextensions/ipyparallel -> /usr/local/lib/python3.5/site-packages/ipyparallel/nbextension/static
+---------------------- Wed Mar 30 05:25:47 PDT 2016 ----------------------
+Overwrite /home/jns/.jupyter/jupyter_notebook_config.py with default config? [y/N]Traceback (most recent call last):
+  File "/usr/local/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 267, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.5/site-packages/traitlets/config/application.py", line 596, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.5/site-packages/notebook/notebookapp.py", line 1075, in start
+    super(NotebookApp, self).start()
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 260, in start
+    self.write_default_config()
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 141, in write_default_config
+    answer = ask()
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 137, in ask
+    return raw_input(prompt).lower() or 'n'
+EOFError: EOF when reading a line
+mkdir: cannot create directory ‘notebooks’: File exists
+[I 05:26:19.677 NotebookApp] Loading IPython parallel extension
+[I 05:26:19.927 NotebookApp] Serving notebooks from local directory: /home/jns/notebooks
+[I 05:26:19.928 NotebookApp] 0 active kernels 
+[I 05:26:19.928 NotebookApp] The Jupyter Notebook is running at: http://192.168.55.51 192.168.157.131:9090/
+[I 05:26:19.928 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 05:30:04.693 NotebookApp] 302 GET / (192.168.55.37) 1.06ms
+[I 05:30:04.707 NotebookApp] 302 GET /tree (192.168.55.37) 1.60ms
+[W 05:30:10.534 NotebookApp] 401 POST /login?next=%2Ftree (192.168.55.37) 3.84ms referer=http://192.168.55.51:9090/login?next=%2Ftree
+[W 05:30:16.829 NotebookApp] 401 POST /login?next=%2Ftree (192.168.55.37) 2.95ms referer=http://192.168.55.51:9090/login?next=%2Ftree
+[I 05:30:20.994 NotebookApp] 302 POST /login?next=%2Ftree (192.168.55.37) 1.35ms
+[I 05:30:39.407 NotebookApp] Creating new notebook in 
+[I 05:30:39.487 NotebookApp] Writing notebook-signing key to /home/jns/.local/share/jupyter/notebook_secret
+[I 05:30:40.371 NotebookApp] Kernel started: 376852ec-9f22-4e3f-b321-b07e4a1382d8
+[I 05:32:40.392 NotebookApp] Saving file at /Untitled.ipynb
+[C 05:33:57.076 NotebookApp] received signal 15, stopping
+[I 05:33:57.078 NotebookApp] Shutting down kernels
+[I 05:33:57.079 NotebookApp] Kernel shutdown: 376852ec-9f22-4e3f-b321-b07e4a1382d8
+---------------------- Wed Mar 30 05:34:27 PDT 2016 ----------------------
+Overwrite /home/jns/.jupyter/jupyter_notebook_config.py with default config? [y/N]Traceback (most recent call last):
+  File "/usr/local/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 267, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.5/site-packages/traitlets/config/application.py", line 596, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.5/site-packages/notebook/notebookapp.py", line 1075, in start
+    super(NotebookApp, self).start()
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 260, in start
+    self.write_default_config()
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 141, in write_default_config
+    answer = ask()
+  File "/usr/local/lib/python3.5/site-packages/jupyter_core/application.py", line 137, in ask
+    return raw_input(prompt).lower() or 'n'
+EOFError: EOF when reading a line
+[I 05:34:59.334 NotebookApp] Loading IPython parallel extension
+[I 05:34:59.399 NotebookApp] Serving notebooks from local directory: /home/jns/notebooks
+[I 05:34:59.399 NotebookApp] 0 active kernels 
+[I 05:34:59.399 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:9090/
+[I 05:34:59.399 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 05:35:06.720 NotebookApp] 302 GET / (192.168.157.1) 0.68ms
+[I 05:35:06.725 NotebookApp] 302 GET /tree (192.168.157.1) 1.16ms
+[W 05:35:09.696 NotebookApp] 401 POST /login?next=%2Ftree (192.168.157.1) 2.56ms referer=http://192.168.157.131:9090/login?next=%2Ftree
+[I 05:35:12.108 NotebookApp] 302 POST /login?next=%2Ftree (192.168.157.1) 0.94ms
+[I 05:35:22.114 NotebookApp] Kernel started: 2577bc1b-870c-4020-b680-6893f8614d72
+[W 05:35:28.216 NotebookApp] 404 GET /api/kernels/376852ec-9f22-4e3f-b321-b07e4a1382d8/channels?session_id=E4803A9128E946BA91436F90EF4F4E7A (192.168.55.37): Kernel does not exist: 376852ec-9f22-4e3f-b321-b07e4a1382d8
+[W 05:35:28.257 NotebookApp] 404 GET /api/kernels/376852ec-9f22-4e3f-b321-b07e4a1382d8/channels?session_id=E4803A9128E946BA91436F90EF4F4E7A (192.168.55.37) 58.24ms referer=None
+[I 05:37:22.034 NotebookApp] Saving file at /Untitled.ipynb
+[C 05:53:44.060 NotebookApp] received signal 15, stopping
+[I 05:53:44.064 NotebookApp] Shutting down kernels
+[C 05:53:44.064 NotebookApp] received signal 15, stopping
+[I 05:53:44.065 NotebookApp] Kernel shutdown: 2577bc1b-870c-4020-b680-6893f8614d72

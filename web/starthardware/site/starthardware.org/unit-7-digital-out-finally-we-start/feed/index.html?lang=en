@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Unit 7 – Digital Out: Finally we start!</title>
+	<atom:link href="../../../starthardware.org/unit-7-digital-out-finally-we-start/feed/?lang=en" rel="self" type="application/rss+xml" />
+	<link>http://starthardware.org/unit-7-digital-out-finally-we-start/?lang=en</link>
+	<description>Lerne Hardware zu programmieren!</description>
+	<lastBuildDate>Sat, 05 Mar 2016 20:10:14 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.4.2</generator>
+	<item>
+		<title>By: Unit 8 – It&#8217;s blinking! &#124; Start Hardware</title>
+		<link>http://starthardware.org/unit-7-digital-out-finally-we-start/?lang=en#comment-7233</link>
+		<dc:creator><![CDATA[Unit 8 – It&#8217;s blinking! &#124; Start Hardware]]></dc:creator>
+		<pubDate>Tue, 24 Mar 2015 08:52:30 +0000</pubDate>
+		<guid isPermaLink="false">http://starthardware.org/?p=1366#comment-7233</guid>
+		<description><![CDATA[[&#8230;] We can simply use the circuit of unit 7. [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] We can simply use the circuit of unit 7. [&#8230;]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

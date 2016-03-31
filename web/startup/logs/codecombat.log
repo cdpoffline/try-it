@@ -1,0 +1,1741 @@
+codecombat is not running
+mongod --help for help and startup options
+2016-03-07T15:05:25.789-0800 
+2016-03-07T15:05:25.789-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T15:05:25.789-0800 
+2016-03-07T15:05:25.828-0800 [initandlisten] MongoDB starting : pid=1227 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T15:05:25.828-0800 [initandlisten] 
+2016-03-07T15:05:25.828-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T15:05:25.828-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T15:05:25.828-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T15:05:25.828-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T15:05:25.828-0800 [initandlisten] 
+2016-03-07T15:05:25.828-0800 [initandlisten] db version v2.6.10
+2016-03-07T15:05:25.828-0800 [initandlisten] git version: nogitversion
+2016-03-07T15:05:25.828-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T15:05:25.828-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T15:05:25.828-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T15:05:25.828-0800 [initandlisten] options: {}
+2016-03-07T15:05:27.206-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-07T15:05:27.206-0800 [initandlisten] ERROR:   addr already in use
+2016-03-07T15:05:27.245-0800 [initandlisten] now exiting
+2016-03-07T15:05:27.245-0800 [initandlisten] dbexit: 
+2016-03-07T15:05:27.245-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-07T15:05:27.245-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-07T15:05:27.245-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-07T15:05:27.245-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-07T15:05:27.246-0800 [initandlisten] shutdown: closing all files...
+2016-03-07T15:05:27.247-0800 [initandlisten] closeAllFiles() finished
+2016-03-07T15:05:27.247-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-07T15:05:27.247-0800 [initandlisten] dbexit: really exiting now
+codecombat is not running
+./start_server.sh: line 14: /.nvm/nvm.sh: No such file or directory
+mongod --help for help and startup options
+2016-03-07T15:16:30.572-0800 
+2016-03-07T15:16:30.572-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T15:16:30.572-0800 
+2016-03-07T15:16:30.577-0800 [initandlisten] MongoDB starting : pid=739 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T15:16:30.577-0800 [initandlisten] 
+2016-03-07T15:16:30.577-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T15:16:30.577-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T15:16:30.577-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T15:16:30.577-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T15:16:30.577-0800 [initandlisten] 
+2016-03-07T15:16:30.577-0800 [initandlisten] db version v2.6.10
+2016-03-07T15:16:30.577-0800 [initandlisten] git version: nogitversion
+2016-03-07T15:16:30.577-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T15:16:30.577-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T15:16:30.577-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T15:16:30.577-0800 [initandlisten] options: {}
+2016-03-07T15:16:31.604-0800 [initandlisten] waiting for connections on port 27017
+2016-03-07T15:17:29.114-0800 [clientcursormon] mem (MB) res:70 virt:675
+2016-03-07T15:17:29.115-0800 [clientcursormon]  mapped:544
+2016-03-07T15:17:29.115-0800 [clientcursormon]  connections:0
+2016-03-07T15:22:29.221-0800 [clientcursormon] mem (MB) res:70 virt:675
+2016-03-07T15:22:29.221-0800 [clientcursormon]  mapped:544
+2016-03-07T15:22:29.221-0800 [clientcursormon]  connections:0
+2016-03-07T15:24:41.317-0800 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-03-07T15:24:41.317-0800 [signalProcessingThread] now exiting
+2016-03-07T15:24:41.317-0800 [signalProcessingThread] dbexit: 
+2016-03-07T15:24:41.317-0800 [signalProcessingThread] shutdown: going to close listening sockets...
+2016-03-07T15:24:41.317-0800 [signalProcessingThread] closing listening socket: 5
+2016-03-07T15:24:41.317-0800 [signalProcessingThread] closing listening socket: 8
+2016-03-07T15:24:41.317-0800 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-03-07T15:24:41.317-0800 [signalProcessingThread] shutdown: going to flush diaglog...
+2016-03-07T15:24:41.317-0800 [signalProcessingThread] shutdown: going to close sockets...
+2016-03-07T15:24:41.318-0800 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-03-07T15:24:41.318-0800 [signalProcessingThread] shutdown: closing all files...
+2016-03-07T15:24:41.318-0800 [signalProcessingThread] closeAllFiles() finished
+2016-03-07T15:24:41.318-0800 [signalProcessingThread] shutdown: removing fs lock...
+2016-03-07T15:24:41.318-0800 [signalProcessingThread] dbexit: really exiting now
+codecombat is not running
+./start_server.sh: line 20: locked/.nvm/nvm.sh: No such file or directory
+mongod --help for help and startup options
+2016-03-07T15:43:49.123-0800 
+2016-03-07T15:43:49.123-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T15:43:49.123-0800 
+2016-03-07T15:43:49.127-0800 [initandlisten] MongoDB starting : pid=744 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T15:43:49.127-0800 [initandlisten] 
+2016-03-07T15:43:49.127-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T15:43:49.127-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T15:43:49.127-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T15:43:49.127-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T15:43:49.127-0800 [initandlisten] 
+2016-03-07T15:43:49.127-0800 [initandlisten] db version v2.6.10
+2016-03-07T15:43:49.127-0800 [initandlisten] git version: nogitversion
+2016-03-07T15:43:49.127-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T15:43:49.127-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T15:43:49.127-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T15:43:49.127-0800 [initandlisten] options: {}
+2016-03-07T15:43:49.960-0800 [initandlisten] waiting for connections on port 27017
+2016-03-07T15:44:40.828-0800 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-03-07T15:44:40.828-0800 [signalProcessingThread] now exiting
+2016-03-07T15:44:40.828-0800 [signalProcessingThread] dbexit: 
+2016-03-07T15:44:40.828-0800 [signalProcessingThread] shutdown: going to close listening sockets...
+2016-03-07T15:44:40.828-0800 [signalProcessingThread] closing listening socket: 5
+2016-03-07T15:44:40.828-0800 [signalProcessingThread] closing listening socket: 6
+2016-03-07T15:44:40.828-0800 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-03-07T15:44:40.828-0800 [signalProcessingThread] shutdown: going to flush diaglog...
+2016-03-07T15:44:40.828-0800 [signalProcessingThread] shutdown: going to close sockets...
+2016-03-07T15:44:40.829-0800 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-03-07T15:44:40.829-0800 [signalProcessingThread] shutdown: closing all files...
+2016-03-07T15:44:40.829-0800 [signalProcessingThread] closeAllFiles() finished
+2016-03-07T15:44:40.829-0800 [signalProcessingThread] shutdown: removing fs lock...
+2016-03-07T15:44:40.829-0800 [signalProcessingThread] dbexit: really exiting now
+codecombat is not running
+./start_server.sh: line 20: coderdojo/.nvm/nvm.sh: No such file or directory
+mongod --help for help and startup options
+2016-03-07T15:45:07.038-0800 
+2016-03-07T15:45:07.038-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T15:45:07.038-0800 
+2016-03-07T15:45:07.041-0800 [initandlisten] MongoDB starting : pid=761 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T15:45:07.041-0800 [initandlisten] 
+2016-03-07T15:45:07.041-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T15:45:07.041-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T15:45:07.041-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T15:45:07.041-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T15:45:07.041-0800 [initandlisten] 
+2016-03-07T15:45:07.041-0800 [initandlisten] db version v2.6.10
+2016-03-07T15:45:07.041-0800 [initandlisten] git version: nogitversion
+2016-03-07T15:45:07.041-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T15:45:07.041-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T15:45:07.041-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T15:45:07.041-0800 [initandlisten] options: {}
+2016-03-07T15:45:07.683-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-07T15:45:07.683-0800 [initandlisten] ERROR:   addr already in use
+2016-03-07T15:45:07.733-0800 [initandlisten] now exiting
+2016-03-07T15:45:07.733-0800 [initandlisten] dbexit: 
+2016-03-07T15:45:07.733-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-07T15:45:07.733-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-07T15:45:07.733-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-07T15:45:07.733-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-07T15:45:07.733-0800 [initandlisten] shutdown: closing all files...
+2016-03-07T15:45:07.733-0800 [initandlisten] closeAllFiles() finished
+2016-03-07T15:45:07.733-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-07T15:45:07.734-0800 [initandlisten] dbexit: really exiting now
+---------------------- Mon Mar  7 15:49:22 PST 2016 ----------------------
+codecombat is not running
+./start_server.sh: line 20: coderdojo/.nvm/nvm.sh: No such file or directory
+mongod --help for help and startup options
+2016-03-07T15:49:24.124-0800 
+2016-03-07T15:49:24.124-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T15:49:24.124-0800 
+2016-03-07T15:49:24.362-0800 [initandlisten] MongoDB starting : pid=761 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T15:49:24.362-0800 [initandlisten] 
+2016-03-07T15:49:24.362-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T15:49:24.362-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T15:49:24.362-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T15:49:24.362-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T15:49:24.362-0800 [initandlisten] 
+2016-03-07T15:49:24.362-0800 [initandlisten] db version v2.6.10
+2016-03-07T15:49:24.363-0800 [initandlisten] git version: nogitversion
+2016-03-07T15:49:24.363-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T15:49:24.363-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T15:49:24.363-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T15:49:24.363-0800 [initandlisten] options: {}
+2016-03-07T15:49:25.585-0800 [initandlisten] waiting for connections on port 27017
+2016-03-07T15:50:23.123-0800 [clientcursormon] mem (MB) res:70 virt:675
+2016-03-07T15:50:23.123-0800 [clientcursormon]  mapped:544
+2016-03-07T15:50:23.123-0800 [clientcursormon]  connections:0
+2016-03-07T15:53:32.290-0800 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-03-07T15:53:32.291-0800 [signalProcessingThread] now exiting
+2016-03-07T15:53:32.291-0800 [signalProcessingThread] dbexit: 
+2016-03-07T15:53:32.291-0800 [signalProcessingThread] shutdown: going to close listening sockets...
+2016-03-07T15:53:32.291-0800 [signalProcessingThread] closing listening socket: 5
+2016-03-07T15:53:32.291-0800 [signalProcessingThread] closing listening socket: 6
+2016-03-07T15:53:32.291-0800 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-03-07T15:53:32.291-0800 [signalProcessingThread] shutdown: going to flush diaglog...
+2016-03-07T15:53:32.291-0800 [signalProcessingThread] shutdown: going to close sockets...
+2016-03-07T15:53:32.291-0800 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-03-07T15:53:32.291-0800 [signalProcessingThread] shutdown: closing all files...
+2016-03-07T15:53:32.292-0800 [signalProcessingThread] closeAllFiles() finished
+2016-03-07T15:53:32.292-0800 [signalProcessingThread] shutdown: removing fs lock...
+2016-03-07T15:53:32.292-0800 [signalProcessingThread] dbexit: really exiting now
+---------------------- Mon Mar  7 15:53:57 PST 2016 ----------------------
+codecombat is not running
+./start_server.sh: line 20: coderdojo/.nvm/nvm.sh: No such file or directory
+mongod --help for help and startup options
+2016-03-07T15:53:59.594-0800 
+2016-03-07T15:53:59.594-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T15:53:59.594-0800 
+2016-03-07T15:53:59.596-0800 [initandlisten] MongoDB starting : pid=789 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T15:53:59.596-0800 [initandlisten] 
+2016-03-07T15:53:59.596-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T15:53:59.596-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T15:53:59.596-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T15:53:59.596-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T15:53:59.597-0800 [initandlisten] 
+2016-03-07T15:53:59.597-0800 [initandlisten] db version v2.6.10
+2016-03-07T15:53:59.597-0800 [initandlisten] git version: nogitversion
+2016-03-07T15:53:59.597-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T15:53:59.597-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T15:53:59.597-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T15:53:59.597-0800 [initandlisten] options: {}
+2016-03-07T15:54:01.017-0800 [initandlisten] query admin.system.roles planSummary: EOF ntoreturn:0 ntoskip:0 nscanned:0 nscannedObjects:0 keyUpdates:0 numYields:0 locks(micros) W:148 r:150124 nreturned:0 reslen:20 150ms
+2016-03-07T15:54:01.161-0800 [initandlisten] waiting for connections on port 27017
+2016-03-07T15:54:58.540-0800 [clientcursormon] mem (MB) res:70 virt:675
+2016-03-07T15:54:58.540-0800 [clientcursormon]  mapped:544
+2016-03-07T15:54:58.540-0800 [clientcursormon]  connections:0
+2016-03-07T15:59:58.624-0800 [clientcursormon] mem (MB) res:71 virt:675
+2016-03-07T15:59:58.624-0800 [clientcursormon]  mapped:544
+2016-03-07T15:59:58.624-0800 [clientcursormon]  connections:0
+2016-03-07T16:04:58.713-0800 [clientcursormon] mem (MB) res:71 virt:675
+2016-03-07T16:04:58.713-0800 [clientcursormon]  mapped:544
+2016-03-07T16:04:58.713-0800 [clientcursormon]  connections:0
+2016-03-07T16:09:58.802-0800 [clientcursormon] mem (MB) res:71 virt:675
+2016-03-07T16:09:58.803-0800 [clientcursormon]  mapped:544
+2016-03-07T16:09:58.803-0800 [clientcursormon]  connections:0
+2016-03-07T16:11:01.808-0800 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-03-07T16:11:01.808-0800 [signalProcessingThread] now exiting
+2016-03-07T16:11:01.808-0800 [signalProcessingThread] dbexit: 
+2016-03-07T16:11:01.808-0800 [signalProcessingThread] shutdown: going to close listening sockets...
+2016-03-07T16:11:01.808-0800 [signalProcessingThread] closing listening socket: 5
+2016-03-07T16:11:01.808-0800 [signalProcessingThread] closing listening socket: 8
+2016-03-07T16:11:01.808-0800 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-03-07T16:11:01.808-0800 [signalProcessingThread] shutdown: going to flush diaglog...
+2016-03-07T16:11:01.808-0800 [signalProcessingThread] shutdown: going to close sockets...
+2016-03-07T16:11:01.808-0800 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-03-07T16:11:01.808-0800 [signalProcessingThread] shutdown: closing all files...
+2016-03-07T16:11:01.810-0800 [signalProcessingThread] closeAllFiles() finished
+2016-03-07T16:11:01.810-0800 [signalProcessingThread] shutdown: removing fs lock...
+2016-03-07T16:11:01.810-0800 [signalProcessingThread] dbexit: really exiting now
+---------------------- Mon Mar  7 16:11:26 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+./start_server.sh: line 24: syntax error near unexpected token `('
+./start_server.sh: line 24: `  sudo -u "$user"('
+mongod --help for help and startup options
+2016-03-07T16:11:28.355-0800 
+2016-03-07T16:11:28.355-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T16:11:28.355-0800 
+2016-03-07T16:11:28.361-0800 [initandlisten] MongoDB starting : pid=746 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T16:11:28.361-0800 [initandlisten] 
+2016-03-07T16:11:28.361-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T16:11:28.361-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T16:11:28.361-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T16:11:28.361-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T16:11:28.361-0800 [initandlisten] 
+2016-03-07T16:11:28.361-0800 [initandlisten] db version v2.6.10
+2016-03-07T16:11:28.361-0800 [initandlisten] git version: nogitversion
+2016-03-07T16:11:28.361-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T16:11:28.361-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T16:11:28.361-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T16:11:28.361-0800 [initandlisten] options: {}
+2016-03-07T16:11:29.035-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-07T16:11:29.035-0800 [initandlisten] ERROR:   addr already in use
+2016-03-07T16:11:29.061-0800 [initandlisten] now exiting
+2016-03-07T16:11:29.061-0800 [initandlisten] dbexit: 
+2016-03-07T16:11:29.061-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-07T16:11:29.061-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-07T16:11:29.061-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-07T16:11:29.061-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-07T16:11:29.061-0800 [initandlisten] shutdown: closing all files...
+2016-03-07T16:11:29.062-0800 [initandlisten] closeAllFiles() finished
+2016-03-07T16:11:29.062-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-07T16:11:29.062-0800 [initandlisten] dbexit: really exiting now
+---------------------- Mon Mar  7 16:13:25 PST 2016 ----------------------
+user coderdojo
+./start_server.sh: line 24: syntax error near unexpected token `('
+./start_server.sh: line 24: `  sudo -u "$user" ('
+mongod --help for help and startup options
+2016-03-07T16:13:26.920-0800 
+2016-03-07T16:13:26.920-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T16:13:26.920-0800 
+2016-03-07T16:13:26.922-0800 [initandlisten] MongoDB starting : pid=773 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T16:13:26.922-0800 [initandlisten] 
+2016-03-07T16:13:26.922-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T16:13:26.922-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T16:13:26.922-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T16:13:26.922-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T16:13:26.922-0800 [initandlisten] 
+2016-03-07T16:13:26.922-0800 [initandlisten] db version v2.6.10
+2016-03-07T16:13:26.922-0800 [initandlisten] git version: nogitversion
+2016-03-07T16:13:26.922-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T16:13:26.922-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T16:13:26.923-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T16:13:26.923-0800 [initandlisten] options: {}
+2016-03-07T16:13:27.792-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-07T16:13:27.792-0800 [initandlisten] ERROR:   addr already in use
+2016-03-07T16:13:27.833-0800 [initandlisten] now exiting
+2016-03-07T16:13:27.833-0800 [initandlisten] dbexit: 
+2016-03-07T16:13:27.833-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-07T16:13:27.833-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-07T16:13:27.833-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-07T16:13:27.833-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-07T16:13:27.833-0800 [initandlisten] shutdown: closing all files...
+2016-03-07T16:13:27.834-0800 [initandlisten] closeAllFiles() finished
+2016-03-07T16:13:27.834-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-07T16:13:27.834-0800 [initandlisten] dbexit: really exiting now
+---------------------- Mon Mar  7 16:20:07 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-07T16:20:09.967-0800 
+2016-03-07T16:20:09.967-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T16:20:09.967-0800 
+2016-03-07T16:20:09.971-0800 [initandlisten] MongoDB starting : pid=750 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T16:20:09.971-0800 [initandlisten] 
+2016-03-07T16:20:09.971-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T16:20:09.971-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T16:20:09.971-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T16:20:09.971-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T16:20:09.971-0800 [initandlisten] 
+2016-03-07T16:20:09.971-0800 [initandlisten] db version v2.6.10
+2016-03-07T16:20:09.971-0800 [initandlisten] git version: nogitversion
+2016-03-07T16:20:09.971-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T16:20:09.971-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T16:20:09.971-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T16:20:09.971-0800 [initandlisten] options: {}
+2016-03-07T16:20:10.824-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-07T16:20:10.824-0800 [initandlisten] ERROR:   addr already in use
+2016-03-07T16:20:10.899-0800 [initandlisten] now exiting
+2016-03-07T16:20:10.900-0800 [initandlisten] dbexit: 
+2016-03-07T16:20:10.900-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-07T16:20:10.900-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-07T16:20:10.900-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-07T16:20:10.900-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-07T16:20:10.900-0800 [initandlisten] shutdown: closing all files...
+2016-03-07T16:20:10.900-0800 [initandlisten] closeAllFiles() finished
+2016-03-07T16:20:10.900-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-07T16:20:10.900-0800 [initandlisten] dbexit: really exiting now
+---------------------- Mon Mar  7 16:26:52 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-07T16:26:54.381-0800 
+2016-03-07T16:26:54.381-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T16:26:54.381-0800 
+2016-03-07T16:26:54.383-0800 [initandlisten] MongoDB starting : pid=748 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T16:26:54.383-0800 [initandlisten] 
+2016-03-07T16:26:54.383-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T16:26:54.383-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T16:26:54.383-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T16:26:54.383-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T16:26:54.383-0800 [initandlisten] 
+2016-03-07T16:26:54.383-0800 [initandlisten] db version v2.6.10
+2016-03-07T16:26:54.383-0800 [initandlisten] git version: nogitversion
+2016-03-07T16:26:54.383-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T16:26:54.383-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T16:26:54.383-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T16:26:54.383-0800 [initandlisten] options: {}
+2016-03-07T16:26:55.159-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-07T16:26:55.159-0800 [initandlisten] ERROR:   addr already in use
+2016-03-07T16:26:55.184-0800 [initandlisten] now exiting
+2016-03-07T16:26:55.184-0800 [initandlisten] dbexit: 
+2016-03-07T16:26:55.184-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-07T16:26:55.184-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-07T16:26:55.184-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-07T16:26:55.184-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-07T16:26:55.184-0800 [initandlisten] shutdown: closing all files...
+2016-03-07T16:26:55.184-0800 [initandlisten] closeAllFiles() finished
+2016-03-07T16:26:55.184-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-07T16:26:55.184-0800 [initandlisten] dbexit: really exiting now
+---------------------- Mon Mar  7 16:29:58 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-07T16:30:00.528-0800 
+2016-03-07T16:30:00.528-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T16:30:00.528-0800 
+2016-03-07T16:30:00.532-0800 [initandlisten] MongoDB starting : pid=773 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T16:30:00.532-0800 [initandlisten] 
+2016-03-07T16:30:00.532-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T16:30:00.532-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T16:30:00.532-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T16:30:00.532-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T16:30:00.532-0800 [initandlisten] 
+2016-03-07T16:30:00.532-0800 [initandlisten] db version v2.6.10
+2016-03-07T16:30:00.532-0800 [initandlisten] git version: nogitversion
+2016-03-07T16:30:00.532-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T16:30:00.532-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T16:30:00.532-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T16:30:00.532-0800 [initandlisten] options: {}
+2016-03-07T16:30:01.463-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-07T16:30:01.463-0800 [initandlisten] ERROR:   addr already in use
+2016-03-07T16:30:01.537-0800 [initandlisten] now exiting
+2016-03-07T16:30:01.537-0800 [initandlisten] dbexit: 
+2016-03-07T16:30:01.537-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-07T16:30:01.537-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-07T16:30:01.537-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-07T16:30:01.538-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-07T16:30:01.538-0800 [initandlisten] shutdown: closing all files...
+2016-03-07T16:30:01.538-0800 [initandlisten] closeAllFiles() finished
+2016-03-07T16:30:01.538-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-07T16:30:01.538-0800 [initandlisten] dbexit: really exiting now
+---------------------- Mon Mar  7 16:33:01 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-07T16:33:04.093-0800 
+2016-03-07T16:33:04.093-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T16:33:04.093-0800 
+2016-03-07T16:33:04.095-0800 [initandlisten] MongoDB starting : pid=790 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T16:33:04.095-0800 [initandlisten] 
+2016-03-07T16:33:04.095-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T16:33:04.095-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T16:33:04.095-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T16:33:04.095-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T16:33:04.095-0800 [initandlisten] 
+2016-03-07T16:33:04.095-0800 [initandlisten] db version v2.6.10
+2016-03-07T16:33:04.095-0800 [initandlisten] git version: nogitversion
+2016-03-07T16:33:04.095-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T16:33:04.095-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T16:33:04.095-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T16:33:04.095-0800 [initandlisten] options: {}
+2016-03-07T16:33:05.336-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-07T16:33:05.336-0800 [initandlisten] ERROR:   addr already in use
+2016-03-07T16:33:05.420-0800 [initandlisten] now exiting
+2016-03-07T16:33:05.420-0800 [initandlisten] dbexit: 
+2016-03-07T16:33:05.420-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-07T16:33:05.420-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-07T16:33:05.420-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-07T16:33:05.420-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-07T16:33:05.420-0800 [initandlisten] shutdown: closing all files...
+2016-03-07T16:33:05.421-0800 [initandlisten] closeAllFiles() finished
+2016-03-07T16:33:05.421-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-07T16:33:05.421-0800 [initandlisten] dbexit: really exiting now
+---------------------- Mon Mar  7 16:35:28 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-07T16:35:30.833-0800 
+2016-03-07T16:35:30.833-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-07T16:35:30.833-0800 
+2016-03-07T16:35:30.835-0800 [initandlisten] MongoDB starting : pid=804 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-07T16:35:30.835-0800 [initandlisten] 
+2016-03-07T16:35:30.835-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-07T16:35:30.835-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-07T16:35:30.835-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-07T16:35:30.835-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-07T16:35:30.835-0800 [initandlisten] 
+2016-03-07T16:35:30.835-0800 [initandlisten] db version v2.6.10
+2016-03-07T16:35:30.835-0800 [initandlisten] git version: nogitversion
+2016-03-07T16:35:30.835-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T16:35:30.835-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-07T16:35:30.835-0800 [initandlisten] allocator: tcmalloc
+2016-03-07T16:35:30.835-0800 [initandlisten] options: {}
+2016-03-07T16:35:32.521-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-07T16:35:32.521-0800 [initandlisten] ERROR:   addr already in use
+2016-03-07T16:35:32.554-0800 [initandlisten] now exiting
+2016-03-07T16:35:32.554-0800 [initandlisten] dbexit: 
+2016-03-07T16:35:32.554-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-07T16:35:32.554-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-07T16:35:32.554-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-07T16:35:32.554-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-07T16:35:32.554-0800 [initandlisten] shutdown: closing all files...
+2016-03-07T16:35:32.555-0800 [initandlisten] closeAllFiles() finished
+2016-03-07T16:35:32.555-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-07T16:35:32.555-0800 [initandlisten] dbexit: really exiting now
+---------------------- Tue Mar  8 02:10:43 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-08T02:10:45.939-0800 
+2016-03-08T02:10:45.939-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-08T02:10:45.939-0800 
+2016-03-08T02:10:45.944-0800 [initandlisten] MongoDB starting : pid=774 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-08T02:10:45.944-0800 [initandlisten] 
+2016-03-08T02:10:45.944-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-08T02:10:45.944-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-08T02:10:45.944-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-08T02:10:45.944-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-08T02:10:45.944-0800 [initandlisten] 
+2016-03-08T02:10:45.944-0800 [initandlisten] db version v2.6.10
+2016-03-08T02:10:45.944-0800 [initandlisten] git version: nogitversion
+2016-03-08T02:10:45.944-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-08T02:10:45.944-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-08T02:10:45.944-0800 [initandlisten] allocator: tcmalloc
+2016-03-08T02:10:45.944-0800 [initandlisten] options: {}
+2016-03-08T02:10:49.415-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-08T02:10:49.415-0800 [initandlisten] ERROR:   addr already in use
+2016-03-08T02:10:49.430-0800 [initandlisten] now exiting
+2016-03-08T02:10:49.430-0800 [initandlisten] dbexit: 
+2016-03-08T02:10:49.430-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-08T02:10:49.431-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-08T02:10:49.431-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-08T02:10:49.431-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-08T02:10:49.431-0800 [initandlisten] shutdown: closing all files...
+2016-03-08T02:10:49.431-0800 [initandlisten] closeAllFiles() finished
+2016-03-08T02:10:49.431-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-08T02:10:49.432-0800 [initandlisten] dbexit: really exiting now
+---------------------- Tue Mar  8 02:31:02 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-08T02:31:04.985-0800 
+2016-03-08T02:31:04.985-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-08T02:31:04.985-0800 
+2016-03-08T02:31:04.990-0800 [initandlisten] MongoDB starting : pid=768 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-08T02:31:04.990-0800 [initandlisten] 
+2016-03-08T02:31:04.990-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-08T02:31:04.990-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-08T02:31:04.990-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-08T02:31:04.990-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-08T02:31:04.990-0800 [initandlisten] 
+2016-03-08T02:31:04.990-0800 [initandlisten] db version v2.6.10
+2016-03-08T02:31:04.990-0800 [initandlisten] git version: nogitversion
+2016-03-08T02:31:04.990-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-08T02:31:04.990-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-08T02:31:04.990-0800 [initandlisten] allocator: tcmalloc
+2016-03-08T02:31:04.990-0800 [initandlisten] options: {}
+2016-03-08T02:31:05.991-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-08T02:31:05.991-0800 [initandlisten] ERROR:   addr already in use
+2016-03-08T02:31:06.081-0800 [initandlisten] now exiting
+2016-03-08T02:31:06.082-0800 [initandlisten] dbexit: 
+2016-03-08T02:31:06.082-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-08T02:31:06.082-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-08T02:31:06.082-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-08T02:31:06.082-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-08T02:31:06.082-0800 [initandlisten] shutdown: closing all files...
+2016-03-08T02:31:06.082-0800 [initandlisten] closeAllFiles() finished
+2016-03-08T02:31:06.082-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-08T02:31:06.082-0800 [initandlisten] dbexit: really exiting now
+---------------------- Tue Mar  8 02:32:14 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-08T02:32:16.876-0800 
+2016-03-08T02:32:16.876-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-08T02:32:16.876-0800 
+2016-03-08T02:32:16.879-0800 [initandlisten] MongoDB starting : pid=767 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-08T02:32:16.879-0800 [initandlisten] 
+2016-03-08T02:32:16.879-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-08T02:32:16.879-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-08T02:32:16.879-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-08T02:32:16.879-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-08T02:32:16.879-0800 [initandlisten] 
+2016-03-08T02:32:16.879-0800 [initandlisten] db version v2.6.10
+2016-03-08T02:32:16.879-0800 [initandlisten] git version: nogitversion
+2016-03-08T02:32:16.879-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-08T02:32:16.879-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-08T02:32:16.879-0800 [initandlisten] allocator: tcmalloc
+2016-03-08T02:32:16.879-0800 [initandlisten] options: {}
+2016-03-08T02:32:17.724-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-08T02:32:17.724-0800 [initandlisten] ERROR:   addr already in use
+2016-03-08T02:32:17.742-0800 [initandlisten] now exiting
+2016-03-08T02:32:17.742-0800 [initandlisten] dbexit: 
+2016-03-08T02:32:17.742-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-08T02:32:17.742-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-08T02:32:17.742-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-08T02:32:17.742-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-08T02:32:17.742-0800 [initandlisten] shutdown: closing all files...
+2016-03-08T02:32:17.742-0800 [initandlisten] closeAllFiles() finished
+2016-03-08T02:32:17.742-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-08T02:32:17.742-0800 [initandlisten] dbexit: really exiting now
+---------------------- Tue Mar  8 02:33:32 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-08T02:33:35.203-0800 
+2016-03-08T02:33:35.203-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-08T02:33:35.203-0800 
+2016-03-08T02:33:35.206-0800 [initandlisten] MongoDB starting : pid=783 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-08T02:33:35.206-0800 [initandlisten] 
+2016-03-08T02:33:35.206-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-08T02:33:35.206-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-08T02:33:35.207-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-08T02:33:35.207-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-08T02:33:35.207-0800 [initandlisten] 
+2016-03-08T02:33:35.207-0800 [initandlisten] db version v2.6.10
+2016-03-08T02:33:35.207-0800 [initandlisten] git version: nogitversion
+2016-03-08T02:33:35.207-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-08T02:33:35.207-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-08T02:33:35.207-0800 [initandlisten] allocator: tcmalloc
+2016-03-08T02:33:35.207-0800 [initandlisten] options: {}
+2016-03-08T02:33:36.977-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-08T02:33:36.977-0800 [initandlisten] ERROR:   addr already in use
+2016-03-08T02:33:37.085-0800 [initandlisten] command local.$cmd command: create { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0 numYields:0  reslen:75 107ms
+2016-03-08T02:33:37.085-0800 [initandlisten] now exiting
+2016-03-08T02:33:37.085-0800 [initandlisten] dbexit: 
+2016-03-08T02:33:37.085-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-08T02:33:37.085-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-08T02:33:37.085-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-08T02:33:37.086-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-08T02:33:37.086-0800 [initandlisten] shutdown: closing all files...
+2016-03-08T02:33:37.086-0800 [initandlisten] closeAllFiles() finished
+2016-03-08T02:33:37.086-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-08T02:33:37.086-0800 [initandlisten] dbexit: really exiting now
+---------------------- Tue Mar  8 02:35:31 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-08T02:35:33.570-0800 
+2016-03-08T02:35:33.570-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-08T02:35:33.570-0800 
+2016-03-08T02:35:33.572-0800 [initandlisten] MongoDB starting : pid=768 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-08T02:35:33.572-0800 [initandlisten] 
+2016-03-08T02:35:33.572-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-08T02:35:33.572-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-08T02:35:33.572-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-08T02:35:33.572-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-08T02:35:33.572-0800 [initandlisten] 
+2016-03-08T02:35:33.572-0800 [initandlisten] db version v2.6.10
+2016-03-08T02:35:33.572-0800 [initandlisten] git version: nogitversion
+2016-03-08T02:35:33.572-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-08T02:35:33.572-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-08T02:35:33.572-0800 [initandlisten] allocator: tcmalloc
+2016-03-08T02:35:33.572-0800 [initandlisten] options: {}
+2016-03-08T02:35:34.964-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-08T02:35:34.964-0800 [initandlisten] ERROR:   addr already in use
+2016-03-08T02:35:34.990-0800 [initandlisten] now exiting
+2016-03-08T02:35:34.990-0800 [initandlisten] dbexit: 
+2016-03-08T02:35:34.990-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-08T02:35:34.990-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-08T02:35:34.990-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-08T02:35:34.990-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-08T02:35:34.990-0800 [initandlisten] shutdown: closing all files...
+2016-03-08T02:35:34.990-0800 [initandlisten] closeAllFiles() finished
+2016-03-08T02:35:34.990-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-08T02:35:34.991-0800 [initandlisten] dbexit: really exiting now
+---------------------- Tue Mar  8 02:37:25 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-08T02:37:27.815-0800 
+2016-03-08T02:37:27.815-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-08T02:37:27.815-0800 
+2016-03-08T02:37:27.819-0800 [initandlisten] MongoDB starting : pid=762 port=27017 dbpath=/data/db 32-bit host=ubuntu
+2016-03-08T02:37:27.819-0800 [initandlisten] 
+2016-03-08T02:37:27.819-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-08T02:37:27.819-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-08T02:37:27.819-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-08T02:37:27.819-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-08T02:37:27.819-0800 [initandlisten] 
+2016-03-08T02:37:27.819-0800 [initandlisten] db version v2.6.10
+2016-03-08T02:37:27.819-0800 [initandlisten] git version: nogitversion
+2016-03-08T02:37:27.819-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-08T02:37:27.819-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-08T02:37:27.819-0800 [initandlisten] allocator: tcmalloc
+2016-03-08T02:37:27.819-0800 [initandlisten] options: {}
+2016-03-08T02:37:29.134-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-08T02:37:29.134-0800 [initandlisten] ERROR:   addr already in use
+2016-03-08T02:37:29.160-0800 [initandlisten] now exiting
+2016-03-08T02:37:29.160-0800 [initandlisten] dbexit: 
+2016-03-08T02:37:29.160-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-08T02:37:29.160-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-08T02:37:29.160-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-08T02:37:29.160-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-08T02:37:29.160-0800 [initandlisten] shutdown: closing all files...
+2016-03-08T02:37:29.160-0800 [initandlisten] closeAllFiles() finished
+2016-03-08T02:37:29.160-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-08T02:37:29.161-0800 [initandlisten] dbexit: really exiting now
+---------------------- Tue Mar  8 02:41:46 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+sudo: unable to resolve host offline-material
+mongod --help for help and startup options
+2016-03-08T02:41:48.837-0800 
+2016-03-08T02:41:48.837-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-08T02:41:48.837-0800 
+2016-03-08T02:41:48.840-0800 [initandlisten] MongoDB starting : pid=774 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-08T02:41:48.840-0800 [initandlisten] 
+2016-03-08T02:41:48.840-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-08T02:41:48.840-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-08T02:41:48.840-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-08T02:41:48.840-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-08T02:41:48.840-0800 [initandlisten] 
+2016-03-08T02:41:48.840-0800 [initandlisten] db version v2.6.10
+2016-03-08T02:41:48.840-0800 [initandlisten] git version: nogitversion
+2016-03-08T02:41:48.840-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-08T02:41:48.840-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-08T02:41:48.840-0800 [initandlisten] allocator: tcmalloc
+2016-03-08T02:41:48.840-0800 [initandlisten] options: {}
+2016-03-08T02:41:50.878-0800 [initandlisten] waiting for connections on port 27017
+2016-03-08T02:42:25.252-0800 [initandlisten] connection accepted from 127.0.0.1:44820 #1 (1 connection now open)
+2016-03-08T02:42:25.252-0800 [initandlisten] connection accepted from 127.0.0.1:44822 #2 (2 connections now open)
+2016-03-08T02:42:25.270-0800 [initandlisten] connection accepted from 127.0.0.1:44824 #3 (3 connections now open)
+2016-03-08T02:42:25.271-0800 [initandlisten] connection accepted from 127.0.0.1:44826 #4 (4 connections now open)
+2016-03-08T02:42:25.271-0800 [initandlisten] connection accepted from 127.0.0.1:44828 #5 (5 connections now open)
+2016-03-08T02:42:25.271-0800 [initandlisten] connection accepted from 127.0.0.1:44830 #6 (6 connections now open)
+2016-03-08T02:42:48.325-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-08T02:42:48.326-0800 [clientcursormon]  mapped:544
+2016-03-08T02:42:48.326-0800 [clientcursormon]  connections:6
+2016-03-08T02:47:48.393-0800 [clientcursormon] mem (MB) res:73 virt:682
+2016-03-08T02:47:48.393-0800 [clientcursormon]  mapped:544
+2016-03-08T02:47:48.393-0800 [clientcursormon]  connections:6
+2016-03-08T02:52:48.461-0800 [clientcursormon] mem (MB) res:73 virt:682
+2016-03-08T02:52:48.461-0800 [clientcursormon]  mapped:544
+2016-03-08T02:52:48.461-0800 [clientcursormon]  connections:6
+2016-03-08T02:57:48.531-0800 [clientcursormon] mem (MB) res:73 virt:682
+2016-03-08T02:57:48.531-0800 [clientcursormon]  mapped:544
+2016-03-08T02:57:48.531-0800 [clientcursormon]  connections:6
+2016-03-08T03:02:48.595-0800 [clientcursormon] mem (MB) res:73 virt:682
+2016-03-08T03:02:48.595-0800 [clientcursormon]  mapped:544
+2016-03-08T03:02:48.595-0800 [clientcursormon]  connections:6
+2016-03-08T03:07:48.658-0800 [clientcursormon] mem (MB) res:73 virt:682
+2016-03-08T03:07:48.658-0800 [clientcursormon]  mapped:544
+2016-03-08T03:07:48.658-0800 [clientcursormon]  connections:6
+2016-03-08T03:12:48.726-0800 [clientcursormon] mem (MB) res:73 virt:682
+2016-03-08T03:12:48.732-0800 [clientcursormon]  mapped:544
+2016-03-08T03:12:48.732-0800 [clientcursormon]  connections:6
+2016-03-08T03:17:48.810-0800 [clientcursormon] mem (MB) res:73 virt:682
+2016-03-08T03:17:48.810-0800 [clientcursormon]  mapped:544
+2016-03-08T03:17:48.810-0800 [clientcursormon]  connections:6
+2016-03-08T03:22:48.877-0800 [clientcursormon] mem (MB) res:73 virt:682
+2016-03-08T03:22:48.877-0800 [clientcursormon]  mapped:544
+2016-03-08T03:22:48.877-0800 [clientcursormon]  connections:6
+2016-03-08T03:25:39.293-0800 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-03-08T03:25:39.293-0800 [signalProcessingThread] now exiting
+2016-03-08T03:25:39.293-0800 [signalProcessingThread] dbexit: 
+2016-03-08T03:25:39.293-0800 [signalProcessingThread] shutdown: going to close listening sockets...
+2016-03-08T03:25:39.293-0800 [signalProcessingThread] closing listening socket: 5
+2016-03-08T03:25:39.293-0800 [signalProcessingThread] closing listening socket: 6
+2016-03-08T03:25:39.293-0800 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-03-08T03:25:39.314-0800 [conn3] end connection 127.0.0.1:44824 (5 connections now open)
+2016-03-08T03:25:39.314-0800 [conn4] end connection 127.0.0.1:44826 (5 connections now open)
+2016-03-08T03:25:39.314-0800 [conn5] end connection 127.0.0.1:44828 (5 connections now open)
+2016-03-08T03:25:39.314-0800 [conn6] end connection 127.0.0.1:44830 (5 connections now open)
+2016-03-08T03:25:39.314-0800 [conn1] end connection 127.0.0.1:44820 (1 connection now open)
+2016-03-08T03:25:39.314-0800 [conn2] end connection 127.0.0.1:44822 (0 connections now open)
+2016-03-08T03:25:39.340-0800 [signalProcessingThread] shutdown: going to flush diaglog...
+2016-03-08T03:25:39.340-0800 [signalProcessingThread] shutdown: going to close sockets...
+2016-03-08T03:25:39.340-0800 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-03-08T03:25:39.340-0800 [signalProcessingThread] shutdown: closing all files...
+2016-03-08T03:25:39.343-0800 [signalProcessingThread] closeAllFiles() finished
+2016-03-08T03:25:39.344-0800 [signalProcessingThread] shutdown: removing fs lock...
+2016-03-08T03:25:39.344-0800 [signalProcessingThread] dbexit: really exiting now
+---------------------- Tue Mar  8 10:35:14 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+sudo: unable to resolve host offline-material
+mongod --help for help and startup options
+2016-03-08T10:35:19.863-0800 
+2016-03-08T10:35:19.863-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-08T10:35:19.863-0800 
+2016-03-08T10:35:19.868-0800 [initandlisten] MongoDB starting : pid=788 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-08T10:35:19.868-0800 [initandlisten] 
+2016-03-08T10:35:19.868-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-08T10:35:19.868-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-08T10:35:19.868-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-08T10:35:19.868-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-08T10:35:19.868-0800 [initandlisten] 
+2016-03-08T10:35:19.868-0800 [initandlisten] db version v2.6.10
+2016-03-08T10:35:19.868-0800 [initandlisten] git version: nogitversion
+2016-03-08T10:35:19.868-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-08T10:35:19.868-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-08T10:35:19.868-0800 [initandlisten] allocator: tcmalloc
+2016-03-08T10:35:19.868-0800 [initandlisten] options: {}
+2016-03-08T10:35:22.148-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-08T10:35:22.148-0800 [initandlisten] ERROR:   addr already in use
+2016-03-08T10:35:22.164-0800 [initandlisten] now exiting
+2016-03-08T10:35:22.165-0800 [initandlisten] dbexit: 
+2016-03-08T10:35:22.165-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-08T10:35:22.165-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-08T10:35:22.165-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-08T10:35:22.165-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-08T10:35:22.165-0800 [initandlisten] shutdown: closing all files...
+2016-03-08T10:35:22.165-0800 [initandlisten] closeAllFiles() finished
+2016-03-08T10:35:22.165-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-08T10:35:22.165-0800 [initandlisten] dbexit: really exiting now
+---------------------- Wed Mar  9 00:20:18 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+sudo: unable to resolve host offline-material
+mongod --help for help and startup options
+2016-03-09T00:20:25.404-0800 
+2016-03-09T00:20:25.404-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-09T00:20:25.404-0800 
+2016-03-09T00:20:25.408-0800 [initandlisten] MongoDB starting : pid=797 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-09T00:20:25.408-0800 [initandlisten] 
+2016-03-09T00:20:25.408-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-09T00:20:25.408-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-09T00:20:25.408-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-09T00:20:25.408-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-09T00:20:25.408-0800 [initandlisten] 
+2016-03-09T00:20:25.408-0800 [initandlisten] db version v2.6.10
+2016-03-09T00:20:25.408-0800 [initandlisten] git version: nogitversion
+2016-03-09T00:20:25.408-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-09T00:20:25.408-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-09T00:20:25.408-0800 [initandlisten] allocator: tcmalloc
+2016-03-09T00:20:25.408-0800 [initandlisten] options: {}
+2016-03-09T00:20:26.906-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-09T00:20:26.906-0800 [initandlisten] ERROR:   addr already in use
+2016-03-09T00:20:26.921-0800 [initandlisten] now exiting
+2016-03-09T00:20:26.921-0800 [initandlisten] dbexit: 
+2016-03-09T00:20:26.921-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-09T00:20:26.921-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-09T00:20:26.921-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-09T00:20:26.921-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-09T00:20:26.921-0800 [initandlisten] shutdown: closing all files...
+2016-03-09T00:20:26.922-0800 [initandlisten] closeAllFiles() finished
+2016-03-09T00:20:26.922-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-09T00:20:26.922-0800 [initandlisten] dbexit: really exiting now
+---------------------- Wed Mar  9 10:54:28 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-09T10:54:34.649-0800 
+2016-03-09T10:54:34.649-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-09T10:54:34.649-0800 
+2016-03-09T10:54:34.653-0800 [initandlisten] MongoDB starting : pid=786 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-09T10:54:34.653-0800 [initandlisten] 
+2016-03-09T10:54:34.653-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-09T10:54:34.653-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-09T10:54:34.653-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-09T10:54:34.653-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-09T10:54:34.653-0800 [initandlisten] 
+2016-03-09T10:54:34.653-0800 [initandlisten] db version v2.6.10
+2016-03-09T10:54:34.653-0800 [initandlisten] git version: nogitversion
+2016-03-09T10:54:34.653-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-09T10:54:34.653-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-09T10:54:34.653-0800 [initandlisten] allocator: tcmalloc
+2016-03-09T10:54:34.653-0800 [initandlisten] options: {}
+2016-03-09T10:54:36.518-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-09T10:54:36.518-0800 [initandlisten] ERROR:   addr already in use
+2016-03-09T10:54:36.542-0800 [initandlisten] now exiting
+2016-03-09T10:54:36.542-0800 [initandlisten] dbexit: 
+2016-03-09T10:54:36.542-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-09T10:54:36.542-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-09T10:54:36.542-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-09T10:54:36.542-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-09T10:54:36.542-0800 [initandlisten] shutdown: closing all files...
+2016-03-09T10:54:36.543-0800 [initandlisten] closeAllFiles() finished
+2016-03-09T10:54:36.543-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-09T10:54:36.543-0800 [initandlisten] dbexit: really exiting now
+---------------------- Thu Mar 10 05:02:11 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-10T05:02:14.342-0800 
+2016-03-10T05:02:14.342-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-10T05:02:14.342-0800 
+2016-03-10T05:02:14.346-0800 [initandlisten] MongoDB starting : pid=805 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-10T05:02:14.346-0800 [initandlisten] 
+2016-03-10T05:02:14.346-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-10T05:02:14.346-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-10T05:02:14.346-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-10T05:02:14.346-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-10T05:02:14.346-0800 [initandlisten] 
+2016-03-10T05:02:14.346-0800 [initandlisten] db version v2.6.10
+2016-03-10T05:02:14.346-0800 [initandlisten] git version: nogitversion
+2016-03-10T05:02:14.346-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-10T05:02:14.346-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-10T05:02:14.346-0800 [initandlisten] allocator: tcmalloc
+2016-03-10T05:02:14.346-0800 [initandlisten] options: {}
+2016-03-10T05:02:16.879-0800 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-10T05:02:16.879-0800 [initandlisten] ERROR:   addr already in use
+2016-03-10T05:02:16.951-0800 [initandlisten] now exiting
+2016-03-10T05:02:16.951-0800 [initandlisten] dbexit: 
+2016-03-10T05:02:16.951-0800 [initandlisten] shutdown: going to close listening sockets...
+2016-03-10T05:02:16.951-0800 [initandlisten] shutdown: going to flush diaglog...
+2016-03-10T05:02:16.951-0800 [initandlisten] shutdown: going to close sockets...
+2016-03-10T05:02:16.951-0800 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-10T05:02:16.951-0800 [initandlisten] shutdown: closing all files...
+2016-03-10T05:02:16.952-0800 [initandlisten] closeAllFiles() finished
+2016-03-10T05:02:16.952-0800 [initandlisten] shutdown: removing fs lock...
+2016-03-10T05:02:16.952-0800 [initandlisten] dbexit: really exiting now
+---------------------- Thu Mar 10 11:58:34 PST 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-10T11:58:37.129-0800 
+2016-03-10T11:58:37.129-0800 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-10T11:58:37.129-0800 
+2016-03-10T11:58:37.136-0800 [initandlisten] MongoDB starting : pid=810 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-10T11:58:37.136-0800 [initandlisten] 
+2016-03-10T11:58:37.136-0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-10T11:58:37.136-0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-10T11:58:37.136-0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-10T11:58:37.136-0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-10T11:58:37.136-0800 [initandlisten] 
+2016-03-10T11:58:37.136-0800 [initandlisten] db version v2.6.10
+2016-03-10T11:58:37.136-0800 [initandlisten] git version: nogitversion
+2016-03-10T11:58:37.136-0800 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-10T11:58:37.136-0800 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-10T11:58:37.136-0800 [initandlisten] allocator: tcmalloc
+2016-03-10T11:58:37.136-0800 [initandlisten] options: {}
+2016-03-10T11:58:43.652-0800 [initandlisten] waiting for connections on port 27017
+2016-03-10T11:59:16.361-0800 [initandlisten] connection accepted from 127.0.0.1:56764 #1 (1 connection now open)
+2016-03-10T11:59:16.361-0800 [initandlisten] connection accepted from 127.0.0.1:56766 #2 (2 connections now open)
+2016-03-10T11:59:16.378-0800 [initandlisten] connection accepted from 127.0.0.1:56768 #3 (3 connections now open)
+2016-03-10T11:59:16.378-0800 [initandlisten] connection accepted from 127.0.0.1:56770 #4 (4 connections now open)
+2016-03-10T11:59:16.379-0800 [initandlisten] connection accepted from 127.0.0.1:56772 #5 (5 connections now open)
+2016-03-10T11:59:16.379-0800 [initandlisten] connection accepted from 127.0.0.1:56774 #6 (6 connections now open)
+2016-03-10T11:59:16.518-0800 [conn6] query coco.achievements query: { collection: { $ne: "level.sessions" } } planSummary: COLLSCAN ntoreturn:1000 ntoskip:0 nscanned:488 nscannedObjects:488 keyUpdates:0 numYields:6 locks(micros) r:263101 nreturned:121 reslen:146285 138ms
+2016-03-10T12:39:20.015-0800 [clientcursormon] mem (MB) res:74 virt:682
+2016-03-10T12:39:20.015-0800 [clientcursormon]  mapped:544
+2016-03-10T12:39:20.016-0800 [clientcursormon]  connections:6
+2016-03-10T12:44:20.225-0800 [clientcursormon] mem (MB) res:75 virt:682
+2016-03-10T12:44:20.225-0800 [clientcursormon]  mapped:544
+2016-03-10T12:44:20.225-0800 [clientcursormon]  connections:6
+2016-03-10T12:49:20.394-0800 [clientcursormon] mem (MB) res:75 virt:682
+2016-03-10T12:49:20.394-0800 [clientcursormon]  mapped:544
+2016-03-10T12:49:20.394-0800 [clientcursormon]  connections:6
+2016-03-10T12:54:20.555-0800 [clientcursormon] mem (MB) res:75 virt:682
+2016-03-10T12:54:20.555-0800 [clientcursormon]  mapped:544
+2016-03-10T12:54:20.555-0800 [clientcursormon]  connections:6
+2016-03-10T12:59:20.738-0800 [clientcursormon] mem (MB) res:75 virt:682
+2016-03-10T12:59:20.738-0800 [clientcursormon]  mapped:544
+2016-03-10T12:59:20.738-0800 [clientcursormon]  connections:6
+2016-03-10T13:04:20.927-0800 [clientcursormon] mem (MB) res:75 virt:682
+2016-03-10T13:04:20.928-0800 [clientcursormon]  mapped:544
+2016-03-10T13:04:20.928-0800 [clientcursormon]  connections:6
+2016-03-10T13:09:21.111-0800 [clientcursormon] mem (MB) res:75 virt:682
+2016-03-10T13:09:21.114-0800 [clientcursormon]  mapped:544
+2016-03-10T13:09:21.115-0800 [clientcursormon]  connections:6
+2016-03-10T13:14:21.322-0800 [clientcursormon] mem (MB) res:75 virt:682
+2016-03-10T13:14:21.322-0800 [clientcursormon]  mapped:544
+2016-03-10T13:14:21.322-0800 [clientcursormon]  connections:6
+2016-03-10T13:28:23.710-0800 [clientcursormon] mem (MB) res:75 virt:682
+2016-03-10T13:28:23.710-0800 [clientcursormon]  mapped:544
+2016-03-10T13:28:23.710-0800 [clientcursormon]  connections:6
+2016-03-10T13:33:23.901-0800 [clientcursormon] mem (MB) res:75 virt:682
+2016-03-10T13:33:23.901-0800 [clientcursormon]  mapped:544
+2016-03-10T13:33:23.901-0800 [clientcursormon]  connections:6
+2016-03-10T13:38:24.086-0800 [clientcursormon] mem (MB) res:75 virt:682
+2016-03-10T13:38:24.086-0800 [clientcursormon]  mapped:544
+2016-03-10T13:38:24.086-0800 [clientcursormon]  connections:6
+2016-03-10T13:43:24.266-0800 [clientcursormon] mem (MB) res:75 virt:682
+2016-03-10T13:43:24.266-0800 [clientcursormon]  mapped:544
+2016-03-10T13:43:24.266-0800 [clientcursormon]  connections:6
+2016-03-10T13:48:24.438-0800 [clientcursormon] mem (MB) res:75 virt:682
+2016-03-10T13:48:24.439-0800 [clientcursormon]  mapped:544
+2016-03-10T13:48:24.439-0800 [clientcursormon]  connections:6
+2016-03-10T13:53:24.566-0800 [clientcursormon] mem (MB) res:72 virt:682
+2016-03-10T13:53:24.566-0800 [clientcursormon]  mapped:544
+2016-03-10T13:53:24.566-0800 [clientcursormon]  connections:6
+2016-03-10T13:58:24.734-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T13:58:24.734-0800 [clientcursormon]  mapped:544
+2016-03-10T13:58:24.734-0800 [clientcursormon]  connections:6
+2016-03-10T14:03:24.923-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T14:03:24.923-0800 [clientcursormon]  mapped:544
+2016-03-10T14:03:24.923-0800 [clientcursormon]  connections:6
+2016-03-10T14:08:25.108-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T14:08:25.108-0800 [clientcursormon]  mapped:544
+2016-03-10T14:08:25.108-0800 [clientcursormon]  connections:6
+2016-03-10T14:13:25.294-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T14:13:25.294-0800 [clientcursormon]  mapped:544
+2016-03-10T14:13:25.294-0800 [clientcursormon]  connections:6
+2016-03-10T14:18:25.472-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T14:18:25.472-0800 [clientcursormon]  mapped:544
+2016-03-10T14:18:25.472-0800 [clientcursormon]  connections:6
+2016-03-10T14:23:25.671-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T14:23:25.672-0800 [clientcursormon]  mapped:544
+2016-03-10T14:23:25.672-0800 [clientcursormon]  connections:6
+2016-03-10T14:28:25.798-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T14:28:25.798-0800 [clientcursormon]  mapped:544
+2016-03-10T14:28:25.798-0800 [clientcursormon]  connections:6
+2016-03-10T14:33:25.928-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T14:33:25.928-0800 [clientcursormon]  mapped:544
+2016-03-10T14:33:25.928-0800 [clientcursormon]  connections:6
+2016-03-10T14:38:26.080-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T14:38:26.080-0800 [clientcursormon]  mapped:544
+2016-03-10T14:38:26.080-0800 [clientcursormon]  connections:6
+2016-03-10T14:43:26.199-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T14:43:26.199-0800 [clientcursormon]  mapped:544
+2016-03-10T14:43:26.199-0800 [clientcursormon]  connections:6
+2016-03-10T14:48:26.349-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T14:48:26.349-0800 [clientcursormon]  mapped:544
+2016-03-10T14:48:26.349-0800 [clientcursormon]  connections:6
+2016-03-10T14:53:26.472-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T14:53:26.472-0800 [clientcursormon]  mapped:544
+2016-03-10T14:53:26.472-0800 [clientcursormon]  connections:6
+2016-03-10T14:58:26.606-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T14:58:26.606-0800 [clientcursormon]  mapped:544
+2016-03-10T14:58:26.606-0800 [clientcursormon]  connections:6
+2016-03-10T15:03:26.769-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T15:03:26.769-0800 [clientcursormon]  mapped:544
+2016-03-10T15:03:26.769-0800 [clientcursormon]  connections:6
+2016-03-10T15:08:26.951-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T15:08:26.952-0800 [clientcursormon]  mapped:544
+2016-03-10T15:08:26.952-0800 [clientcursormon]  connections:6
+2016-03-10T15:13:27.119-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T15:13:27.119-0800 [clientcursormon]  mapped:544
+2016-03-10T15:13:27.119-0800 [clientcursormon]  connections:6
+2016-03-10T15:18:27.300-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T15:18:27.300-0800 [clientcursormon]  mapped:544
+2016-03-10T15:18:27.300-0800 [clientcursormon]  connections:6
+2016-03-10T15:23:27.468-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T15:23:27.468-0800 [clientcursormon]  mapped:544
+2016-03-10T15:23:27.468-0800 [clientcursormon]  connections:6
+2016-03-10T15:28:27.640-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T15:28:27.641-0800 [clientcursormon]  mapped:544
+2016-03-10T15:28:27.641-0800 [clientcursormon]  connections:6
+2016-03-10T15:33:27.825-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T15:33:27.825-0800 [clientcursormon]  mapped:544
+2016-03-10T15:33:27.825-0800 [clientcursormon]  connections:6
+2016-03-10T15:38:28.011-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T15:38:28.011-0800 [clientcursormon]  mapped:544
+2016-03-10T15:38:28.011-0800 [clientcursormon]  connections:6
+2016-03-10T15:43:28.198-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T15:43:28.198-0800 [clientcursormon]  mapped:544
+2016-03-10T15:43:28.198-0800 [clientcursormon]  connections:6
+2016-03-10T15:48:28.381-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T15:48:28.381-0800 [clientcursormon]  mapped:544
+2016-03-10T15:48:28.381-0800 [clientcursormon]  connections:6
+2016-03-10T15:53:28.561-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T15:53:28.561-0800 [clientcursormon]  mapped:544
+2016-03-10T15:53:28.561-0800 [clientcursormon]  connections:6
+2016-03-10T15:58:28.750-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T15:58:28.750-0800 [clientcursormon]  mapped:544
+2016-03-10T15:58:28.750-0800 [clientcursormon]  connections:6
+2016-03-10T16:03:28.937-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T16:03:28.937-0800 [clientcursormon]  mapped:544
+2016-03-10T16:03:28.937-0800 [clientcursormon]  connections:6
+2016-03-10T16:08:29.124-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T16:08:29.124-0800 [clientcursormon]  mapped:544
+2016-03-10T16:08:29.124-0800 [clientcursormon]  connections:6
+2016-03-10T16:13:29.312-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T16:13:29.312-0800 [clientcursormon]  mapped:544
+2016-03-10T16:13:29.312-0800 [clientcursormon]  connections:6
+2016-03-10T16:18:29.511-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T16:18:29.511-0800 [clientcursormon]  mapped:544
+2016-03-10T16:18:29.511-0800 [clientcursormon]  connections:6
+2016-03-10T16:23:29.708-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T16:23:29.711-0800 [clientcursormon]  mapped:544
+2016-03-10T16:23:29.711-0800 [clientcursormon]  connections:6
+2016-03-10T16:28:29.895-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T16:28:29.896-0800 [clientcursormon]  mapped:544
+2016-03-10T16:28:29.896-0800 [clientcursormon]  connections:6
+2016-03-10T16:33:30.083-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T16:33:30.083-0800 [clientcursormon]  mapped:544
+2016-03-10T16:33:30.083-0800 [clientcursormon]  connections:6
+2016-03-10T16:38:30.270-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T16:38:30.270-0800 [clientcursormon]  mapped:544
+2016-03-10T16:38:30.270-0800 [clientcursormon]  connections:6
+2016-03-10T16:43:30.405-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T16:43:30.405-0800 [clientcursormon]  mapped:544
+2016-03-10T16:43:30.405-0800 [clientcursormon]  connections:6
+2016-03-10T16:48:30.518-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T16:48:30.518-0800 [clientcursormon]  mapped:544
+2016-03-10T16:48:30.518-0800 [clientcursormon]  connections:6
+2016-03-10T16:53:30.696-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T16:53:30.696-0800 [clientcursormon]  mapped:544
+2016-03-10T16:53:30.696-0800 [clientcursormon]  connections:6
+2016-03-10T16:58:30.875-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T16:58:30.875-0800 [clientcursormon]  mapped:544
+2016-03-10T16:58:30.875-0800 [clientcursormon]  connections:6
+2016-03-10T17:03:31.059-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T17:03:31.059-0800 [clientcursormon]  mapped:544
+2016-03-10T17:03:31.059-0800 [clientcursormon]  connections:6
+2016-03-10T17:08:31.248-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T17:08:31.248-0800 [clientcursormon]  mapped:544
+2016-03-10T17:08:31.248-0800 [clientcursormon]  connections:6
+2016-03-10T17:13:31.444-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T17:13:31.444-0800 [clientcursormon]  mapped:544
+2016-03-10T17:13:31.444-0800 [clientcursormon]  connections:6
+2016-03-10T17:18:31.630-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T17:18:31.630-0800 [clientcursormon]  mapped:544
+2016-03-10T17:18:31.630-0800 [clientcursormon]  connections:6
+2016-03-10T17:23:31.818-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T17:23:31.818-0800 [clientcursormon]  mapped:544
+2016-03-10T17:23:31.818-0800 [clientcursormon]  connections:6
+2016-03-10T17:28:32.012-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T17:28:32.012-0800 [clientcursormon]  mapped:544
+2016-03-10T17:28:32.012-0800 [clientcursormon]  connections:6
+2016-03-10T17:33:32.203-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T17:33:32.203-0800 [clientcursormon]  mapped:544
+2016-03-10T17:33:32.203-0800 [clientcursormon]  connections:6
+2016-03-10T17:38:32.386-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T17:38:32.386-0800 [clientcursormon]  mapped:544
+2016-03-10T17:38:32.386-0800 [clientcursormon]  connections:6
+2016-03-10T17:43:32.569-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T17:43:32.569-0800 [clientcursormon]  mapped:544
+2016-03-10T17:43:32.569-0800 [clientcursormon]  connections:6
+2016-03-10T17:48:32.785-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T17:48:32.785-0800 [clientcursormon]  mapped:544
+2016-03-10T17:48:32.785-0800 [clientcursormon]  connections:6
+2016-03-10T17:53:32.969-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T17:53:32.969-0800 [clientcursormon]  mapped:544
+2016-03-10T17:53:32.969-0800 [clientcursormon]  connections:6
+2016-03-10T17:58:33.162-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T17:58:33.162-0800 [clientcursormon]  mapped:544
+2016-03-10T17:58:33.162-0800 [clientcursormon]  connections:6
+2016-03-10T18:03:33.361-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T18:03:33.361-0800 [clientcursormon]  mapped:544
+2016-03-10T18:03:33.361-0800 [clientcursormon]  connections:6
+2016-03-10T18:08:33.548-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T18:08:33.548-0800 [clientcursormon]  mapped:544
+2016-03-10T18:08:33.548-0800 [clientcursormon]  connections:6
+2016-03-10T18:13:33.728-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T18:13:33.728-0800 [clientcursormon]  mapped:544
+2016-03-10T18:13:33.728-0800 [clientcursormon]  connections:6
+2016-03-10T18:18:33.915-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T18:18:33.915-0800 [clientcursormon]  mapped:544
+2016-03-10T18:18:33.915-0800 [clientcursormon]  connections:6
+2016-03-10T18:23:34.112-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T18:23:34.112-0800 [clientcursormon]  mapped:544
+2016-03-10T18:23:34.112-0800 [clientcursormon]  connections:6
+2016-03-10T18:28:34.316-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T18:28:34.316-0800 [clientcursormon]  mapped:544
+2016-03-10T18:28:34.316-0800 [clientcursormon]  connections:6
+2016-03-10T18:33:34.497-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T18:33:34.497-0800 [clientcursormon]  mapped:544
+2016-03-10T18:33:34.497-0800 [clientcursormon]  connections:6
+2016-03-10T18:38:34.682-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T18:38:34.682-0800 [clientcursormon]  mapped:544
+2016-03-10T18:38:34.682-0800 [clientcursormon]  connections:6
+2016-03-10T18:43:34.866-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T18:43:34.866-0800 [clientcursormon]  mapped:544
+2016-03-10T18:43:34.867-0800 [clientcursormon]  connections:6
+2016-03-10T18:48:35.050-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T18:48:35.050-0800 [clientcursormon]  mapped:544
+2016-03-10T18:48:35.050-0800 [clientcursormon]  connections:6
+2016-03-10T18:53:35.245-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T18:53:35.245-0800 [clientcursormon]  mapped:544
+2016-03-10T18:53:35.245-0800 [clientcursormon]  connections:6
+2016-03-10T18:58:35.433-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T18:58:35.433-0800 [clientcursormon]  mapped:544
+2016-03-10T18:58:35.433-0800 [clientcursormon]  connections:6
+2016-03-10T19:03:35.618-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T19:03:35.618-0800 [clientcursormon]  mapped:544
+2016-03-10T19:03:35.618-0800 [clientcursormon]  connections:6
+2016-03-10T19:08:35.811-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T19:08:35.811-0800 [clientcursormon]  mapped:544
+2016-03-10T19:08:35.811-0800 [clientcursormon]  connections:6
+2016-03-10T19:13:36.017-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T19:13:36.017-0800 [clientcursormon]  mapped:544
+2016-03-10T19:13:36.017-0800 [clientcursormon]  connections:6
+2016-03-10T19:18:36.205-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T19:18:36.205-0800 [clientcursormon]  mapped:544
+2016-03-10T19:18:36.205-0800 [clientcursormon]  connections:6
+2016-03-10T19:23:36.394-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T19:23:36.394-0800 [clientcursormon]  mapped:544
+2016-03-10T19:23:36.394-0800 [clientcursormon]  connections:6
+2016-03-10T19:28:36.583-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T19:28:36.583-0800 [clientcursormon]  mapped:544
+2016-03-10T19:28:36.583-0800 [clientcursormon]  connections:6
+2016-03-10T19:33:36.768-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T19:33:36.768-0800 [clientcursormon]  mapped:544
+2016-03-10T19:33:36.768-0800 [clientcursormon]  connections:6
+2016-03-10T19:38:36.960-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T19:38:36.960-0800 [clientcursormon]  mapped:544
+2016-03-10T19:38:36.960-0800 [clientcursormon]  connections:6
+2016-03-10T19:43:37.155-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T19:43:37.155-0800 [clientcursormon]  mapped:544
+2016-03-10T19:43:37.155-0800 [clientcursormon]  connections:6
+2016-03-10T19:48:37.344-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T19:48:37.344-0800 [clientcursormon]  mapped:544
+2016-03-10T19:48:37.344-0800 [clientcursormon]  connections:6
+2016-03-10T19:53:37.526-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T19:53:37.526-0800 [clientcursormon]  mapped:544
+2016-03-10T19:53:37.526-0800 [clientcursormon]  connections:6
+2016-03-10T19:58:37.714-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T19:58:37.714-0800 [clientcursormon]  mapped:544
+2016-03-10T19:58:37.714-0800 [clientcursormon]  connections:6
+2016-03-10T20:03:37.902-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T20:03:37.902-0800 [clientcursormon]  mapped:544
+2016-03-10T20:03:37.902-0800 [clientcursormon]  connections:6
+2016-03-10T20:08:38.090-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T20:08:38.090-0800 [clientcursormon]  mapped:544
+2016-03-10T20:08:38.090-0800 [clientcursormon]  connections:6
+2016-03-10T20:13:38.276-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T20:13:38.276-0800 [clientcursormon]  mapped:544
+2016-03-10T20:13:38.276-0800 [clientcursormon]  connections:6
+2016-03-10T20:18:38.469-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T20:18:38.469-0800 [clientcursormon]  mapped:544
+2016-03-10T20:18:38.469-0800 [clientcursormon]  connections:6
+2016-03-10T20:23:38.653-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T20:23:38.653-0800 [clientcursormon]  mapped:544
+2016-03-10T20:23:38.653-0800 [clientcursormon]  connections:6
+2016-03-10T20:28:38.843-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T20:28:38.843-0800 [clientcursormon]  mapped:544
+2016-03-10T20:28:38.843-0800 [clientcursormon]  connections:6
+2016-03-10T20:33:39.032-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T20:33:39.032-0800 [clientcursormon]  mapped:544
+2016-03-10T20:33:39.032-0800 [clientcursormon]  connections:6
+2016-03-10T20:38:39.213-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T20:38:39.213-0800 [clientcursormon]  mapped:544
+2016-03-10T20:38:39.213-0800 [clientcursormon]  connections:6
+2016-03-10T20:43:39.402-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T20:43:39.402-0800 [clientcursormon]  mapped:544
+2016-03-10T20:43:39.402-0800 [clientcursormon]  connections:6
+2016-03-10T20:48:39.590-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T20:48:39.590-0800 [clientcursormon]  mapped:544
+2016-03-10T20:48:39.590-0800 [clientcursormon]  connections:6
+2016-03-10T20:53:39.775-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T20:53:39.775-0800 [clientcursormon]  mapped:544
+2016-03-10T20:53:39.775-0800 [clientcursormon]  connections:6
+2016-03-10T20:58:39.966-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T20:58:39.966-0800 [clientcursormon]  mapped:544
+2016-03-10T20:58:39.966-0800 [clientcursormon]  connections:6
+2016-03-10T21:03:40.154-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T21:03:40.154-0800 [clientcursormon]  mapped:544
+2016-03-10T21:03:40.154-0800 [clientcursormon]  connections:6
+2016-03-10T21:08:40.332-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T21:08:40.332-0800 [clientcursormon]  mapped:544
+2016-03-10T21:08:40.332-0800 [clientcursormon]  connections:6
+2016-03-10T21:13:40.520-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T21:13:40.520-0800 [clientcursormon]  mapped:544
+2016-03-10T21:13:40.520-0800 [clientcursormon]  connections:6
+2016-03-10T21:18:40.712-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T21:18:40.712-0800 [clientcursormon]  mapped:544
+2016-03-10T21:18:40.712-0800 [clientcursormon]  connections:6
+2016-03-10T21:23:40.896-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T21:23:40.896-0800 [clientcursormon]  mapped:544
+2016-03-10T21:23:40.896-0800 [clientcursormon]  connections:6
+2016-03-10T21:28:41.079-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T21:28:41.079-0800 [clientcursormon]  mapped:544
+2016-03-10T21:28:41.079-0800 [clientcursormon]  connections:6
+2016-03-10T21:33:41.275-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T21:33:41.275-0800 [clientcursormon]  mapped:544
+2016-03-10T21:33:41.275-0800 [clientcursormon]  connections:6
+2016-03-10T21:38:41.463-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T21:38:41.463-0800 [clientcursormon]  mapped:544
+2016-03-10T21:38:41.463-0800 [clientcursormon]  connections:6
+2016-03-10T21:43:41.650-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T21:43:41.650-0800 [clientcursormon]  mapped:544
+2016-03-10T21:43:41.650-0800 [clientcursormon]  connections:6
+2016-03-10T21:48:41.833-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T21:48:41.833-0800 [clientcursormon]  mapped:544
+2016-03-10T21:48:41.833-0800 [clientcursormon]  connections:6
+2016-03-10T21:53:42.022-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T21:53:42.023-0800 [clientcursormon]  mapped:544
+2016-03-10T21:53:42.023-0800 [clientcursormon]  connections:6
+2016-03-10T21:58:42.210-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T21:58:42.210-0800 [clientcursormon]  mapped:544
+2016-03-10T21:58:42.210-0800 [clientcursormon]  connections:6
+2016-03-10T22:03:42.398-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T22:03:42.398-0800 [clientcursormon]  mapped:544
+2016-03-10T22:03:42.398-0800 [clientcursormon]  connections:6
+2016-03-10T22:08:42.584-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T22:08:42.584-0800 [clientcursormon]  mapped:544
+2016-03-10T22:08:42.584-0800 [clientcursormon]  connections:6
+2016-03-10T22:13:42.772-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T22:13:42.772-0800 [clientcursormon]  mapped:544
+2016-03-10T22:13:42.772-0800 [clientcursormon]  connections:6
+2016-03-10T22:18:42.957-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T22:18:42.957-0800 [clientcursormon]  mapped:544
+2016-03-10T22:18:42.957-0800 [clientcursormon]  connections:6
+2016-03-10T22:23:43.142-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T22:23:43.142-0800 [clientcursormon]  mapped:544
+2016-03-10T22:23:43.142-0800 [clientcursormon]  connections:6
+2016-03-10T22:28:43.327-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T22:28:43.327-0800 [clientcursormon]  mapped:544
+2016-03-10T22:28:43.327-0800 [clientcursormon]  connections:6
+2016-03-10T22:33:43.526-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T22:33:43.526-0800 [clientcursormon]  mapped:544
+2016-03-10T22:33:43.526-0800 [clientcursormon]  connections:6
+2016-03-10T22:38:43.707-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T22:38:43.707-0800 [clientcursormon]  mapped:544
+2016-03-10T22:38:43.707-0800 [clientcursormon]  connections:6
+2016-03-10T22:43:43.915-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T22:43:43.915-0800 [clientcursormon]  mapped:544
+2016-03-10T22:43:43.915-0800 [clientcursormon]  connections:6
+2016-03-10T22:48:44.106-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T22:48:44.106-0800 [clientcursormon]  mapped:544
+2016-03-10T22:48:44.106-0800 [clientcursormon]  connections:6
+2016-03-10T22:53:44.297-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T22:53:44.297-0800 [clientcursormon]  mapped:544
+2016-03-10T22:53:44.297-0800 [clientcursormon]  connections:6
+2016-03-10T22:58:44.482-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T22:58:44.482-0800 [clientcursormon]  mapped:544
+2016-03-10T22:58:44.482-0800 [clientcursormon]  connections:6
+2016-03-10T23:03:44.663-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T23:03:44.663-0800 [clientcursormon]  mapped:544
+2016-03-10T23:03:44.663-0800 [clientcursormon]  connections:6
+2016-03-10T23:08:44.847-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T23:08:44.847-0800 [clientcursormon]  mapped:544
+2016-03-10T23:08:44.847-0800 [clientcursormon]  connections:6
+2016-03-10T23:13:45.027-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T23:13:45.027-0800 [clientcursormon]  mapped:544
+2016-03-10T23:13:45.027-0800 [clientcursormon]  connections:6
+2016-03-10T23:18:45.211-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T23:18:45.211-0800 [clientcursormon]  mapped:544
+2016-03-10T23:18:45.211-0800 [clientcursormon]  connections:6
+2016-03-10T23:23:45.400-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T23:23:45.400-0800 [clientcursormon]  mapped:544
+2016-03-10T23:23:45.400-0800 [clientcursormon]  connections:6
+2016-03-10T23:28:45.590-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T23:28:45.590-0800 [clientcursormon]  mapped:544
+2016-03-10T23:28:45.590-0800 [clientcursormon]  connections:6
+2016-03-10T23:33:45.776-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T23:33:45.776-0800 [clientcursormon]  mapped:544
+2016-03-10T23:33:45.776-0800 [clientcursormon]  connections:6
+2016-03-10T23:38:45.967-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T23:38:45.967-0800 [clientcursormon]  mapped:544
+2016-03-10T23:38:45.967-0800 [clientcursormon]  connections:6
+2016-03-10T23:43:46.159-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T23:43:46.160-0800 [clientcursormon]  mapped:544
+2016-03-10T23:43:46.160-0800 [clientcursormon]  connections:6
+2016-03-10T23:48:46.359-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T23:48:46.359-0800 [clientcursormon]  mapped:544
+2016-03-10T23:48:46.359-0800 [clientcursormon]  connections:6
+2016-03-10T23:53:46.549-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T23:53:46.549-0800 [clientcursormon]  mapped:544
+2016-03-10T23:53:46.549-0800 [clientcursormon]  connections:6
+2016-03-10T23:58:46.737-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-10T23:58:46.738-0800 [clientcursormon]  mapped:544
+2016-03-10T23:58:46.738-0800 [clientcursormon]  connections:6
+2016-03-11T00:03:46.929-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T00:03:46.929-0800 [clientcursormon]  mapped:544
+2016-03-11T00:03:46.929-0800 [clientcursormon]  connections:6
+2016-03-11T00:08:47.119-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T00:08:47.119-0800 [clientcursormon]  mapped:544
+2016-03-11T00:08:47.119-0800 [clientcursormon]  connections:6
+2016-03-11T00:13:47.295-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T00:13:47.295-0800 [clientcursormon]  mapped:544
+2016-03-11T00:13:47.295-0800 [clientcursormon]  connections:6
+2016-03-11T00:18:47.462-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T00:18:47.462-0800 [clientcursormon]  mapped:544
+2016-03-11T00:18:47.462-0800 [clientcursormon]  connections:6
+2016-03-11T00:23:47.574-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T00:23:47.574-0800 [clientcursormon]  mapped:544
+2016-03-11T00:23:47.574-0800 [clientcursormon]  connections:6
+2016-03-11T00:28:47.763-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T00:28:47.763-0800 [clientcursormon]  mapped:544
+2016-03-11T00:28:47.763-0800 [clientcursormon]  connections:6
+2016-03-11T00:33:47.853-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T00:33:47.853-0800 [clientcursormon]  mapped:544
+2016-03-11T00:33:47.853-0800 [clientcursormon]  connections:6
+2016-03-11T00:38:47.961-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T00:38:47.961-0800 [clientcursormon]  mapped:544
+2016-03-11T00:38:47.961-0800 [clientcursormon]  connections:6
+2016-03-11T00:43:48.041-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T00:43:48.041-0800 [clientcursormon]  mapped:544
+2016-03-11T00:43:48.041-0800 [clientcursormon]  connections:6
+2016-03-11T00:48:48.120-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T00:48:48.120-0800 [clientcursormon]  mapped:544
+2016-03-11T00:48:48.120-0800 [clientcursormon]  connections:6
+2016-03-11T00:53:48.216-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T00:53:48.216-0800 [clientcursormon]  mapped:544
+2016-03-11T00:53:48.216-0800 [clientcursormon]  connections:6
+2016-03-11T00:58:48.352-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T00:58:48.352-0800 [clientcursormon]  mapped:544
+2016-03-11T00:58:48.352-0800 [clientcursormon]  connections:6
+2016-03-11T01:03:48.489-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T01:03:48.489-0800 [clientcursormon]  mapped:544
+2016-03-11T01:03:48.489-0800 [clientcursormon]  connections:6
+2016-03-11T01:08:48.666-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T01:08:48.666-0800 [clientcursormon]  mapped:544
+2016-03-11T01:08:48.666-0800 [clientcursormon]  connections:6
+2016-03-11T01:13:48.793-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T01:13:48.793-0800 [clientcursormon]  mapped:544
+2016-03-11T01:13:48.793-0800 [clientcursormon]  connections:6
+2016-03-11T01:18:48.888-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T01:18:48.888-0800 [clientcursormon]  mapped:544
+2016-03-11T01:18:48.888-0800 [clientcursormon]  connections:6
+2016-03-11T01:23:49.000-0800 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-11T01:23:49.000-0800 [clientcursormon]  mapped:544
+2016-03-11T01:23:49.000-0800 [clientcursormon]  connections:6
+2016-03-11T01:27:54.299-0800 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-03-11T01:27:54.335-0800 [signalProcessingThread] now exiting
+2016-03-11T01:27:54.336-0800 [signalProcessingThread] dbexit: 
+2016-03-11T01:27:54.379-0800 [signalProcessingThread] shutdown: going to close listening sockets...
+2016-03-11T01:27:54.409-0800 [signalProcessingThread] closing listening socket: 5
+2016-03-11T01:27:54.409-0800 [signalProcessingThread] closing listening socket: 6
+2016-03-11T01:27:54.409-0800 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-03-11T01:27:54.409-0800 [signalProcessingThread] shutdown: going to flush diaglog...
+2016-03-11T01:27:54.410-0800 [signalProcessingThread] shutdown: going to close sockets...
+2016-03-11T01:27:54.999-0800 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-03-11T01:27:55.032-0800 [signalProcessingThread] shutdown: closing all files...
+2016-03-11T01:27:56.312-0800 [signalProcessingThread] closeAllFiles() finished
+2016-03-11T01:27:56.376-0800 [signalProcessingThread] shutdown: removing fs lock...
+2016-03-11T01:27:56.491-0800 [signalProcessingThread] dbexit: really exiting now
+---------------------- Wed Mar 30 02:57:25 PDT 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-30T02:57:26.232-0700 
+2016-03-30T02:57:26.232-0700 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-30T02:57:26.232-0700 
+2016-03-30T02:57:26.236-0700 [initandlisten] MongoDB starting : pid=805 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-30T02:57:26.236-0700 [initandlisten] 
+2016-03-30T02:57:26.236-0700 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-30T02:57:26.236-0700 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-30T02:57:26.236-0700 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-30T02:57:26.236-0700 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-30T02:57:26.236-0700 [initandlisten] 
+2016-03-30T02:57:26.236-0700 [initandlisten] db version v2.6.10
+2016-03-30T02:57:26.236-0700 [initandlisten] git version: nogitversion
+2016-03-30T02:57:26.236-0700 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-30T02:57:26.236-0700 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-30T02:57:26.236-0700 [initandlisten] allocator: tcmalloc
+2016-03-30T02:57:26.236-0700 [initandlisten] options: {}
+2016-03-30T02:57:27.527-0700 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-30T02:57:27.527-0700 [initandlisten] ERROR:   addr already in use
+2016-03-30T02:57:27.538-0700 [initandlisten] now exiting
+2016-03-30T02:57:27.538-0700 [initandlisten] dbexit: 
+2016-03-30T02:57:27.538-0700 [initandlisten] shutdown: going to close listening sockets...
+2016-03-30T02:57:27.538-0700 [initandlisten] shutdown: going to flush diaglog...
+2016-03-30T02:57:27.538-0700 [initandlisten] shutdown: going to close sockets...
+2016-03-30T02:57:27.539-0700 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-30T02:57:27.539-0700 [initandlisten] shutdown: closing all files...
+2016-03-30T02:57:27.539-0700 [initandlisten] closeAllFiles() finished
+2016-03-30T02:57:27.539-0700 [initandlisten] shutdown: removing fs lock...
+2016-03-30T02:57:27.539-0700 [initandlisten] dbexit: really exiting now
+---------------------- Wed Mar 30 04:36:20 PDT 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-30T04:36:25.482-0700 
+2016-03-30T04:36:25.482-0700 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-30T04:36:25.482-0700 
+2016-03-30T04:36:25.486-0700 [initandlisten] MongoDB starting : pid=813 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-30T04:36:25.486-0700 [initandlisten] 
+2016-03-30T04:36:25.486-0700 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-30T04:36:25.486-0700 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-30T04:36:25.486-0700 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-30T04:36:25.486-0700 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-30T04:36:25.486-0700 [initandlisten] 
+2016-03-30T04:36:25.486-0700 [initandlisten] db version v2.6.10
+2016-03-30T04:36:25.486-0700 [initandlisten] git version: nogitversion
+2016-03-30T04:36:25.486-0700 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-30T04:36:25.486-0700 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-30T04:36:25.486-0700 [initandlisten] allocator: tcmalloc
+2016-03-30T04:36:25.486-0700 [initandlisten] options: {}
+2016-03-30T04:36:27.232-0700 [initandlisten] waiting for connections on port 27017
+2016-03-30T04:37:11.553-0700 [initandlisten] connection accepted from 127.0.0.1:38296 #1 (1 connection now open)
+2016-03-30T04:37:11.553-0700 [initandlisten] connection accepted from 127.0.0.1:38298 #2 (2 connections now open)
+2016-03-30T04:37:11.575-0700 [initandlisten] connection accepted from 127.0.0.1:38300 #3 (3 connections now open)
+2016-03-30T04:37:11.576-0700 [initandlisten] connection accepted from 127.0.0.1:38302 #4 (4 connections now open)
+2016-03-30T04:37:11.576-0700 [initandlisten] connection accepted from 127.0.0.1:38304 #5 (5 connections now open)
+2016-03-30T04:37:11.576-0700 [initandlisten] connection accepted from 127.0.0.1:38306 #6 (6 connections now open)
+2016-03-30T04:37:11.694-0700 [conn6] query coco.achievements query: { collection: { $ne: "level.sessions" } } planSummary: COLLSCAN ntoreturn:1000 ntoskip:0 nscanned:488 nscannedObjects:488 keyUpdates:0 numYields:6 locks(micros) r:218055 nreturned:121 reslen:146285 117ms
+2016-03-30T04:37:25.314-0700 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-30T04:37:25.314-0700 [clientcursormon]  mapped:544
+2016-03-30T04:37:25.314-0700 [clientcursormon]  connections:6
+2016-03-30T04:42:25.491-0700 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-30T04:42:25.491-0700 [clientcursormon]  mapped:544
+2016-03-30T04:42:25.491-0700 [clientcursormon]  connections:6
+2016-03-30T04:47:25.571-0700 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-30T04:47:25.572-0700 [clientcursormon]  mapped:544
+2016-03-30T04:47:25.572-0700 [clientcursormon]  connections:6
+2016-03-30T04:52:25.730-0700 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-30T04:52:25.731-0700 [clientcursormon]  mapped:544
+2016-03-30T04:52:25.731-0700 [clientcursormon]  connections:6
+2016-03-30T04:57:25.880-0700 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-30T04:57:25.880-0700 [clientcursormon]  mapped:544
+2016-03-30T04:57:25.880-0700 [clientcursormon]  connections:6
+2016-03-30T05:02:26.067-0700 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-30T05:02:26.067-0700 [clientcursormon]  mapped:544
+2016-03-30T05:02:26.067-0700 [clientcursormon]  connections:6
+2016-03-30T05:07:26.254-0700 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-30T05:07:26.254-0700 [clientcursormon]  mapped:544
+2016-03-30T05:07:26.254-0700 [clientcursormon]  connections:6
+2016-03-30T05:10:07.485-0700 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-03-30T05:10:07.485-0700 [signalProcessingThread] now exiting
+2016-03-30T05:10:07.485-0700 [signalProcessingThread] dbexit: 
+2016-03-30T05:10:07.485-0700 [signalProcessingThread] shutdown: going to close listening sockets...
+2016-03-30T05:10:07.485-0700 [signalProcessingThread] closing listening socket: 5
+2016-03-30T05:10:07.485-0700 [signalProcessingThread] closing listening socket: 6
+2016-03-30T05:10:07.485-0700 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-03-30T05:10:07.485-0700 [signalProcessingThread] shutdown: going to flush diaglog...
+2016-03-30T05:10:07.485-0700 [signalProcessingThread] shutdown: going to close sockets...
+2016-03-30T05:10:07.486-0700 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-03-30T05:10:07.486-0700 [signalProcessingThread] shutdown: closing all files...
+2016-03-30T05:10:07.486-0700 [signalProcessingThread] closeAllFiles() finished
+2016-03-30T05:10:07.486-0700 [signalProcessingThread] shutdown: removing fs lock...
+2016-03-30T05:10:07.486-0700 [signalProcessingThread] dbexit: really exiting now
+---------------------- Wed Mar 30 05:10:39 PDT 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-30T05:10:41.752-0700 
+2016-03-30T05:10:41.752-0700 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-30T05:10:41.752-0700 
+2016-03-30T05:10:41.756-0700 [initandlisten] MongoDB starting : pid=832 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-30T05:10:41.756-0700 [initandlisten] 
+2016-03-30T05:10:41.756-0700 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-30T05:10:41.756-0700 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-30T05:10:41.756-0700 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-30T05:10:41.756-0700 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-30T05:10:41.756-0700 [initandlisten] 
+2016-03-30T05:10:41.756-0700 [initandlisten] db version v2.6.10
+2016-03-30T05:10:41.756-0700 [initandlisten] git version: nogitversion
+2016-03-30T05:10:41.756-0700 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-30T05:10:41.756-0700 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-30T05:10:41.756-0700 [initandlisten] allocator: tcmalloc
+2016-03-30T05:10:41.756-0700 [initandlisten] options: {}
+2016-03-30T05:10:43.367-0700 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-30T05:10:43.367-0700 [initandlisten] ERROR:   addr already in use
+2016-03-30T05:10:43.386-0700 [initandlisten] now exiting
+2016-03-30T05:10:43.386-0700 [initandlisten] dbexit: 
+2016-03-30T05:10:43.386-0700 [initandlisten] shutdown: going to close listening sockets...
+2016-03-30T05:10:43.386-0700 [initandlisten] shutdown: going to flush diaglog...
+2016-03-30T05:10:43.386-0700 [initandlisten] shutdown: going to close sockets...
+2016-03-30T05:10:43.386-0700 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-30T05:10:43.386-0700 [initandlisten] shutdown: closing all files...
+2016-03-30T05:10:43.387-0700 [initandlisten] closeAllFiles() finished
+2016-03-30T05:10:43.387-0700 [initandlisten] shutdown: removing fs lock...
+2016-03-30T05:10:43.387-0700 [initandlisten] dbexit: really exiting now
+---------------------- Wed Mar 30 05:13:02 PDT 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-30T05:13:05.449-0700 
+2016-03-30T05:13:05.449-0700 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-30T05:13:05.449-0700 
+2016-03-30T05:13:05.453-0700 [initandlisten] MongoDB starting : pid=791 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-30T05:13:05.453-0700 [initandlisten] 
+2016-03-30T05:13:05.453-0700 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-30T05:13:05.453-0700 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-30T05:13:05.453-0700 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-30T05:13:05.453-0700 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-30T05:13:05.453-0700 [initandlisten] 
+2016-03-30T05:13:05.453-0700 [initandlisten] db version v2.6.10
+2016-03-30T05:13:05.453-0700 [initandlisten] git version: nogitversion
+2016-03-30T05:13:05.453-0700 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-30T05:13:05.453-0700 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-30T05:13:05.453-0700 [initandlisten] allocator: tcmalloc
+2016-03-30T05:13:05.453-0700 [initandlisten] options: {}
+2016-03-30T05:13:06.783-0700 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-30T05:13:06.783-0700 [initandlisten] ERROR:   addr already in use
+2016-03-30T05:13:06.802-0700 [initandlisten] now exiting
+2016-03-30T05:13:06.802-0700 [initandlisten] dbexit: 
+2016-03-30T05:13:06.802-0700 [initandlisten] shutdown: going to close listening sockets...
+2016-03-30T05:13:06.802-0700 [initandlisten] shutdown: going to flush diaglog...
+2016-03-30T05:13:06.802-0700 [initandlisten] shutdown: going to close sockets...
+2016-03-30T05:13:06.802-0700 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-30T05:13:06.802-0700 [initandlisten] shutdown: closing all files...
+2016-03-30T05:13:06.803-0700 [initandlisten] closeAllFiles() finished
+2016-03-30T05:13:06.803-0700 [initandlisten] shutdown: removing fs lock...
+2016-03-30T05:13:06.803-0700 [initandlisten] dbexit: really exiting now
+---------------------- Wed Mar 30 05:19:24 PDT 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-30T05:19:29.066-0700 
+2016-03-30T05:19:29.066-0700 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-30T05:19:29.066-0700 
+2016-03-30T05:19:29.070-0700 [initandlisten] MongoDB starting : pid=855 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-30T05:19:29.070-0700 [initandlisten] 
+2016-03-30T05:19:29.070-0700 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-30T05:19:29.070-0700 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-30T05:19:29.071-0700 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-30T05:19:29.071-0700 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-30T05:19:29.071-0700 [initandlisten] 
+2016-03-30T05:19:29.071-0700 [initandlisten] db version v2.6.10
+2016-03-30T05:19:29.071-0700 [initandlisten] git version: nogitversion
+2016-03-30T05:19:29.071-0700 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-30T05:19:29.071-0700 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-30T05:19:29.071-0700 [initandlisten] allocator: tcmalloc
+2016-03-30T05:19:29.071-0700 [initandlisten] options: {}
+2016-03-30T05:19:31.058-0700 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-30T05:19:31.059-0700 [initandlisten] ERROR:   addr already in use
+2016-03-30T05:19:31.078-0700 [initandlisten] now exiting
+2016-03-30T05:19:31.078-0700 [initandlisten] dbexit: 
+2016-03-30T05:19:31.078-0700 [initandlisten] shutdown: going to close listening sockets...
+2016-03-30T05:19:31.078-0700 [initandlisten] shutdown: going to flush diaglog...
+2016-03-30T05:19:31.078-0700 [initandlisten] shutdown: going to close sockets...
+2016-03-30T05:19:31.078-0700 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-30T05:19:31.078-0700 [initandlisten] shutdown: closing all files...
+2016-03-30T05:19:31.079-0700 [initandlisten] closeAllFiles() finished
+2016-03-30T05:19:31.079-0700 [initandlisten] shutdown: removing fs lock...
+2016-03-30T05:19:31.079-0700 [initandlisten] dbexit: really exiting now
+---------------------- Wed Mar 30 05:25:47 PDT 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-30T05:25:49.560-0700 
+2016-03-30T05:25:49.560-0700 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-30T05:25:49.560-0700 
+2016-03-30T05:25:49.564-0700 [initandlisten] MongoDB starting : pid=792 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-30T05:25:49.564-0700 [initandlisten] 
+2016-03-30T05:25:49.564-0700 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-30T05:25:49.564-0700 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-30T05:25:49.564-0700 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-30T05:25:49.564-0700 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-30T05:25:49.564-0700 [initandlisten] 
+2016-03-30T05:25:49.564-0700 [initandlisten] db version v2.6.10
+2016-03-30T05:25:49.564-0700 [initandlisten] git version: nogitversion
+2016-03-30T05:25:49.564-0700 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-30T05:25:49.564-0700 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-30T05:25:49.564-0700 [initandlisten] allocator: tcmalloc
+2016-03-30T05:25:49.564-0700 [initandlisten] options: {}
+2016-03-30T05:25:50.850-0700 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-30T05:25:50.851-0700 [initandlisten] ERROR:   addr already in use
+2016-03-30T05:25:50.862-0700 [initandlisten] now exiting
+2016-03-30T05:25:50.862-0700 [initandlisten] dbexit: 
+2016-03-30T05:25:50.862-0700 [initandlisten] shutdown: going to close listening sockets...
+2016-03-30T05:25:50.862-0700 [initandlisten] shutdown: going to flush diaglog...
+2016-03-30T05:25:50.862-0700 [initandlisten] shutdown: going to close sockets...
+2016-03-30T05:25:50.862-0700 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-30T05:25:50.862-0700 [initandlisten] shutdown: closing all files...
+2016-03-30T05:25:50.863-0700 [initandlisten] closeAllFiles() finished
+2016-03-30T05:25:50.863-0700 [initandlisten] shutdown: removing fs lock...
+2016-03-30T05:25:50.863-0700 [initandlisten] dbexit: really exiting now
+---------------------- Wed Mar 30 05:34:27 PDT 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-30T05:34:29.811-0700 
+2016-03-30T05:34:29.811-0700 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-30T05:34:29.811-0700 
+2016-03-30T05:34:29.814-0700 [initandlisten] MongoDB starting : pid=836 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-30T05:34:29.814-0700 [initandlisten] 
+2016-03-30T05:34:29.814-0700 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-30T05:34:29.814-0700 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-30T05:34:29.814-0700 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-30T05:34:29.814-0700 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-30T05:34:29.814-0700 [initandlisten] 
+2016-03-30T05:34:29.814-0700 [initandlisten] db version v2.6.10
+2016-03-30T05:34:29.814-0700 [initandlisten] git version: nogitversion
+2016-03-30T05:34:29.814-0700 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-30T05:34:29.814-0700 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-30T05:34:29.814-0700 [initandlisten] allocator: tcmalloc
+2016-03-30T05:34:29.814-0700 [initandlisten] options: {}
+2016-03-30T05:34:32.235-0700 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-30T05:34:32.235-0700 [initandlisten] ERROR:   addr already in use
+2016-03-30T05:34:32.295-0700 [initandlisten] now exiting
+2016-03-30T05:34:32.295-0700 [initandlisten] dbexit: 
+2016-03-30T05:34:32.296-0700 [initandlisten] shutdown: going to close listening sockets...
+2016-03-30T05:34:32.296-0700 [initandlisten] shutdown: going to flush diaglog...
+2016-03-30T05:34:32.296-0700 [initandlisten] shutdown: going to close sockets...
+2016-03-30T05:34:32.296-0700 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-30T05:34:32.296-0700 [initandlisten] shutdown: closing all files...
+2016-03-30T05:34:32.297-0700 [initandlisten] closeAllFiles() finished
+2016-03-30T05:34:32.297-0700 [initandlisten] shutdown: removing fs lock...
+2016-03-30T05:34:32.297-0700 [initandlisten] dbexit: really exiting now
+---------------------- Wed Mar 30 05:55:33 PDT 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-30T05:55:41.604-0700 
+2016-03-30T05:55:41.604-0700 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-30T05:55:41.604-0700 
+2016-03-30T05:55:41.801-0700 [initandlisten] MongoDB starting : pid=824 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-30T05:55:41.801-0700 [initandlisten] 
+2016-03-30T05:55:41.801-0700 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-30T05:55:41.802-0700 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-30T05:55:41.802-0700 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-30T05:55:41.802-0700 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-30T05:55:41.802-0700 [initandlisten] 
+2016-03-30T05:55:41.802-0700 [initandlisten] db version v2.6.10
+2016-03-30T05:55:41.802-0700 [initandlisten] git version: nogitversion
+2016-03-30T05:55:41.802-0700 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-30T05:55:41.802-0700 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-30T05:55:41.802-0700 [initandlisten] allocator: tcmalloc
+2016-03-30T05:55:41.802-0700 [initandlisten] options: {}
+2016-03-30T05:55:43.653-0700 [initandlisten] waiting for connections on port 27017
+2016-03-30T05:56:19.926-0700 [initandlisten] connection accepted from 127.0.0.1:45428 #1 (1 connection now open)
+2016-03-30T05:56:19.926-0700 [initandlisten] connection accepted from 127.0.0.1:45430 #2 (2 connections now open)
+2016-03-30T05:56:19.943-0700 [initandlisten] connection accepted from 127.0.0.1:45432 #3 (3 connections now open)
+2016-03-30T05:56:19.943-0700 [initandlisten] connection accepted from 127.0.0.1:45434 #4 (4 connections now open)
+2016-03-30T05:56:19.944-0700 [initandlisten] connection accepted from 127.0.0.1:45436 #5 (5 connections now open)
+2016-03-30T05:56:19.944-0700 [initandlisten] connection accepted from 127.0.0.1:45438 #6 (6 connections now open)
+2016-03-30T05:56:20.051-0700 [conn6] query coco.achievements query: { collection: { $ne: "level.sessions" } } planSummary: COLLSCAN ntoreturn:1000 ntoskip:0 nscanned:488 nscannedObjects:488 keyUpdates:0 numYields:6 locks(micros) r:197540 nreturned:121 reslen:146285 106ms
+2016-03-30T05:56:41.649-0700 [clientcursormon] mem (MB) res:71 virt:682
+2016-03-30T05:56:41.649-0700 [clientcursormon]  mapped:544
+2016-03-30T05:56:41.649-0700 [clientcursormon]  connections:6
+2016-03-30T05:57:56.343-0700 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-03-30T05:57:56.343-0700 [signalProcessingThread] now exiting
+2016-03-30T05:57:56.343-0700 [signalProcessingThread] dbexit: 
+2016-03-30T05:57:56.343-0700 [signalProcessingThread] shutdown: going to close listening sockets...
+2016-03-30T05:57:56.343-0700 [signalProcessingThread] closing listening socket: 5
+2016-03-30T05:57:56.343-0700 [signalProcessingThread] closing listening socket: 8
+2016-03-30T05:57:56.343-0700 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-03-30T05:57:56.354-0700 [signalProcessingThread] shutdown: going to flush diaglog...
+2016-03-30T05:57:56.354-0700 [signalProcessingThread] shutdown: going to close sockets...
+2016-03-30T05:57:56.354-0700 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-03-30T05:57:56.354-0700 [signalProcessingThread] shutdown: closing all files...
+2016-03-30T05:57:56.354-0700 [signalProcessingThread] closeAllFiles() finished
+2016-03-30T05:57:56.354-0700 [signalProcessingThread] shutdown: removing fs lock...
+2016-03-30T05:57:56.354-0700 [signalProcessingThread] dbexit: really exiting now
+---------------------- Wed Mar 30 05:58:23 PDT 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-30T05:58:26.212-0700 
+2016-03-30T05:58:26.212-0700 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-30T05:58:26.212-0700 
+2016-03-30T05:58:26.217-0700 [initandlisten] MongoDB starting : pid=793 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-30T05:58:26.217-0700 [initandlisten] 
+2016-03-30T05:58:26.217-0700 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-30T05:58:26.217-0700 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-30T05:58:26.217-0700 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-30T05:58:26.217-0700 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-30T05:58:26.217-0700 [initandlisten] 
+2016-03-30T05:58:26.217-0700 [initandlisten] db version v2.6.10
+2016-03-30T05:58:26.217-0700 [initandlisten] git version: nogitversion
+2016-03-30T05:58:26.217-0700 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-30T05:58:26.217-0700 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-30T05:58:26.217-0700 [initandlisten] allocator: tcmalloc
+2016-03-30T05:58:26.217-0700 [initandlisten] options: {}
+2016-03-30T05:58:31.103-0700 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-30T05:58:31.103-0700 [initandlisten] ERROR:   addr already in use
+2016-03-30T05:58:31.130-0700 [initandlisten] now exiting
+2016-03-30T05:58:31.130-0700 [initandlisten] dbexit: 
+2016-03-30T05:58:31.130-0700 [initandlisten] shutdown: going to close listening sockets...
+2016-03-30T05:58:31.130-0700 [initandlisten] shutdown: going to flush diaglog...
+2016-03-30T05:58:31.130-0700 [initandlisten] shutdown: going to close sockets...
+2016-03-30T05:58:31.131-0700 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-30T05:58:31.131-0700 [initandlisten] shutdown: closing all files...
+2016-03-30T05:58:31.131-0700 [initandlisten] closeAllFiles() finished
+2016-03-30T05:58:31.131-0700 [initandlisten] shutdown: removing fs lock...
+2016-03-30T05:58:31.131-0700 [initandlisten] dbexit: really exiting now
+---------------------- Wed Mar 30 09:23:26 PDT 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-30T09:23:31.564-0700 
+2016-03-30T09:23:31.564-0700 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-30T09:23:31.564-0700 
+2016-03-30T09:23:31.569-0700 [initandlisten] MongoDB starting : pid=788 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-30T09:23:31.569-0700 [initandlisten] 
+2016-03-30T09:23:31.569-0700 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-30T09:23:31.569-0700 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-30T09:23:31.569-0700 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-30T09:23:31.569-0700 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-30T09:23:31.569-0700 [initandlisten] 
+2016-03-30T09:23:31.569-0700 [initandlisten] db version v2.6.10
+2016-03-30T09:23:31.569-0700 [initandlisten] git version: nogitversion
+2016-03-30T09:23:31.569-0700 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-30T09:23:31.569-0700 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-30T09:23:31.569-0700 [initandlisten] allocator: tcmalloc
+2016-03-30T09:23:31.569-0700 [initandlisten] options: {}
+2016-03-30T09:23:33.181-0700 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-30T09:23:33.181-0700 [initandlisten] ERROR:   addr already in use
+2016-03-30T09:23:33.226-0700 [initandlisten] now exiting
+2016-03-30T09:23:33.226-0700 [initandlisten] dbexit: 
+2016-03-30T09:23:33.226-0700 [initandlisten] shutdown: going to close listening sockets...
+2016-03-30T09:23:33.226-0700 [initandlisten] shutdown: going to flush diaglog...
+2016-03-30T09:23:33.226-0700 [initandlisten] shutdown: going to close sockets...
+2016-03-30T09:23:33.226-0700 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-30T09:23:33.226-0700 [initandlisten] shutdown: closing all files...
+2016-03-30T09:23:33.226-0700 [initandlisten] closeAllFiles() finished
+2016-03-30T09:23:33.226-0700 [initandlisten] shutdown: removing fs lock...
+2016-03-30T09:23:33.226-0700 [initandlisten] dbexit: really exiting now
+---------------------- Wed Mar 30 12:53:56 PDT 2016 ----------------------
+user coderdojo
+codecombat is not running
+mongod --help for help and startup options
+2016-03-30T12:54:04.705-0700 
+2016-03-30T12:54:04.705-0700 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+2016-03-30T12:54:04.706-0700 
+2016-03-30T12:54:04.710-0700 [initandlisten] MongoDB starting : pid=830 port=27017 dbpath=/data/db 32-bit host=offline-material
+2016-03-30T12:54:04.710-0700 [initandlisten] 
+2016-03-30T12:54:04.710-0700 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-03-30T12:54:04.710-0700 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-03-30T12:54:04.710-0700 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-03-30T12:54:04.710-0700 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-03-30T12:54:04.710-0700 [initandlisten] 
+2016-03-30T12:54:04.710-0700 [initandlisten] db version v2.6.10
+2016-03-30T12:54:04.710-0700 [initandlisten] git version: nogitversion
+2016-03-30T12:54:04.710-0700 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-30T12:54:04.710-0700 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-03-30T12:54:04.710-0700 [initandlisten] allocator: tcmalloc
+2016-03-30T12:54:04.710-0700 [initandlisten] options: {}
+2016-03-30T12:54:06.713-0700 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-03-30T12:54:06.713-0700 [initandlisten] ERROR:   addr already in use
+2016-03-30T12:54:06.861-0700 [initandlisten] command local.$cmd command: create { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0 numYields:0  reslen:75 147ms
+2016-03-30T12:54:07.924-0700 [initandlisten] now exiting
+2016-03-30T12:54:07.924-0700 [initandlisten] dbexit: 
+2016-03-30T12:54:07.924-0700 [initandlisten] shutdown: going to close listening sockets...
+2016-03-30T12:54:07.924-0700 [initandlisten] shutdown: going to flush diaglog...
+2016-03-30T12:54:07.924-0700 [initandlisten] shutdown: going to close sockets...
+2016-03-30T12:54:07.924-0700 [initandlisten] shutdown: waiting for fs preallocator...
+2016-03-30T12:54:07.924-0700 [initandlisten] shutdown: closing all files...
+2016-03-30T12:54:07.925-0700 [initandlisten] closeAllFiles() finished
+2016-03-30T12:54:07.925-0700 [initandlisten] shutdown: removing fs lock...
+2016-03-30T12:54:07.925-0700 [initandlisten] dbexit: really exiting now
